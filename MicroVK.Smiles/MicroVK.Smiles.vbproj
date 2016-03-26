@@ -1,0 +1,1015 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{65F1AE47-2D71-413D-9EF3-26C4CC3A7F08}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>MicroVK.Smiles</RootNamespace>
+    <AssemblyName>MicroVK.Smiles</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>MicroVK.Smiles.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>MicroVK.Smiles.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>MicroVK.Smiles.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>MicroVK.Smiles.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Smile\1f004.png" />
+    <Resource Include="Smile\1f0cf.png" />
+    <Resource Include="Smile\1f170.png" />
+    <Resource Include="Smile\1f171.png" />
+    <Resource Include="Smile\1f17e.png" />
+    <Resource Include="Smile\1f17f.png" />
+    <Resource Include="Smile\1f18e.png" />
+    <Resource Include="Smile\1f191.png" />
+    <Resource Include="Smile\1f192.png" />
+    <Resource Include="Smile\1f193.png" />
+    <Resource Include="Smile\1f194.png" />
+    <Resource Include="Smile\1f195.png" />
+    <Resource Include="Smile\1f196.png" />
+    <Resource Include="Smile\1f197.png" />
+    <Resource Include="Smile\1f198.png" />
+    <Resource Include="Smile\1f199.png" />
+    <Resource Include="Smile\1f19a.png" />
+    <Resource Include="Smile\1f1e6.png" />
+    <Resource Include="Smile\1f1e7.png" />
+    <Resource Include="Smile\1f1e8-1f1f3.png" />
+    <Resource Include="Smile\1f1e8.png" />
+    <Resource Include="Smile\1f1e9-1f1ea.png" />
+    <Resource Include="Smile\1f1e9.png" />
+    <Resource Include="Smile\1f1ea-1f1f8.png" />
+    <Resource Include="Smile\1f1ea.png" />
+    <Resource Include="Smile\1f1eb-1f1f7.png" />
+    <Resource Include="Smile\1f1eb.png" />
+    <Resource Include="Smile\1f1ec-1f1e7.png" />
+    <Resource Include="Smile\1f1ec.png" />
+    <Resource Include="Smile\1f1ed.png" />
+    <Resource Include="Smile\1f1ee-1f1f9.png" />
+    <Resource Include="Smile\1f1ee.png" />
+    <Resource Include="Smile\1f1ef-1f1f5.png" />
+    <Resource Include="Smile\1f1ef.png" />
+    <Resource Include="Smile\1f1f0-1f1f7.png" />
+    <Resource Include="Smile\1f1f0.png" />
+    <Resource Include="Smile\1f1f1.png" />
+    <Resource Include="Smile\1f1f2.png" />
+    <Resource Include="Smile\1f1f3.png" />
+    <Resource Include="Smile\1f1f4.png" />
+    <Resource Include="Smile\1f1f5.png" />
+    <Resource Include="Smile\1f1f6.png" />
+    <Resource Include="Smile\1f1f7-1f1fa.png" />
+    <Resource Include="Smile\1f1f7.png" />
+    <Resource Include="Smile\1f1f8.png" />
+    <Resource Include="Smile\1f1f9.png" />
+    <Resource Include="Smile\1f1fa-1f1f8.png" />
+    <Resource Include="Smile\1f1fa.png" />
+    <Resource Include="Smile\1f1fb.png" />
+    <Resource Include="Smile\1f1fc.png" />
+    <Resource Include="Smile\1f1fd.png" />
+    <Resource Include="Smile\1f1fe.png" />
+    <Resource Include="Smile\1f1ff.png" />
+    <Resource Include="Smile\1f201.png" />
+    <Resource Include="Smile\1f202.png" />
+    <Resource Include="Smile\1f21a.png" />
+    <Resource Include="Smile\1f22f.png" />
+    <Resource Include="Smile\1f232.png" />
+    <Resource Include="Smile\1f233.png" />
+    <Resource Include="Smile\1f234.png" />
+    <Resource Include="Smile\1f235.png" />
+    <Resource Include="Smile\1f236.png" />
+    <Resource Include="Smile\1f237.png" />
+    <Resource Include="Smile\1f238.png" />
+    <Resource Include="Smile\1f239.png" />
+    <Resource Include="Smile\1f23a.png" />
+    <Resource Include="Smile\1f250.png" />
+    <Resource Include="Smile\1f251.png" />
+    <Resource Include="Smile\1f300.png" />
+    <Resource Include="Smile\1f301.png" />
+    <Resource Include="Smile\1f302.png" />
+    <Resource Include="Smile\1f303.png" />
+    <Resource Include="Smile\1f304.png" />
+    <Resource Include="Smile\1f305.png" />
+    <Resource Include="Smile\1f306.png" />
+    <Resource Include="Smile\1f307.png" />
+    <Resource Include="Smile\1f308.png" />
+    <Resource Include="Smile\1f309.png" />
+    <Resource Include="Smile\1f30a.png" />
+    <Resource Include="Smile\1f30b.png" />
+    <Resource Include="Smile\1f30c.png" />
+    <Resource Include="Smile\1f30d.png" />
+    <Resource Include="Smile\1f30e.png" />
+    <Resource Include="Smile\1f30f.png" />
+    <Resource Include="Smile\1f310.png" />
+    <Resource Include="Smile\1f311.png" />
+    <Resource Include="Smile\1f312.png" />
+    <Resource Include="Smile\1f313.png" />
+    <Resource Include="Smile\1f314.png" />
+    <Resource Include="Smile\1f315.png" />
+    <Resource Include="Smile\1f316.png" />
+    <Resource Include="Smile\1f317.png" />
+    <Resource Include="Smile\1f318.png" />
+    <Resource Include="Smile\1f319.png" />
+    <Resource Include="Smile\1f31a.png" />
+    <Resource Include="Smile\1f31b.png" />
+    <Resource Include="Smile\1f31c.png" />
+    <Resource Include="Smile\1f31d.png" />
+    <Resource Include="Smile\1f31e.png" />
+    <Resource Include="Smile\1f31f.png" />
+    <Resource Include="Smile\1f320.png" />
+    <Resource Include="Smile\1f330.png" />
+    <Resource Include="Smile\1f331.png" />
+    <Resource Include="Smile\1f332.png" />
+    <Resource Include="Smile\1f333.png" />
+    <Resource Include="Smile\1f334.png" />
+    <Resource Include="Smile\1f335.png" />
+    <Resource Include="Smile\1f337.png" />
+    <Resource Include="Smile\1f338.png" />
+    <Resource Include="Smile\1f339.png" />
+    <Resource Include="Smile\1f33a.png" />
+    <Resource Include="Smile\1f33b.png" />
+    <Resource Include="Smile\1f33c.png" />
+    <Resource Include="Smile\1f33d.png" />
+    <Resource Include="Smile\1f33e.png" />
+    <Resource Include="Smile\1f33f.png" />
+    <Resource Include="Smile\1f340.png" />
+    <Resource Include="Smile\1f341.png" />
+    <Resource Include="Smile\1f342.png" />
+    <Resource Include="Smile\1f343.png" />
+    <Resource Include="Smile\1f344.png" />
+    <Resource Include="Smile\1f345.png" />
+    <Resource Include="Smile\1f346.png" />
+    <Resource Include="Smile\1f347.png" />
+    <Resource Include="Smile\1f348.png" />
+    <Resource Include="Smile\1f349.png" />
+    <Resource Include="Smile\1f34a.png" />
+    <Resource Include="Smile\1f34b.png" />
+    <Resource Include="Smile\1f34c.png" />
+    <Resource Include="Smile\1f34d.png" />
+    <Resource Include="Smile\1f34e.png" />
+    <Resource Include="Smile\1f34f.png" />
+    <Resource Include="Smile\1f350.png" />
+    <Resource Include="Smile\1f351.png" />
+    <Resource Include="Smile\1f352.png" />
+    <Resource Include="Smile\1f353.png" />
+    <Resource Include="Smile\1f354.png" />
+    <Resource Include="Smile\1f355.png" />
+    <Resource Include="Smile\1f356.png" />
+    <Resource Include="Smile\1f357.png" />
+    <Resource Include="Smile\1f358.png" />
+    <Resource Include="Smile\1f359.png" />
+    <Resource Include="Smile\1f35a.png" />
+    <Resource Include="Smile\1f35b.png" />
+    <Resource Include="Smile\1f35c.png" />
+    <Resource Include="Smile\1f35d.png" />
+    <Resource Include="Smile\1f35e.png" />
+    <Resource Include="Smile\1f35f.png" />
+    <Resource Include="Smile\1f360.png" />
+    <Resource Include="Smile\1f361.png" />
+    <Resource Include="Smile\1f362.png" />
+    <Resource Include="Smile\1f363.png" />
+    <Resource Include="Smile\1f364.png" />
+    <Resource Include="Smile\1f365.png" />
+    <Resource Include="Smile\1f366.png" />
+    <Resource Include="Smile\1f367.png" />
+    <Resource Include="Smile\1f368.png" />
+    <Resource Include="Smile\1f369.png" />
+    <Resource Include="Smile\1f36a.png" />
+    <Resource Include="Smile\1f36b.png" />
+    <Resource Include="Smile\1f36c.png" />
+    <Resource Include="Smile\1f36d.png" />
+    <Resource Include="Smile\1f36e.png" />
+    <Resource Include="Smile\1f36f.png" />
+    <Resource Include="Smile\1f370.png" />
+    <Resource Include="Smile\1f371.png" />
+    <Resource Include="Smile\1f372.png" />
+    <Resource Include="Smile\1f373.png" />
+    <Resource Include="Smile\1f374.png" />
+    <Resource Include="Smile\1f375.png" />
+    <Resource Include="Smile\1f376.png" />
+    <Resource Include="Smile\1f377.png" />
+    <Resource Include="Smile\1f378.png" />
+    <Resource Include="Smile\1f379.png" />
+    <Resource Include="Smile\1f37a.png" />
+    <Resource Include="Smile\1f37b.png" />
+    <Resource Include="Smile\1f37c.png" />
+    <Resource Include="Smile\1f380.png" />
+    <Resource Include="Smile\1f381.png" />
+    <Resource Include="Smile\1f382.png" />
+    <Resource Include="Smile\1f383.png" />
+    <Resource Include="Smile\1f384.png" />
+    <Resource Include="Smile\1f385.png" />
+    <Resource Include="Smile\1f386.png" />
+    <Resource Include="Smile\1f387.png" />
+    <Resource Include="Smile\1f388.png" />
+    <Resource Include="Smile\1f389.png" />
+    <Resource Include="Smile\1f38a.png" />
+    <Resource Include="Smile\1f38b.png" />
+    <Resource Include="Smile\1f38c.png" />
+    <Resource Include="Smile\1f38d.png" />
+    <Resource Include="Smile\1f38e.png" />
+    <Resource Include="Smile\1f38f.png" />
+    <Resource Include="Smile\1f390.png" />
+    <Resource Include="Smile\1f391.png" />
+    <Resource Include="Smile\1f392.png" />
+    <Resource Include="Smile\1f393.png" />
+    <Resource Include="Smile\1f3a0.png" />
+    <Resource Include="Smile\1f3a1.png" />
+    <Resource Include="Smile\1f3a2.png" />
+    <Resource Include="Smile\1f3a3.png" />
+    <Resource Include="Smile\1f3a4.png" />
+    <Resource Include="Smile\1f3a5.png" />
+    <Resource Include="Smile\1f3a6.png" />
+    <Resource Include="Smile\1f3a7.png" />
+    <Resource Include="Smile\1f3a8.png" />
+    <Resource Include="Smile\1f3a9.png" />
+    <Resource Include="Smile\1f3aa.png" />
+    <Resource Include="Smile\1f3ab.png" />
+    <Resource Include="Smile\1f3ac.png" />
+    <Resource Include="Smile\1f3ad.png" />
+    <Resource Include="Smile\1f3ae.png" />
+    <Resource Include="Smile\1f3af.png" />
+    <Resource Include="Smile\1f3b0.png" />
+    <Resource Include="Smile\1f3b1.png" />
+    <Resource Include="Smile\1f3b2.png" />
+    <Resource Include="Smile\1f3b3.png" />
+    <Resource Include="Smile\1f3b4.png" />
+    <Resource Include="Smile\1f3b5.png" />
+    <Resource Include="Smile\1f3b6.png" />
+    <Resource Include="Smile\1f3b7.png" />
+    <Resource Include="Smile\1f3b8.png" />
+    <Resource Include="Smile\1f3b9.png" />
+    <Resource Include="Smile\1f3ba.png" />
+    <Resource Include="Smile\1f3bb.png" />
+    <Resource Include="Smile\1f3bc.png" />
+    <Resource Include="Smile\1f3bd.png" />
+    <Resource Include="Smile\1f3be.png" />
+    <Resource Include="Smile\1f3bf.png" />
+    <Resource Include="Smile\1f3c0.png" />
+    <Resource Include="Smile\1f3c1.png" />
+    <Resource Include="Smile\1f3c2.png" />
+    <Resource Include="Smile\1f3c3.png" />
+    <Resource Include="Smile\1f3c4.png" />
+    <Resource Include="Smile\1f3c6.png" />
+    <Resource Include="Smile\1f3c7.png" />
+    <Resource Include="Smile\1f3c8.png" />
+    <Resource Include="Smile\1f3c9.png" />
+    <Resource Include="Smile\1f3ca.png" />
+    <Resource Include="Smile\1f3e0.png" />
+    <Resource Include="Smile\1f3e1.png" />
+    <Resource Include="Smile\1f3e2.png" />
+    <Resource Include="Smile\1f3e3.png" />
+    <Resource Include="Smile\1f3e4.png" />
+    <Resource Include="Smile\1f3e5.png" />
+    <Resource Include="Smile\1f3e6.png" />
+    <Resource Include="Smile\1f3e7.png" />
+    <Resource Include="Smile\1f3e8.png" />
+    <Resource Include="Smile\1f3e9.png" />
+    <Resource Include="Smile\1f3ea.png" />
+    <Resource Include="Smile\1f3eb.png" />
+    <Resource Include="Smile\1f3ec.png" />
+    <Resource Include="Smile\1f3ed.png" />
+    <Resource Include="Smile\1f3ee.png" />
+    <Resource Include="Smile\1f3ef.png" />
+    <Resource Include="Smile\1f3f0.png" />
+    <Resource Include="Smile\1f400.png" />
+    <Resource Include="Smile\1f401.png" />
+    <Resource Include="Smile\1f402.png" />
+    <Resource Include="Smile\1f403.png" />
+    <Resource Include="Smile\1f404.png" />
+    <Resource Include="Smile\1f405.png" />
+    <Resource Include="Smile\1f406.png" />
+    <Resource Include="Smile\1f407.png" />
+    <Resource Include="Smile\1f408.png" />
+    <Resource Include="Smile\1f409.png" />
+    <Resource Include="Smile\1f40a.png" />
+    <Resource Include="Smile\1f40b.png" />
+    <Resource Include="Smile\1f40c.png" />
+    <Resource Include="Smile\1f40d.png" />
+    <Resource Include="Smile\1f40e.png" />
+    <Resource Include="Smile\1f40f.png" />
+    <Resource Include="Smile\1f410.png" />
+    <Resource Include="Smile\1f411.png" />
+    <Resource Include="Smile\1f412.png" />
+    <Resource Include="Smile\1f413.png" />
+    <Resource Include="Smile\1f414.png" />
+    <Resource Include="Smile\1f415.png" />
+    <Resource Include="Smile\1f416.png" />
+    <Resource Include="Smile\1f417.png" />
+    <Resource Include="Smile\1f418.png" />
+    <Resource Include="Smile\1f419.png" />
+    <Resource Include="Smile\1f41a.png" />
+    <Resource Include="Smile\1f41b.png" />
+    <Resource Include="Smile\1f41c.png" />
+    <Resource Include="Smile\1f41d.png" />
+    <Resource Include="Smile\1f41e.png" />
+    <Resource Include="Smile\1f41f.png" />
+    <Resource Include="Smile\1f420.png" />
+    <Resource Include="Smile\1f421.png" />
+    <Resource Include="Smile\1f422.png" />
+    <Resource Include="Smile\1f423.png" />
+    <Resource Include="Smile\1f424.png" />
+    <Resource Include="Smile\1f425.png" />
+    <Resource Include="Smile\1f426.png" />
+    <Resource Include="Smile\1f427.png" />
+    <Resource Include="Smile\1f428.png" />
+    <Resource Include="Smile\1f429.png" />
+    <Resource Include="Smile\1f42a.png" />
+    <Resource Include="Smile\1f42b.png" />
+    <Resource Include="Smile\1f42c.png" />
+    <Resource Include="Smile\1f42d.png" />
+    <Resource Include="Smile\1f42e.png" />
+    <Resource Include="Smile\1f42f.png" />
+    <Resource Include="Smile\1f430.png" />
+    <Resource Include="Smile\1f431.png" />
+    <Resource Include="Smile\1f432.png" />
+    <Resource Include="Smile\1f433.png" />
+    <Resource Include="Smile\1f434.png" />
+    <Resource Include="Smile\1f435.png" />
+    <Resource Include="Smile\1f436.png" />
+    <Resource Include="Smile\1f437.png" />
+    <Resource Include="Smile\1f438.png" />
+    <Resource Include="Smile\1f439.png" />
+    <Resource Include="Smile\1f43a.png" />
+    <Resource Include="Smile\1f43b.png" />
+    <Resource Include="Smile\1f43c.png" />
+    <Resource Include="Smile\1f43d.png" />
+    <Resource Include="Smile\1f43e.png" />
+    <Resource Include="Smile\1f440.png" />
+    <Resource Include="Smile\1f442.png" />
+    <Resource Include="Smile\1f443.png" />
+    <Resource Include="Smile\1f444.png" />
+    <Resource Include="Smile\1f445.png" />
+    <Resource Include="Smile\1f446.png" />
+    <Resource Include="Smile\1f447.png" />
+    <Resource Include="Smile\1f448.png" />
+    <Resource Include="Smile\1f449.png" />
+    <Resource Include="Smile\1f44a.png" />
+    <Resource Include="Smile\1f44b.png" />
+    <Resource Include="Smile\1f44c.png" />
+    <Resource Include="Smile\1f44d.png" />
+    <Resource Include="Smile\1f44e.png" />
+    <Resource Include="Smile\1f44f.png" />
+    <Resource Include="Smile\1f450.png" />
+    <Resource Include="Smile\1f451.png" />
+    <Resource Include="Smile\1f452.png" />
+    <Resource Include="Smile\1f453.png" />
+    <Resource Include="Smile\1f454.png" />
+    <Resource Include="Smile\1f455.png" />
+    <Resource Include="Smile\1f456.png" />
+    <Resource Include="Smile\1f457.png" />
+    <Resource Include="Smile\1f458.png" />
+    <Resource Include="Smile\1f459.png" />
+    <Resource Include="Smile\1f45a.png" />
+    <Resource Include="Smile\1f45b.png" />
+    <Resource Include="Smile\1f45c.png" />
+    <Resource Include="Smile\1f45d.png" />
+    <Resource Include="Smile\1f45e.png" />
+    <Resource Include="Smile\1f45f.png" />
+    <Resource Include="Smile\1f460.png" />
+    <Resource Include="Smile\1f461.png" />
+    <Resource Include="Smile\1f462.png" />
+    <Resource Include="Smile\1f463.png" />
+    <Resource Include="Smile\1f464.png" />
+    <Resource Include="Smile\1f465.png" />
+    <Resource Include="Smile\1f466.png" />
+    <Resource Include="Smile\1f467.png" />
+    <Resource Include="Smile\1f468.png" />
+    <Resource Include="Smile\1f469.png" />
+    <Resource Include="Smile\1f46a.png" />
+    <Resource Include="Smile\1f46b.png" />
+    <Resource Include="Smile\1f46c.png" />
+    <Resource Include="Smile\1f46d.png" />
+    <Resource Include="Smile\1f46e.png" />
+    <Resource Include="Smile\1f46f.png" />
+    <Resource Include="Smile\1f470.png" />
+    <Resource Include="Smile\1f471.png" />
+    <Resource Include="Smile\1f472.png" />
+    <Resource Include="Smile\1f473.png" />
+    <Resource Include="Smile\1f474.png" />
+    <Resource Include="Smile\1f475.png" />
+    <Resource Include="Smile\1f476.png" />
+    <Resource Include="Smile\1f477.png" />
+    <Resource Include="Smile\1f478.png" />
+    <Resource Include="Smile\1f479.png" />
+    <Resource Include="Smile\1f47a.png" />
+    <Resource Include="Smile\1f47b.png" />
+    <Resource Include="Smile\1f47c.png" />
+    <Resource Include="Smile\1f47d.png" />
+    <Resource Include="Smile\1f47e.png" />
+    <Resource Include="Smile\1f47f.png" />
+    <Resource Include="Smile\1f480.png" />
+    <Resource Include="Smile\1f481.png" />
+    <Resource Include="Smile\1f482.png" />
+    <Resource Include="Smile\1f483.png" />
+    <Resource Include="Smile\1f484.png" />
+    <Resource Include="Smile\1f485.png" />
+    <Resource Include="Smile\1f486.png" />
+    <Resource Include="Smile\1f487.png" />
+    <Resource Include="Smile\1f488.png" />
+    <Resource Include="Smile\1f489.png" />
+    <Resource Include="Smile\1f48a.png" />
+    <Resource Include="Smile\1f48b.png" />
+    <Resource Include="Smile\1f48c.png" />
+    <Resource Include="Smile\1f48d.png" />
+    <Resource Include="Smile\1f48e.png" />
+    <Resource Include="Smile\1f48f.png" />
+    <Resource Include="Smile\1f490.png" />
+    <Resource Include="Smile\1f491.png" />
+    <Resource Include="Smile\1f492.png" />
+    <Resource Include="Smile\1f493.png" />
+    <Resource Include="Smile\1f494.png" />
+    <Resource Include="Smile\1f495.png" />
+    <Resource Include="Smile\1f496.png" />
+    <Resource Include="Smile\1f497.png" />
+    <Resource Include="Smile\1f498.png" />
+    <Resource Include="Smile\1f499.png" />
+    <Resource Include="Smile\1f49a.png" />
+    <Resource Include="Smile\1f49b.png" />
+    <Resource Include="Smile\1f49c.png" />
+    <Resource Include="Smile\1f49d.png" />
+    <Resource Include="Smile\1f49e.png" />
+    <Resource Include="Smile\1f49f.png" />
+    <Resource Include="Smile\1f4a0.png" />
+    <Resource Include="Smile\1f4a1.png" />
+    <Resource Include="Smile\1f4a2.png" />
+    <Resource Include="Smile\1f4a3.png" />
+    <Resource Include="Smile\1f4a4.png" />
+    <Resource Include="Smile\1f4a5.png" />
+    <Resource Include="Smile\1f4a6.png" />
+    <Resource Include="Smile\1f4a7.png" />
+    <Resource Include="Smile\1f4a8.png" />
+    <Resource Include="Smile\1f4a9.png" />
+    <Resource Include="Smile\1f4aa.png" />
+    <Resource Include="Smile\1f4ab.png" />
+    <Resource Include="Smile\1f4ac.png" />
+    <Resource Include="Smile\1f4ad.png" />
+    <Resource Include="Smile\1f4ae.png" />
+    <Resource Include="Smile\1f4af.png" />
+    <Resource Include="Smile\1f4b0.png" />
+    <Resource Include="Smile\1f4b1.png" />
+    <Resource Include="Smile\1f4b2.png" />
+    <Resource Include="Smile\1f4b3.png" />
+    <Resource Include="Smile\1f4b4.png" />
+    <Resource Include="Smile\1f4b5.png" />
+    <Resource Include="Smile\1f4b6.png" />
+    <Resource Include="Smile\1f4b7.png" />
+    <Resource Include="Smile\1f4b8.png" />
+    <Resource Include="Smile\1f4b9.png" />
+    <Resource Include="Smile\1f4ba.png" />
+    <Resource Include="Smile\1f4bb.png" />
+    <Resource Include="Smile\1f4bc.png" />
+    <Resource Include="Smile\1f4bd.png" />
+    <Resource Include="Smile\1f4be.png" />
+    <Resource Include="Smile\1f4bf.png" />
+    <Resource Include="Smile\1f4c0.png" />
+    <Resource Include="Smile\1f4c1.png" />
+    <Resource Include="Smile\1f4c2.png" />
+    <Resource Include="Smile\1f4c3.png" />
+    <Resource Include="Smile\1f4c4.png" />
+    <Resource Include="Smile\1f4c5.png" />
+    <Resource Include="Smile\1f4c6.png" />
+    <Resource Include="Smile\1f4c7.png" />
+    <Resource Include="Smile\1f4c8.png" />
+    <Resource Include="Smile\1f4c9.png" />
+    <Resource Include="Smile\1f4ca.png" />
+    <Resource Include="Smile\1f4cb.png" />
+    <Resource Include="Smile\1f4cc.png" />
+    <Resource Include="Smile\1f4cd.png" />
+    <Resource Include="Smile\1f4ce.png" />
+    <Resource Include="Smile\1f4cf.png" />
+    <Resource Include="Smile\1f4d0.png" />
+    <Resource Include="Smile\1f4d1.png" />
+    <Resource Include="Smile\1f4d2.png" />
+    <Resource Include="Smile\1f4d3.png" />
+    <Resource Include="Smile\1f4d4.png" />
+    <Resource Include="Smile\1f4d5.png" />
+    <Resource Include="Smile\1f4d6.png" />
+    <Resource Include="Smile\1f4d7.png" />
+    <Resource Include="Smile\1f4d8.png" />
+    <Resource Include="Smile\1f4d9.png" />
+    <Resource Include="Smile\1f4da.png" />
+    <Resource Include="Smile\1f4db.png" />
+    <Resource Include="Smile\1f4dc.png" />
+    <Resource Include="Smile\1f4dd.png" />
+    <Resource Include="Smile\1f4de.png" />
+    <Resource Include="Smile\1f4df.png" />
+    <Resource Include="Smile\1f4e0.png" />
+    <Resource Include="Smile\1f4e1.png" />
+    <Resource Include="Smile\1f4e2.png" />
+    <Resource Include="Smile\1f4e3.png" />
+    <Resource Include="Smile\1f4e4.png" />
+    <Resource Include="Smile\1f4e5.png" />
+    <Resource Include="Smile\1f4e6.png" />
+    <Resource Include="Smile\1f4e7.png" />
+    <Resource Include="Smile\1f4e8.png" />
+    <Resource Include="Smile\1f4e9.png" />
+    <Resource Include="Smile\1f4ea.png" />
+    <Resource Include="Smile\1f4eb.png" />
+    <Resource Include="Smile\1f4ec.png" />
+    <Resource Include="Smile\1f4ed.png" />
+    <Resource Include="Smile\1f4ee.png" />
+    <Resource Include="Smile\1f4ef.png" />
+    <Resource Include="Smile\1f4f0.png" />
+    <Resource Include="Smile\1f4f1.png" />
+    <Resource Include="Smile\1f4f2.png" />
+    <Resource Include="Smile\1f4f3.png" />
+    <Resource Include="Smile\1f4f4.png" />
+    <Resource Include="Smile\1f4f5.png" />
+    <Resource Include="Smile\1f4f6.png" />
+    <Resource Include="Smile\1f4f7.png" />
+    <Resource Include="Smile\1f4f9.png" />
+    <Resource Include="Smile\1f4fa.png" />
+    <Resource Include="Smile\1f4fb.png" />
+    <Resource Include="Smile\1f4fc.png" />
+    <Resource Include="Smile\1f500.png" />
+    <Resource Include="Smile\1f501.png" />
+    <Resource Include="Smile\1f502.png" />
+    <Resource Include="Smile\1f503.png" />
+    <Resource Include="Smile\1f504.png" />
+    <Resource Include="Smile\1f505.png" />
+    <Resource Include="Smile\1f506.png" />
+    <Resource Include="Smile\1f507.png" />
+    <Resource Include="Smile\1f508.png" />
+    <Resource Include="Smile\1f509.png" />
+    <Resource Include="Smile\1f50a.png" />
+    <Resource Include="Smile\1f50b.png" />
+    <Resource Include="Smile\1f50c.png" />
+    <Resource Include="Smile\1f50d.png" />
+    <Resource Include="Smile\1f50e.png" />
+    <Resource Include="Smile\1f50f.png" />
+    <Resource Include="Smile\1f510.png" />
+    <Resource Include="Smile\1f511.png" />
+    <Resource Include="Smile\1f512.png" />
+    <Resource Include="Smile\1f513.png" />
+    <Resource Include="Smile\1f514.png" />
+    <Resource Include="Smile\1f515.png" />
+    <Resource Include="Smile\1f516.png" />
+    <Resource Include="Smile\1f517.png" />
+    <Resource Include="Smile\1f518.png" />
+    <Resource Include="Smile\1f519.png" />
+    <Resource Include="Smile\1f51a.png" />
+    <Resource Include="Smile\1f51b.png" />
+    <Resource Include="Smile\1f51c.png" />
+    <Resource Include="Smile\1f51d.png" />
+    <Resource Include="Smile\1f51e.png" />
+    <Resource Include="Smile\1f51f.png" />
+    <Resource Include="Smile\1f520.png" />
+    <Resource Include="Smile\1f521.png" />
+    <Resource Include="Smile\1f522.png" />
+    <Resource Include="Smile\1f523.png" />
+    <Resource Include="Smile\1f524.png" />
+    <Resource Include="Smile\1f525.png" />
+    <Resource Include="Smile\1f526.png" />
+    <Resource Include="Smile\1f527.png" />
+    <Resource Include="Smile\1f528.png" />
+    <Resource Include="Smile\1f529.png" />
+    <Resource Include="Smile\1f52a.png" />
+    <Resource Include="Smile\1f52b.png" />
+    <Resource Include="Smile\1f52c.png" />
+    <Resource Include="Smile\1f52d.png" />
+    <Resource Include="Smile\1f52e.png" />
+    <Resource Include="Smile\1f52f.png" />
+    <Resource Include="Smile\1f530.png" />
+    <Resource Include="Smile\1f531.png" />
+    <Resource Include="Smile\1f532.png" />
+    <Resource Include="Smile\1f533.png" />
+    <Resource Include="Smile\1f534.png" />
+    <Resource Include="Smile\1f535.png" />
+    <Resource Include="Smile\1f536.png" />
+    <Resource Include="Smile\1f537.png" />
+    <Resource Include="Smile\1f538.png" />
+    <Resource Include="Smile\1f539.png" />
+    <Resource Include="Smile\1f53a.png" />
+    <Resource Include="Smile\1f53b.png" />
+    <Resource Include="Smile\1f53c.png" />
+    <Resource Include="Smile\1f53d.png" />
+    <Resource Include="Smile\1f550.png" />
+    <Resource Include="Smile\1f551.png" />
+    <Resource Include="Smile\1f552.png" />
+    <Resource Include="Smile\1f553.png" />
+    <Resource Include="Smile\1f554.png" />
+    <Resource Include="Smile\1f555.png" />
+    <Resource Include="Smile\1f556.png" />
+    <Resource Include="Smile\1f557.png" />
+    <Resource Include="Smile\1f558.png" />
+    <Resource Include="Smile\1f559.png" />
+    <Resource Include="Smile\1f55a.png" />
+    <Resource Include="Smile\1f55b.png" />
+    <Resource Include="Smile\1f55c.png" />
+    <Resource Include="Smile\1f55d.png" />
+    <Resource Include="Smile\1f55e.png" />
+    <Resource Include="Smile\1f55f.png" />
+    <Resource Include="Smile\1f560.png" />
+    <Resource Include="Smile\1f561.png" />
+    <Resource Include="Smile\1f562.png" />
+    <Resource Include="Smile\1f563.png" />
+    <Resource Include="Smile\1f564.png" />
+    <Resource Include="Smile\1f565.png" />
+    <Resource Include="Smile\1f566.png" />
+    <Resource Include="Smile\1f567.png" />
+    <Resource Include="Smile\1f5fb.png" />
+    <Resource Include="Smile\1f5fc.png" />
+    <Resource Include="Smile\1f5fd.png" />
+    <Resource Include="Smile\1f5fe.png" />
+    <Resource Include="Smile\1f5ff.png" />
+    <Resource Include="Smile\1f600.png" />
+    <Resource Include="Smile\1f601.png" />
+    <Resource Include="Smile\1f602.png" />
+    <Resource Include="Smile\1f603.png" />
+    <Resource Include="Smile\1f604.png" />
+    <Resource Include="Smile\1f605.png" />
+    <Resource Include="Smile\1f606.png" />
+    <Resource Include="Smile\1f607.png" />
+    <Resource Include="Smile\1f608.png" />
+    <Resource Include="Smile\1f609.png" />
+    <Resource Include="Smile\1f60a.png" />
+    <Resource Include="Smile\1f60b.png" />
+    <Resource Include="Smile\1f60c.png" />
+    <Resource Include="Smile\1f60d.png" />
+    <Resource Include="Smile\1f60e.png" />
+    <Resource Include="Smile\1f60f.png" />
+    <Resource Include="Smile\1f610.png" />
+    <Resource Include="Smile\1f611.png" />
+    <Resource Include="Smile\1f612.png" />
+    <Resource Include="Smile\1f613.png" />
+    <Resource Include="Smile\1f614.png" />
+    <Resource Include="Smile\1f615.png" />
+    <Resource Include="Smile\1f616.png" />
+    <Resource Include="Smile\1f617.png" />
+    <Resource Include="Smile\1f618.png" />
+    <Resource Include="Smile\1f619.png" />
+    <Resource Include="Smile\1f61a.png" />
+    <Resource Include="Smile\1f61b.png" />
+    <Resource Include="Smile\1f61c.png" />
+    <Resource Include="Smile\1f61d.png" />
+    <Resource Include="Smile\1f61e.png" />
+    <Resource Include="Smile\1f61f.png" />
+    <Resource Include="Smile\1f620.png" />
+    <Resource Include="Smile\1f621.png" />
+    <Resource Include="Smile\1f622.png" />
+    <Resource Include="Smile\1f623.png" />
+    <Resource Include="Smile\1f624.png" />
+    <Resource Include="Smile\1f625.png" />
+    <Resource Include="Smile\1f626.png" />
+    <Resource Include="Smile\1f627.png" />
+    <Resource Include="Smile\1f628.png" />
+    <Resource Include="Smile\1f629.png" />
+    <Resource Include="Smile\1f62a.png" />
+    <Resource Include="Smile\1f62b.png" />
+    <Resource Include="Smile\1f62c.png" />
+    <Resource Include="Smile\1f62d.png" />
+    <Resource Include="Smile\1f62e.png" />
+    <Resource Include="Smile\1f62f.png" />
+    <Resource Include="Smile\1f630.png" />
+    <Resource Include="Smile\1f631.png" />
+    <Resource Include="Smile\1f632.png" />
+    <Resource Include="Smile\1f633.png" />
+    <Resource Include="Smile\1f634.png" />
+    <Resource Include="Smile\1f635.png" />
+    <Resource Include="Smile\1f636.png" />
+    <Resource Include="Smile\1f637.png" />
+    <Resource Include="Smile\1f638.png" />
+    <Resource Include="Smile\1f639.png" />
+    <Resource Include="Smile\1f63a.png" />
+    <Resource Include="Smile\1f63b.png" />
+    <Resource Include="Smile\1f63c.png" />
+    <Resource Include="Smile\1f63d.png" />
+    <Resource Include="Smile\1f63e.png" />
+    <Resource Include="Smile\1f63f.png" />
+    <Resource Include="Smile\1f640.png" />
+    <Resource Include="Smile\1f645.png" />
+    <Resource Include="Smile\1f646.png" />
+    <Resource Include="Smile\1f647.png" />
+    <Resource Include="Smile\1f648.png" />
+    <Resource Include="Smile\1f649.png" />
+    <Resource Include="Smile\1f64a.png" />
+    <Resource Include="Smile\1f64b.png" />
+    <Resource Include="Smile\1f64c.png" />
+    <Resource Include="Smile\1f64d.png" />
+    <Resource Include="Smile\1f64e.png" />
+    <Resource Include="Smile\1f64f.png" />
+    <Resource Include="Smile\1f680.png" />
+    <Resource Include="Smile\1f681.png" />
+    <Resource Include="Smile\1f682.png" />
+    <Resource Include="Smile\1f683.png" />
+    <Resource Include="Smile\1f684.png" />
+    <Resource Include="Smile\1f685.png" />
+    <Resource Include="Smile\1f686.png" />
+    <Resource Include="Smile\1f687.png" />
+    <Resource Include="Smile\1f688.png" />
+    <Resource Include="Smile\1f689.png" />
+    <Resource Include="Smile\1f68a.png" />
+    <Resource Include="Smile\1f68b.png" />
+    <Resource Include="Smile\1f68c.png" />
+    <Resource Include="Smile\1f68d.png" />
+    <Resource Include="Smile\1f68e.png" />
+    <Resource Include="Smile\1f68f.png" />
+    <Resource Include="Smile\1f690.png" />
+    <Resource Include="Smile\1f691.png" />
+    <Resource Include="Smile\1f692.png" />
+    <Resource Include="Smile\1f693.png" />
+    <Resource Include="Smile\1f694.png" />
+    <Resource Include="Smile\1f695.png" />
+    <Resource Include="Smile\1f696.png" />
+    <Resource Include="Smile\1f697.png" />
+    <Resource Include="Smile\1f698.png" />
+    <Resource Include="Smile\1f699.png" />
+    <Resource Include="Smile\1f69a.png" />
+    <Resource Include="Smile\1f69b.png" />
+    <Resource Include="Smile\1f69c.png" />
+    <Resource Include="Smile\1f69d.png" />
+    <Resource Include="Smile\1f69e.png" />
+    <Resource Include="Smile\1f69f.png" />
+    <Resource Include="Smile\1f6a0.png" />
+    <Resource Include="Smile\1f6a1.png" />
+    <Resource Include="Smile\1f6a2.png" />
+    <Resource Include="Smile\1f6a3.png" />
+    <Resource Include="Smile\1f6a4.png" />
+    <Resource Include="Smile\1f6a5.png" />
+    <Resource Include="Smile\1f6a6.png" />
+    <Resource Include="Smile\1f6a7.png" />
+    <Resource Include="Smile\1f6a8.png" />
+    <Resource Include="Smile\1f6a9.png" />
+    <Resource Include="Smile\1f6aa.png" />
+    <Resource Include="Smile\1f6ab.png" />
+    <Resource Include="Smile\1f6ac.png" />
+    <Resource Include="Smile\1f6ad.png" />
+    <Resource Include="Smile\1f6ae.png" />
+    <Resource Include="Smile\1f6af.png" />
+    <Resource Include="Smile\1f6b0.png" />
+    <Resource Include="Smile\1f6b1.png" />
+    <Resource Include="Smile\1f6b2.png" />
+    <Resource Include="Smile\1f6b3.png" />
+    <Resource Include="Smile\1f6b4.png" />
+    <Resource Include="Smile\1f6b5.png" />
+    <Resource Include="Smile\1f6b6.png" />
+    <Resource Include="Smile\1f6b7.png" />
+    <Resource Include="Smile\1f6b8.png" />
+    <Resource Include="Smile\1f6b9.png" />
+    <Resource Include="Smile\1f6ba.png" />
+    <Resource Include="Smile\1f6bb.png" />
+    <Resource Include="Smile\1f6bc.png" />
+    <Resource Include="Smile\1f6bd.png" />
+    <Resource Include="Smile\1f6be.png" />
+    <Resource Include="Smile\1f6bf.png" />
+    <Resource Include="Smile\1f6c0.png" />
+    <Resource Include="Smile\1f6c1.png" />
+    <Resource Include="Smile\1f6c2.png" />
+    <Resource Include="Smile\1f6c3.png" />
+    <Resource Include="Smile\1f6c4.png" />
+    <Resource Include="Smile\1f6c5.png" />
+    <Resource Include="Smile\203c.png" />
+    <Resource Include="Smile\2049.png" />
+    <Resource Include="Smile\2122.png" />
+    <Resource Include="Smile\2139.png" />
+    <Resource Include="Smile\2194.png" />
+    <Resource Include="Smile\2195.png" />
+    <Resource Include="Smile\2196.png" />
+    <Resource Include="Smile\2197.png" />
+    <Resource Include="Smile\2198.png" />
+    <Resource Include="Smile\2199.png" />
+    <Resource Include="Smile\21a9.png" />
+    <Resource Include="Smile\21aa.png" />
+    <Resource Include="Smile\23-20e3.png" />
+    <Resource Include="Smile\231a.png" />
+    <Resource Include="Smile\231b.png" />
+    <Resource Include="Smile\23e9.png" />
+    <Resource Include="Smile\23ea.png" />
+    <Resource Include="Smile\23eb.png" />
+    <Resource Include="Smile\23ec.png" />
+    <Resource Include="Smile\23f0.png" />
+    <Resource Include="Smile\23f3.png" />
+    <Resource Include="Smile\24c2.png" />
+    <Resource Include="Smile\25aa.png" />
+    <Resource Include="Smile\25ab.png" />
+    <Resource Include="Smile\25b6.png" />
+    <Resource Include="Smile\25c0.png" />
+    <Resource Include="Smile\25fb.png" />
+    <Resource Include="Smile\25fc.png" />
+    <Resource Include="Smile\25fd.png" />
+    <Resource Include="Smile\25fe.png" />
+    <Resource Include="Smile\2600.png" />
+    <Resource Include="Smile\2601.png" />
+    <Resource Include="Smile\260e.png" />
+    <Resource Include="Smile\2611.png" />
+    <Resource Include="Smile\2614.png" />
+    <Resource Include="Smile\2615.png" />
+    <Resource Include="Smile\261d.png" />
+    <Resource Include="Smile\263a.png" />
+    <Resource Include="Smile\2648.png" />
+    <Resource Include="Smile\2649.png" />
+    <Resource Include="Smile\264a.png" />
+    <Resource Include="Smile\264b.png" />
+    <Resource Include="Smile\264c.png" />
+    <Resource Include="Smile\264d.png" />
+    <Resource Include="Smile\264e.png" />
+    <Resource Include="Smile\264f.png" />
+    <Resource Include="Smile\2650.png" />
+    <Resource Include="Smile\2651.png" />
+    <Resource Include="Smile\2652.png" />
+    <Resource Include="Smile\2653.png" />
+    <Resource Include="Smile\2660.png" />
+    <Resource Include="Smile\2663.png" />
+    <Resource Include="Smile\2665.png" />
+    <Resource Include="Smile\2666.png" />
+    <Resource Include="Smile\2668.png" />
+    <Resource Include="Smile\267b.png" />
+    <Resource Include="Smile\267f.png" />
+    <Resource Include="Smile\2693.png" />
+    <Resource Include="Smile\26a0.png" />
+    <Resource Include="Smile\26a1.png" />
+    <Resource Include="Smile\26aa.png" />
+    <Resource Include="Smile\26ab.png" />
+    <Resource Include="Smile\26bd.png" />
+    <Resource Include="Smile\26be.png" />
+    <Resource Include="Smile\26c4.png" />
+    <Resource Include="Smile\26c5.png" />
+    <Resource Include="Smile\26ce.png" />
+    <Resource Include="Smile\26d4.png" />
+    <Resource Include="Smile\26ea.png" />
+    <Resource Include="Smile\26f2.png" />
+    <Resource Include="Smile\26f3.png" />
+    <Resource Include="Smile\26f5.png" />
+    <Resource Include="Smile\26fa.png" />
+    <Resource Include="Smile\26fd.png" />
+    <Resource Include="Smile\2702.png" />
+    <Resource Include="Smile\2705.png" />
+    <Resource Include="Smile\2708.png" />
+    <Resource Include="Smile\2709.png" />
+    <Resource Include="Smile\270a.png" />
+    <Resource Include="Smile\270b.png" />
+    <Resource Include="Smile\270c.png" />
+    <Resource Include="Smile\270f.png" />
+    <Resource Include="Smile\2712.png" />
+    <Resource Include="Smile\2714.png" />
+    <Resource Include="Smile\2716.png" />
+    <Resource Include="Smile\2728.png" />
+    <Resource Include="Smile\2733.png" />
+    <Resource Include="Smile\2734.png" />
+    <Resource Include="Smile\2744.png" />
+    <Resource Include="Smile\2747.png" />
+    <Resource Include="Smile\274c.png" />
+    <Resource Include="Smile\274e.png" />
+    <Resource Include="Smile\2753.png" />
+    <Resource Include="Smile\2754.png" />
+    <Resource Include="Smile\2755.png" />
+    <Resource Include="Smile\2757.png" />
+    <Resource Include="Smile\2764.png" />
+    <Resource Include="Smile\2795.png" />
+    <Resource Include="Smile\2796.png" />
+    <Resource Include="Smile\2797.png" />
+    <Resource Include="Smile\27a1.png" />
+    <Resource Include="Smile\27b0.png" />
+    <Resource Include="Smile\27bf.png" />
+    <Resource Include="Smile\2934.png" />
+    <Resource Include="Smile\2935.png" />
+    <Resource Include="Smile\2b05.png" />
+    <Resource Include="Smile\2b06.png" />
+    <Resource Include="Smile\2b07.png" />
+    <Resource Include="Smile\2b1b.png" />
+    <Resource Include="Smile\2b1c.png" />
+    <Resource Include="Smile\2b50.png" />
+    <Resource Include="Smile\2b55.png" />
+    <Resource Include="Smile\30-20e3.png" />
+    <Resource Include="Smile\3030.png" />
+    <Resource Include="Smile\303d.png" />
+    <Resource Include="Smile\31-20e3.png" />
+    <Resource Include="Smile\32-20e3.png" />
+    <Resource Include="Smile\3297.png" />
+    <Resource Include="Smile\3299.png" />
+    <Resource Include="Smile\33-20e3.png" />
+    <Resource Include="Smile\34-20e3.png" />
+    <Resource Include="Smile\35-20e3.png" />
+    <Resource Include="Smile\36-20e3.png" />
+    <Resource Include="Smile\37-20e3.png" />
+    <Resource Include="Smile\38-20e3.png" />
+    <Resource Include="Smile\39-20e3.png" />
+    <Resource Include="Smile\a9.png" />
+    <Resource Include="Smile\ae.png" />
+    <Resource Include="Smile\e50a.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

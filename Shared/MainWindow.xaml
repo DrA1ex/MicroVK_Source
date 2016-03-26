@@ -1,0 +1,486 @@
+﻿<mui:ModernWindow
+    x:Class="MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:loc="clr-namespace:MicroVK.My.Resources"
+    xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
+    xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+    xmlns:s="clr-namespace:MicroVK"
+    xmlns:tb="http://www.hardcodet.net/taskbar"
+    x:Name="W1"
+    Title="MicroVK"
+    Width="800"
+    Height="640"
+    MinWidth="640"
+    MinHeight="480"
+    Activated="W1_Activated"
+    Closed="W1_Closed"
+    Closing="MainWindow_OnClosing"
+    ContentSource="Pages/PageMessage.xaml"
+    Icon="23_32.ico"
+    Initialized="MainWindow_OnInitialized"
+    IsTitleVisible="True"
+    SizeChanged="MainWindow_OnSizeChanged"
+    StateChanged="W1_StateChanged">
+    <!--  ContentSource="Content/ContentVKControll.xaml#path=wall&amp;post=-387766_7288066"  -->
+    <mui:ModernWindow.Tag>
+        <StackPanel Orientation="Horizontal">
+            <Button
+                x:Name="SearchButton"
+                Margin="0,5,16,0"
+                VerticalAlignment="Top"
+                Style="{StaticResource MySystemButton}"
+                Click="SearchButton_OnClick"
+                RenderTransformOrigin="0.5,0.5">
+                <Path
+                    Height="12"
+                    Fill="{Binding Foreground, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=Button}}"
+                    Data="{StaticResource search_ideogram}"
+                    Stretch="Uniform" />
+            </Button>
+            <Button
+                x:Name="BellButton"
+                Margin="0,5,16,0"
+                VerticalAlignment="Top"
+                Style="{StaticResource MySystemButton}"
+                Click="BellButton_OnClick"
+                RenderTransformOrigin="0.5,0.5"
+                ToolTip="{x:Static loc:Resources.Notification}">
+                <Button.ContextMenu>
+                    <ContextMenu x:Name="BellButtonContextMenu" Initialized="BellButtonContextMenu_OnInitialized">
+                        <MenuItem
+                            x:Name="BellOffMenuItem"
+                            Click="BellMenuItem_OnClick"
+                            Header="{x:Static loc:Resources.bell_off}"
+                            IsCheckable="True" />
+                        <Separator />
+                        <MenuItem
+                            x:Name="BellSleep5MMenuItem"
+                            Click="BellMenuItem_OnClick"
+                            IsCheckable="True"
+                            Tag="minute=5" />
+                        <MenuItem
+                            x:Name="BellSleep15MMenuItem"
+                            Click="BellMenuItem_OnClick"
+                            IsCheckable="True"
+                            Tag="minute=15" />
+                        <MenuItem
+                            x:Name="BellSleep30MMenuItem"
+                            Click="BellMenuItem_OnClick"
+                            IsCheckable="True"
+                            Tag="minute=30" />
+                        <Separator />
+                        <MenuItem
+                            x:Name="BellSleep1HMenuItem"
+                            Click="BellMenuItem_OnClick"
+                            IsCheckable="True"
+                            Tag="hour=1" />
+                        <MenuItem
+                            x:Name="BellSleep2HMenuItem"
+                            Click="BellMenuItem_OnClick"
+                            IsCheckable="True"
+                            Tag="hour=2" />
+                        <MenuItem
+                            x:Name="BellSleep5HMenuItem"
+                            Click="BellMenuItem_OnClick"
+                            IsCheckable="True"
+                            Tag="hour=5" />
+                        <MenuItem
+                            x:Name="BellSleep8HMenuItem"
+                            Click="BellMenuItem_OnClick"
+                            IsCheckable="True"
+                            Tag="hour=8" />
+                        <Separator />
+                        <MenuItem x:Name="ShowNotifySettings" Click="ShowNotifySettings_OnClick">
+                            <MenuItem.Header>
+                                <TextBlock>
+                                    <Run Text="{x:Static loc:Resources.Settings}" /><Run Text="..." />
+                                </TextBlock>
+                            </MenuItem.Header>
+                        </MenuItem>
+                    </ContextMenu>
+                </Button.ContextMenu>
+                <Path
+                    x:Name="BellPath"
+                    Width="12"
+                    Fill="{Binding Foreground, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=Button}}"
+                    Data="{StaticResource bell}"
+                    Stretch="Uniform" />
+            </Button>
+            <Button
+                x:Name="GameButton"
+                Margin="0,5,16,0"
+                VerticalAlignment="Top"
+                Style="{StaticResource MySystemButton}"
+                Click="GameButton_OnClick"
+                RenderTransformOrigin="0.5,0.5"
+                Visibility="{Binding Source={x:Static s:MySettings.Default}, Path=isButton, Mode=OneWay, Converter={StaticResource MyVisibilityConverter1}}">
+                <Path
+                    Height="12"
+                    Fill="{Binding Foreground, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=Button}}"
+                    Data="{StaticResource gamepad}"
+                    Stretch="Uniform" />
+            </Button>
+            <Button
+                x:Name="DebugButton"
+                Margin="0,5,16,0"
+                VerticalAlignment="Top"
+                Style="{StaticResource MySystemButton}"
+                Click="DebugButton_Click"
+                ToolTip="Отзыв"
+                Visibility="Collapsed">
+                <Button.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Click="MenuItem_Click_6" Header="Отправить одобрение">
+                            <MenuItem.Icon>
+                                <Image
+                                    Width="16"
+                                    Height="16"
+                                    Source="images/1f609.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="Отправить неодобрение">
+                            <MenuItem.Icon>
+                                <Image
+                                    Width="16"
+                                    Height="16"
+                                    Source="images/1f627.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <Separator />
+                        <MenuItem Header="Группа">
+                            <MenuItem.Icon>
+                                <Image Source="images/favicon.ico" Stretch="Uniform" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="Сообщить о ошибке">
+                            <MenuItem.Icon>
+                                <Path
+                                    Width="16"
+                                    Height="16"
+                                    Fill="{DynamicResource ButtonText}"
+                                    Data="{StaticResource errorStyle0}"
+                                    Stretch="Uniform" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                    </ContextMenu>
+                </Button.ContextMenu>
+                <Path
+                    Height="12"
+                    Stroke="{Binding Foreground, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=Button}}"
+                    Data="{StaticResource messageStyle0}"
+                    Stretch="Uniform" />
+            </Button>
+            <Button
+                x:Name="updatebutton"
+                Margin="0,0,16,0"
+                VerticalAlignment="Top"
+                Style="{StaticResource MySystemButton}"
+                Click="ButtonBase_OnClick1"
+                Visibility="Collapsed">
+                <TextBlock>Доступно обновление</TextBlock>
+            </Button>
+            <Grid Margin="0,5,16,0" VerticalAlignment="Top">
+                <Button
+                    x:Name="PlayerButton"
+                    VerticalAlignment="Top"
+                    Style="{StaticResource MySystemButton}"
+                    Click="ButtonBase_OnClick">
+                    <Path
+                        x:Name="PlayerButtonPath1"
+                        Height="12"
+                        Fill="{Binding Foreground, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=Button}}"
+                        Data="{StaticResource playStyle0}"
+                        Stretch="Uniform" />
+                </Button>
+                <mui:ModernProgressRing
+                    x:Name="PlayerModernProgressRing"
+                    Width="12"
+                    Height="12"
+                    Style="{DynamicResource ChasingDotsProgressRingStyle}"
+                    IsActive="True"
+                    Visibility="Collapsed">
+                    <mui:ModernProgressRing.LayoutTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleX="0.5" ScaleY="0.5" />
+                            <SkewTransform />
+                            <RotateTransform />
+                            <TranslateTransform />
+                        </TransformGroup>
+                    </mui:ModernProgressRing.LayoutTransform>
+                </mui:ModernProgressRing>
+            </Grid>
+            <Button
+                x:Name="ThemeButton"
+                Margin="0,5,16,0"
+                VerticalAlignment="Top"
+                Style="{StaticResource MySystemButton}"
+                Click="ThemeButton_OnClick">
+                <Path
+                    Height="12"
+                    Fill="{Binding Foreground, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=Button}}"
+                    Data="{StaticResource palette}"
+                    Stretch="Uniform" />
+            </Button>
+            <Button
+                Margin="0,5,16,0"
+                VerticalAlignment="Top"
+                Style="{StaticResource MySystemButton}"
+                Click="Button_Click_1">
+                <Button.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Click="MenuItem_Click" Header="{x:Static loc:Resources.Settings}" />
+                        <MenuItem
+                            Checked="MenuItem_Checked"
+                            Header="{x:Static loc:Resources.Invisible}"
+                            IsCheckable="True"
+                            IsChecked="{Binding Source={x:Static s:MySettings.Default}, Path=Invisible, Mode=TwoWay}"
+                            Unchecked="MenuItem_Unchecked" />
+
+                        <MenuItem Click="MenuItem_Click_4" Header="{x:Static loc:Resources.change_user}" />
+                        <Separator />
+                        <MenuItem Click="MenuItem_Click_2" Header="{x:Static loc:Resources.GroupVK}" />
+                        <MenuItem
+                            x:Name="ShareButton"
+                            Click="ShareButton_OnClick"
+                            Header="{x:Static loc:Resources.Share}">
+                            <MenuItem.Icon>
+                                <Path
+                                    Height="12"
+                                    Fill="{DynamicResource Accent}"
+                                    Data="{StaticResource Share}"
+                                    Stretch="Uniform" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <Separator />
+                        <MenuItem Click="MenuItem_Click_5" Header="{x:Static loc:Resources.restart}" />
+                        <MenuItem x:Name="HelpMicroVKMenuItem" Click="HelpMicroVKMenuItem_OnClick">
+                            <MenuItem.Header>
+                                <Grid HorizontalAlignment="Left">
+                                    <TextBlock Text="{x:Static loc:Resources.HelpMicroVK}" />
+                                    <Path
+                                        Height="4"
+                                        Margin="0,2,-6,0"
+                                        HorizontalAlignment="Right"
+                                        VerticalAlignment="Top"
+                                        Fill="Red"
+                                        Data="{StaticResource record}"
+                                        Stretch="Uniform"
+                                        Visibility="{Binding Source={x:Static s:MySettings.Default}, Path=microVKHelp, Converter={StaticResource MyVisibilityConverter1}, ConverterParameter=inverse}" />
+                                </Grid>
+                            </MenuItem.Header>
+                        </MenuItem>
+                        <MenuItem Click="MenuItem_Click_3" Header="{x:Static loc:Resources.AboutProgramm}" />
+                        <MenuItem Click="MenuItem4_OnClick" Header="{x:Static loc:Resources.Exit1}" />
+                    </ContextMenu>
+                </Button.ContextMenu>
+                <Grid>
+                    <Path
+                        Height="12"
+                        Fill="{Binding Foreground, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=Button}}"
+                        Data="{StaticResource settingsStyle0}"
+                        Stretch="Uniform" />
+                    <Path
+                        Height="4"
+                        Margin="0,-2,-4,0"
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Top"
+                        Fill="Red"
+                        Data="{StaticResource record}"
+                        Stretch="Uniform"
+                        Visibility="{Binding Source={x:Static s:MySettings.Default}, Path=microVKHelp, Converter={StaticResource MyVisibilityConverter1}, ConverterParameter=inverse}" />
+                </Grid>
+            </Button>
+            <Button
+                x:Name="Button1"
+                Height="36"
+                Padding="0"
+                VerticalAlignment="Top"
+                Style="{StaticResource MySystemButton}"
+                Click="Button1_Click"
+                Cursor="Hand"
+                ToolTip="{x:Static loc:Resources.Notification}">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock
+                        Padding="4,2"
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Bottom"
+                        Background="{DynamicResource Accent}"
+                        Foreground="{DynamicResource ItemText}"
+                        FontWeight="Bold"
+                        Visibility="Collapsed">
+                        +7
+                    </TextBlock>
+                    <Border
+                        Grid.Column="1"
+                        Width="36"
+                        Height="36"
+                        Margin="0,0,8,0"
+                        Background="{DynamicResource Accent}">
+                        <Grid>
+                            <Path
+                                Width="24"
+                                Height="24"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                Fill="White"
+                                Data="M 366.75 434.96875 L 357.3125 467.78125 L 363.28125 467.78125 L 372.65625 434.96875 L 366.75 434.96875 z M 355.8125 441.21875 L 337.03125 449.0625 L 337.03125 453.03125 L 355.8125 460.875 L 355.8125 455.6875 L 344.21875 451.03125 L 355.8125 446.375 L 355.8125 441.21875 z M 374.21875 441.21875 L 374.21875 446.375 L 385.8125 451.03125 L 374.21875 455.71875 L 374.21875 460.875 L 393 453 L 393 449.03125 L 374.21875 441.21875 z "
+                                Stretch="Fill" />
+
+                            <Image
+                                x:Name="Image1"
+                                Width="34"
+                                Height="35"
+                                Margin="0"
+                                VerticalAlignment="Top"
+                                Source="{Binding Converter={StaticResource ConvertGetMyPhoto1}}"
+                                Stretch="UniformToFill" />
+                        </Grid>
+                    </Border>
+                </Grid>
+            </Button>
+
+        </StackPanel>
+    </mui:ModernWindow.Tag>
+    <mui:ModernWindow.MenuLinkGroups>
+        <mui:LinkGroup DisplayName="{x:Static loc:Resources.Messages}" GroupKey="my">
+            <mui:LinkGroup.Links>
+                <mui:Link DisplayName="{x:Static loc:Resources.Dialogs}" Source="Pages/PageMessage.xaml" />
+                <mui:Link DisplayName="{x:Static loc:Resources.Important}" Source="Content/ContentFavoritesMessage.xaml" />
+            </mui:LinkGroup.Links>
+        </mui:LinkGroup>
+        <mui:LinkGroup DisplayName="{x:Static loc:Resources.News}" GroupKey="my">
+            <mui:LinkGroup.Links>
+                <mui:Link DisplayName="{x:Static loc:Resources.Entries}" Source="Pages/PageNews.xaml#?post" />
+                <mui:Link DisplayName="{x:Static loc:Resources.Photo}" Source="Pages/PageNews.xaml#?photo" />
+                <mui:Link DisplayName="{x:Static loc:Resources.Fotometki}" Source="Pages/PageNews.xaml#?photo_tag" />
+                <mui:Link DisplayName="{x:Static loc:Resources.Photos_walls}" Source="Pages/PageNews.xaml#?wall_photo" />
+                <mui:Link DisplayName="{x:Static loc:Resources.Friends}" Source="Pages/PageNews.xaml#?friend" />
+            </mui:LinkGroup.Links>
+        </mui:LinkGroup>
+        <mui:LinkGroup DisplayName="{x:Static loc:Resources.Music}" GroupKey="my">
+            <mui:LinkGroup.Links>
+                <mui:Link DisplayName="{x:Static loc:Resources.All}" Source="Pages/PageAudio.xaml" />
+                <mui:Link DisplayName="{x:Static loc:Resources.radio}" Source="Pages/PageRadio.xaml" />
+                <!--<mui:Link DisplayName="{x:Static loc:Resources.Equalizer}" Source="Content/ContentEqualizer.xaml" />-->
+            </mui:LinkGroup.Links>
+        </mui:LinkGroup>
+        <mui:LinkGroup DisplayName="{x:Static loc:Resources.Settings}" GroupKey="setting">
+            <mui:LinkGroup.Links>
+                <mui:Link DisplayName="{x:Static loc:Resources.All}" Source="Pages/PageSetting.xaml" />
+            </mui:LinkGroup.Links>
+        </mui:LinkGroup>
+        <mui:LinkGroup DisplayName="{x:Static loc:Resources.Profile}" GroupKey="my">
+            <mui:LinkGroup.Links>
+                <mui:Link
+                    x:Name="Link1"
+                    DisplayName="{x:Static loc:Resources.Info}"
+                    Source="Pages/PageUserInfo.xaml#user_id=my" />
+                <mui:Link
+                    x:Name="Link2"
+                    DisplayName="{x:Static loc:Resources.Friends}"
+                    Source="Pages/PageFriends.xaml#my" />
+                <!--<mui:Link x:Name="Link3"
+                          DisplayName="{x:Static loc:Resources.wall}"
+                          Source="Content/ContentUserWall.xaml#user_id=" />-->
+            </mui:LinkGroup.Links>
+        </mui:LinkGroup>
+        <!--<mui:LinkGroup DisplayName="{x:Static loc:Resources.Utils}" GroupKey="my">
+            <mui:LinkGroup.Links>
+                <mui:Link DisplayName="{x:Static loc:Resources.All}" Source="Content/ControllUtilsList.xaml" />
+            </mui:LinkGroup.Links>
+        </mui:LinkGroup>-->
+        <mui:LinkGroup x:Name="AboutGroup1" GroupKey="AboutGroup1">
+            <mui:LinkGroup.Links>
+                <mui:Link DisplayName="{x:Static loc:Resources.AboutProgramm}" Source="UserControl/ControlAbout.xaml" />
+                <mui:Link DisplayName="{x:Static loc:Resources.History_changes}" Source="Content/ControlHistory.xaml#1" />
+                <mui:Link DisplayName="{x:Static loc:Resources.Translate}" Source="Content/ControlTranslate.xaml" />
+                <mui:Link DisplayName="{x:Static loc:Resources.library}" Source="Content/ControlPackages.xaml" />
+                <mui:Link DisplayName="{x:Static loc:Resources.donate}" Source="Content/ControlDonate.xaml" />
+            </mui:LinkGroup.Links>
+        </mui:LinkGroup>
+        <mui:LinkGroup DisplayName="{x:Static loc:Resources.Login}" GroupKey="auth">
+            <mui:LinkGroup.Links>
+                <mui:Link DisplayName="{x:Static loc:Resources.Login}" Source="Pages/PageLogin2.xaml" />
+                <mui:Link DisplayName="{x:Static loc:Resources.Enter_through_browser}" Source="Pages/BrowserLogin.xaml" />
+            </mui:LinkGroup.Links>
+        </mui:LinkGroup>
+        <mui:LinkGroup DisplayName="" GroupKey="Start">
+            <mui:LinkGroup.Links>
+
+                <mui:Link DisplayName="" Source="Pages/StartPage.xaml" />
+            </mui:LinkGroup.Links>
+        </mui:LinkGroup>
+        <mui:LinkGroup DisplayName="{x:Static loc:Resources.Notification}" GroupKey="bonus">
+            <mui:LinkGroup.Links>
+                <!--<mui:Link DisplayName="{x:Static loc:Resources.Favorites}" Source="Content/ControlNotificationCentr.xaml#mode=favorite" />-->
+                <mui:Link DisplayName="{x:Static loc:Resources.All_notification}" Source="Content/ControlNotificationCentr.xaml#mode=all" />
+            </mui:LinkGroup.Links>
+        </mui:LinkGroup>
+        <mui:LinkGroup DisplayName="2048" GroupKey="2048">
+            <mui:LinkGroup.Links>
+                <mui:Link DisplayName="{x:Static loc:Resources.Game}" Source="2048/Game2048.xaml" />
+            </mui:LinkGroup.Links>
+        </mui:LinkGroup>
+        <mui:LinkGroup
+            x:Name="VKContentLinkGroup"
+            DisplayName="{x:Static loc:Resources.postWall}"
+            GroupKey="VKContent">
+            <mui:LinkGroup.Links>
+                <mui:Link
+                    x:Name="VKContentLink"
+                    DisplayName="Просмотр"
+                    Source="Content/ContentVKControl.xaml" />
+            </mui:LinkGroup.Links>
+        </mui:LinkGroup>
+    </mui:ModernWindow.MenuLinkGroups>
+    <mui:ModernWindow.TaskbarItemInfo>
+        <TaskbarItemInfo>
+            <TaskbarItemInfo.ThumbButtonInfos>
+                <ThumbButtonInfo Click="ThumbButtonInfo_OnClick" ImageSource="images/left.png" />
+                <ThumbButtonInfo
+                    x:Name="PlayThumbButtonInfo"
+                    Click="ThumbButtonInfo2_OnClick"
+                    ImageSource="images/play.png" />
+                <ThumbButtonInfo Click="ThumbButtonInfo3_OnClick" ImageSource="images/right.png" />
+                <ThumbButtonInfo ImageSource="images/sound.png" />
+            </TaskbarItemInfo.ThumbButtonInfos>
+        </TaskbarItemInfo>
+    </mui:ModernWindow.TaskbarItemInfo>
+    <mui:ModernWindow.Flyouts>
+        <metro:FlyoutsControl>
+            <metro:Flyout
+                x:Name="Flyout1"
+                Width="300"
+                Style="{StaticResource FlyoutStyle}"
+                BorderBrush="{DynamicResource WindowText}"
+                BorderThickness="1"
+                Header="{x:Static loc:Resources.Whats_new}"
+                IsOpenChanged="Flyout1_OnIsOpenChanged"
+                Position="Right"
+                Visibility="Collapsed">
+                <mui:ModernFrame x:Name="ModernFrame1" />
+            </metro:Flyout>
+        </metro:FlyoutsControl>
+    </mui:ModernWindow.Flyouts>
+    <Grid>
+        <tb:TaskbarIcon
+            x:Name="Notify1"
+            DoubleClickCommand="{StaticResource ShowWindowCommand}"
+            IconSource="images/MicroVKTrayIcon.ico"
+            LeftClickCommand="{StaticResource ShowWindowCommand}"
+            ToolTipText="MicroVK"
+            Visibility="Visible">
+            <tb:TaskbarIcon.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Click="MenuItem_OnClick" Header="{x:Static loc:Resources.Open}" />
+                    <MenuItem Click="MenuItem_Click_1" Header="{x:Static loc:Resources.Exit1}" />
+                </ContextMenu>
+            </tb:TaskbarIcon.ContextMenu>
+        </tb:TaskbarIcon>
+    </Grid>
+</mui:ModernWindow>

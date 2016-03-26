@@ -1,0 +1,21 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:MicroVK">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/FirstFloor.ModernUI;component/Assets/ModernUI.Dark.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+    <Rectangle x:Key="WindowBackgroundContent"
+               Visibility="{Binding Source={x:Static s:MySettings.Default},
+                                    Path=IsBackground,
+                                    Converter={StaticResource BooleanToVisibilityConverter}}"
+               x:Shared="False">
+        <Rectangle.Fill>
+            <ImageBrush
+                ImageSource="{Binding Source={x:Static s:MySettings.Default},
+                                              Path=Background}"
+                Opacity="{Binding Source={x:Static s:MySettings.Default},
+                                          Path=BackgroundOpacity}"
+                Stretch="UniformToFill" />
+        </Rectangle.Fill>
+    </Rectangle>
+</ResourceDictionary>

@@ -1,0 +1,1210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Acoustic" xml:space="preserve">
+    <value>Acoustic</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="All_genres" xml:space="preserve">
+    <value>All genres</value>
+  </data>
+  <data name="All_notification" xml:space="preserve">
+    <value>All notifications</value>
+  </data>
+  <data name="Alternative" xml:space="preserve">
+    <value>Alternative</value>
+  </data>
+  <data name="Authorization" xml:space="preserve">
+    <value>Authorization</value>
+  </data>
+  <data name="Chanson" xml:space="preserve">
+    <value>Chanson</value>
+  </data>
+  <data name="Classical" xml:space="preserve">
+    <value>Classical</value>
+  </data>
+  <data name="current_playlist" xml:space="preserve">
+    <value>Current playlist</value>
+  </data>
+  <data name="Dance_and_House" xml:space="preserve">
+    <value>Dance and House</value>
+  </data>
+  <data name="Dialogs" xml:space="preserve">
+    <value>Dialogs</value>
+  </data>
+  <data name="Drum_and_Bass" xml:space="preserve">
+    <value>Drum and Bass</value>
+  </data>
+  <data name="Dubstep" xml:space="preserve">
+    <value>Dubstep</value>
+  </data>
+  <data name="Easy_Listening" xml:space="preserve">
+    <value>Easy Listening</value>
+  </data>
+  <data name="Electropop_and_Disco" xml:space="preserve">
+    <value>Pop and disco</value>
+  </data>
+  <data name="Enter_through_browser" xml:space="preserve">
+    <value>Login via a browser</value>
+  </data>
+  <data name="Entries" xml:space="preserve">
+    <value>Posts</value>
+  </data>
+  <data name="Ethnic" xml:space="preserve">
+    <value>Ethnic</value>
+  </data>
+  <data name="Exit1" xml:space="preserve">
+    <value>Sign out</value>
+  </data>
+  <data name="Fotometki" xml:space="preserve">
+    <value>People on photos</value>
+  </data>
+  <data name="Friends" xml:space="preserve">
+    <value>Friends</value>
+  </data>
+  <data name="History_changes" xml:space="preserve">
+    <value>Version history</value>
+  </data>
+  <data name="Indie_Pop" xml:space="preserve">
+    <value>Indie Pop</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="Instrumental" xml:space="preserve">
+    <value>Instrumental</value>
+  </data>
+  <data name="Jazz_and_Blues" xml:space="preserve">
+    <value>Jazz and Blues</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Sign in</value>
+  </data>
+  <data name="Messages" xml:space="preserve">
+    <value>Messages</value>
+  </data>
+  <data name="Metal" xml:space="preserve">
+    <value>Metal</value>
+  </data>
+  <data name="Music" xml:space="preserve">
+    <value>Music</value>
+  </data>
+  <data name="My_record" xml:space="preserve">
+    <value>My audio</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>News</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>Notifications</value>
+  </data>
+  <data name="only_foreign" xml:space="preserve">
+    <value>Foreign-only</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Miscellaneous</value>
+  </data>
+  <data name="Photo" xml:space="preserve">
+    <value>Photos</value>
+  </data>
+  <data name="Photos_walls" xml:space="preserve">
+    <value>Photos on the pages</value>
+  </data>
+  <data name="Pop" xml:space="preserve">
+    <value>Pop</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="Rap_and_hiphop" xml:space="preserve">
+    <value>Rap &amp;Hip Hop</value>
+  </data>
+  <data name="recommendations" xml:space="preserve">
+    <value>Recommendations</value>
+  </data>
+  <data name="Reggae" xml:space="preserve">
+    <value>Reggae</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="Rock" xml:space="preserve">
+    <value>Rock</value>
+  </data>
+  <data name="search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Speech" xml:space="preserve">
+    <value>Conversational</value>
+  </data>
+  <data name="Trance" xml:space="preserve">
+    <value>Trance</value>
+  </data>
+  <data name="Video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="Whats_new" xml:space="preserve">
+    <value>What's new</value>
+  </data>
+  <data name="About_Me" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="activities" xml:space="preserve">
+    <value>Activities</value>
+  </data>
+  <data name="additional_phone" xml:space="preserve">
+    <value>Alternative phone</value>
+  </data>
+  <data name="alignment" xml:space="preserve">
+    <value>Alignment</value>
+  </data>
+  <data name="appearance" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="Audio_Records" xml:space="preserve">
+    <value>Sound recordings</value>
+  </data>
+  <data name="Basic_Information" xml:space="preserve">
+    <value>Basic info</value>
+  </data>
+  <data name="Beliefs" xml:space="preserve">
+    <value>Beliefs</value>
+  </data>
+  <data name="birthday" xml:space="preserve">
+    <value>Birthday</value>
+  </data>
+  <data name="bottom_edge" xml:space="preserve">
+    <value>Bottom edge</value>
+  </data>
+  <data name="city" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="common" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="contact_information" xml:space="preserve">
+    <value>Contact information</value>
+  </data>
+  <data name="detailed_information" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="Drinking_habits" xml:space="preserve">
+    <value>Views on alcohol</value>
+  </data>
+  <data name="education" xml:space="preserve">
+    <value>Education</value>
+  </data>
+  <data name="faculty" xml:space="preserve">
+    <value>Faculty</value>
+  </data>
+  <data name="favorite_Books" xml:space="preserve">
+    <value>Favorite books</value>
+  </data>
+  <data name="favorite_films" xml:space="preserve">
+    <value>Favorite movies</value>
+  </data>
+  <data name="favorite_games" xml:space="preserve">
+    <value>Favorite games</value>
+  </data>
+  <data name="favorite_music" xml:space="preserve">
+    <value>Favorite music</value>
+  </data>
+  <data name="favorite_Quotes" xml:space="preserve">
+    <value>Favorite quotes</value>
+  </data>
+  <data name="Favourite_teleshows" xml:space="preserve">
+    <value>Favorite TV-Shows</value>
+  </data>
+  <data name="Followers" xml:space="preserve">
+    <value>Subscribers</value>
+  </data>
+  <data name="Friends_online" xml:space="preserve">
+    <value>Friends online</value>
+  </data>
+  <data name="groups" xml:space="preserve">
+    <value>Community</value>
+  </data>
+  <data name="HIGH_SCHOOL" xml:space="preserve">
+    <value>Colledge or university</value>
+  </data>
+  <data name="Hometown" xml:space="preserve">
+    <value>Hometown</value>
+  </data>
+  <data name="Horizontal" xml:space="preserve">
+    <value>Horizontal:</value>
+  </data>
+  <data name="Important_in_life" xml:space="preserve">
+    <value>Personal priority</value>
+  </data>
+  <data name="Important_in_others" xml:space="preserve">
+    <value>Important in others</value>
+  </data>
+  <data name="interests" xml:space="preserve">
+    <value>Interests</value>
+  </data>
+  <data name="in_all" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="left_edge" xml:space="preserve">
+    <value>Left edge</value>
+  </data>
+  <data name="mobile_phone" xml:space="preserve">
+    <value>Mobile phone</value>
+  </data>
+  <data name="Mutual_Friends" xml:space="preserve">
+    <value>Mutual friends</value>
+  </data>
+  <data name="notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="Notification3" xml:space="preserve">
+    <value>User has read your message</value>
+  </data>
+  <data name="Notification4" xml:space="preserve">
+    <value>New message</value>
+  </data>
+  <data name="Notification61" xml:space="preserve">
+    <value>The user started typing in dialogue</value>
+  </data>
+  <data name="Notification62" xml:space="preserve">
+    <value>The user started typing in conversation</value>
+  </data>
+  <data name="Notification8" xml:space="preserve">
+    <value>Friend is online</value>
+  </data>
+  <data name="Notification9" xml:space="preserve">
+    <value>Friend is offline</value>
+  </data>
+  <data name="number_messages" xml:space="preserve">
+    <value>Message count</value>
+  </data>
+  <data name="Online" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="personal_information" xml:space="preserve">
+    <value>Personal information</value>
+  </data>
+  <data name="photos" xml:space="preserve">
+    <value>Photos</value>
+  </data>
+  <data name="photo_albums" xml:space="preserve">
+    <value>Photo albums</value>
+  </data>
+  <data name="Photo_user" xml:space="preserve">
+    <value>Photos with user</value>
+  </data>
+  <data name="political_preferences" xml:space="preserve">
+    <value>Political preferences</value>
+  </data>
+  <data name="programm" xml:space="preserve">
+    <value>Application</value>
+  </data>
+  <data name="right_edge" xml:space="preserve">
+    <value>Right edge</value>
+  </data>
+  <data name="Send_message" xml:space="preserve">
+    <value>Send message</value>
+  </data>
+  <data name="Skype" xml:space="preserve">
+    <value>Skype</value>
+  </data>
+  <data name="Smoker" xml:space="preserve">
+    <value>Views on smoking</value>
+  </data>
+  <data name="Study_mode" xml:space="preserve">
+    <value>Mode of study</value>
+  </data>
+  <data name="Subscriptions" xml:space="preserve">
+    <value>Subscriptions</value>
+  </data>
+  <data name="top_edge" xml:space="preserve">
+    <value>Top edge</value>
+  </data>
+  <data name="Vertical" xml:space="preserve">
+    <value>Vertical:</value>
+  </data>
+  <data name="Video_user" xml:space="preserve">
+    <value>Videos with user</value>
+  </data>
+  <data name="voice_notification" xml:space="preserve">
+    <value>Voice notifications</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Web site</value>
+  </data>
+  <data name="world_view" xml:space="preserve">
+    <value>World View</value>
+  </data>
+  <data name="add_photo" xml:space="preserve">
+    <value>Add photo</value>
+  </data>
+  <data name="Add_to_my_record" xml:space="preserve">
+    <value>Add to my audio</value>
+  </data>
+  <data name="background_image" xml:space="preserve">
+    <value>Background</value>
+  </data>
+  <data name="best_friends" xml:space="preserve">
+    <value>Best friends</value>
+  </data>
+  <data name="BrowserLoginButton" xml:space="preserve">
+    <value>Get link for login</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="Copyright" xml:space="preserve">
+    <value>MicroVK, © 2015, Artem Moldowanenko</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="forwarded_messages" xml:space="preserve">
+    <value>Forwarded messages</value>
+  </data>
+  <data name="Forward_message" xml:space="preserve">
+    <value>Forward</value>
+  </data>
+  <data name="License1" xml:space="preserve">
+    <value>By using "MicroVK" you agree to the terms of the</value>
+  </data>
+  <data name="License2" xml:space="preserve">
+    <value>license agreement</value>
+  </data>
+  <data name="miscellanea" xml:space="preserve">
+    <value>Miscellaneous</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="proverb" xml:space="preserve">
+    <value>The quick brown fox jumps over the lazy dog</value>
+  </data>
+  <data name="Remove_attachments" xml:space="preserve">
+    <value>Remove attachments</value>
+  </data>
+  <data name="Repeat" xml:space="preserve">
+    <value>Repeat</value>
+  </data>
+  <data name="See_related" xml:space="preserve">
+    <value>Show related</value>
+  </data>
+  <data name="SendOption1" xml:space="preserve">
+    <value>Use "Enter" to submit</value>
+  </data>
+  <data name="SendOption2" xml:space="preserve">
+    <value>Use "CTRL + Enter" to submit</value>
+  </data>
+  <data name="Send_a_message" xml:space="preserve">
+    <value>Forward a message</value>
+  </data>
+  <data name="ShareInStatus" xml:space="preserve">
+    <value>Share in status</value>
+  </data>
+  <data name="shuffle" xml:space="preserve">
+    <value>shuffle</value>
+  </data>
+  <data name="SystemSettings1" xml:space="preserve">
+    <value>Others can see that I am typing</value>
+  </data>
+  <data name="SystemSettings2" xml:space="preserve">
+    <value>Do not display my online status</value>
+  </data>
+  <data name="SystemSettings3" xml:space="preserve">
+    <value>Spell check</value>
+  </data>
+  <data name="SystemSettings4" xml:space="preserve">
+    <value>Mark messages as read</value>
+  </data>
+  <data name="SystemSettings5" xml:space="preserve">
+    <value>Check links</value>
+  </data>
+  <data name="SystemSettings8" xml:space="preserve">
+    <value>Reset all settings</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Theme" xml:space="preserve">
+    <value>Theme</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="transparency" xml:space="preserve">
+    <value>Opacity</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Version:</value>
+  </data>
+  <data name="VoiceOn" xml:space="preserve">
+    <value>Enable voice notification</value>
+  </data>
+  <data name="VoiceSampleText" xml:space="preserve">
+    <value>Use the following text to preview the voice:</value>
+  </data>
+  <data name="VoiceSelect" xml:space="preserve">
+    <value>Select voice </value>
+  </data>
+  <data name="VoiceSpeed" xml:space="preserve">
+    <value>Speed of pronunciation:</value>
+  </data>
+  <data name="VoiceTest" xml:space="preserve">
+    <value>Voice test</value>
+  </data>
+  <data name="InDeveloping" xml:space="preserve">
+    <value>Under development</value>
+  </data>
+  <data name="AboutProgramm" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="addToYourAudio" xml:space="preserve">
+    <value>Added to your audio</value>
+  </data>
+  <data name="ApiError1" xml:space="preserve">
+    <value>An unknown error occurred</value>
+  </data>
+  <data name="ApiError10" xml:space="preserve">
+    <value>The server encountered an internal error</value>
+  </data>
+  <data name="ApiError100" xml:space="preserve">
+    <value>One of the required parameters was not recived or is incorrect</value>
+  </data>
+  <data name="ApiError101" xml:space="preserve">
+    <value>Invalid API ID of application </value>
+  </data>
+  <data name="ApiError11" xml:space="preserve">
+    <value>In test mode the application should be turned off or the user should be logged in</value>
+  </data>
+  <data name="ApiError113" xml:space="preserve">
+    <value>Invalid user ID</value>
+  </data>
+  <data name="ApiError14" xml:space="preserve">
+    <value>Enter code</value>
+  </data>
+  <data name="ApiError15" xml:space="preserve">
+    <value>Access not allowed</value>
+  </data>
+  <data name="ApiError150" xml:space="preserve">
+    <value>Invalid timestamp</value>
+  </data>
+  <data name="ApiError16" xml:space="preserve">
+    <value>Queries is need to be completed over HTTPS, as user turned on setting that requires a secure connection</value>
+  </data>
+  <data name="ApiError17" xml:space="preserve">
+    <value>Requires user validation</value>
+  </data>
+  <data name="ApiError2" xml:space="preserve">
+    <value>Application is off</value>
+  </data>
+  <data name="ApiError20" xml:space="preserve">
+    <value>This action is prohibited for non-Standalone applications</value>
+  </data>
+  <data name="ApiError200" xml:space="preserve">
+    <value>Album access denied</value>
+  </data>
+  <data name="ApiError201" xml:space="preserve">
+    <value>Audio access denied</value>
+  </data>
+  <data name="ApiError203" xml:space="preserve">
+    <value>Access to the group is denied</value>
+  </data>
+  <data name="ApiError21" xml:space="preserve">
+    <value>This action is allowed only for Standalone and Open API applications</value>
+  </data>
+  <data name="ApiError23" xml:space="preserve">
+    <value>The method was turned off</value>
+  </data>
+  <data name="ApiError3" xml:space="preserve">
+    <value>Unknown method was transferred </value>
+  </data>
+  <data name="ApiError300" xml:space="preserve">
+    <value>The album is full</value>
+  </data>
+  <data name="ApiError4" xml:space="preserve">
+    <value>Invalid signature</value>
+  </data>
+  <data name="ApiError500" xml:space="preserve">
+    <value>Action is prohibited. You should turn on voice translations in the application settings.</value>
+  </data>
+  <data name="ApiError6" xml:space="preserve">
+    <value>Too many requests per second</value>
+  </data>
+  <data name="ApiError600" xml:space="preserve">
+    <value>No rights to perform an operations with advertising cabinet</value>
+  </data>
+  <data name="ApiError603" xml:space="preserve">
+    <value>An error occurred while working with advertising cabinet</value>
+  </data>
+  <data name="ApiError7" xml:space="preserve">
+    <value>No rights to perform this action</value>
+  </data>
+  <data name="ApiError7_1" xml:space="preserve">
+    <value>Get new access rights?</value>
+  </data>
+  <data name="ApiError8" xml:space="preserve">
+    <value>Bad request</value>
+  </data>
+  <data name="ApiError9" xml:space="preserve">
+    <value>Too much similar actions</value>
+  </data>
+  <data name="AttachmentError1" xml:space="preserve">
+    <value>The number of attachments is exceeded</value>
+  </data>
+  <data name="AttachmentError2" xml:space="preserve">
+    <value>Only ten attachments could be attached </value>
+  </data>
+  <data name="BadUrl" xml:space="preserve">
+    <value>Dangerous link</value>
+  </data>
+  <data name="BlockUrl" xml:space="preserve">
+    <value>Address blocked ({0})</value>
+  </data>
+  <data name="BrowserLoginError1" xml:space="preserve">
+    <value>Could not determine the access key</value>
+  </data>
+  <data name="BrowserLoginError2" xml:space="preserve">
+    <value>Invalid passkey</value>
+  </data>
+  <data name="BrowserLoginTips" xml:space="preserve">
+    <value>Allow access and copy the link from the address bar of your browser. Link type - https://oauth.vk.com/blank.html#access_token=*****</value>
+  </data>
+  <data name="BrowserLoginTips2" xml:space="preserve">
+    <value>Enter the received link</value>
+  </data>
+  <data name="change_user" xml:space="preserve">
+    <value>Change user</value>
+  </data>
+  <data name="confirmation" xml:space="preserve">
+    <value>Confirmation</value>
+  </data>
+  <data name="confirmation_reset" xml:space="preserve">
+    <value>Do you really want to reset all settings?</value>
+  </data>
+  <data name="delAudioStatus" xml:space="preserve">
+    <value>Audiostatus was removed</value>
+  </data>
+  <data name="ErrorUploadFile" xml:space="preserve">
+    <value>Failed to upload file to the server.</value>
+  </data>
+  <data name="FontNormal" xml:space="preserve">
+    <value>Regular</value>
+  </data>
+  <data name="FontSmall" xml:space="preserve">
+    <value>Small</value>
+  </data>
+  <data name="friend_offline" xml:space="preserve">
+    <value>friend is offline</value>
+  </data>
+  <data name="friend_online" xml:space="preserve">
+    <value>friend is online</value>
+  </data>
+  <data name="friend_typing" xml:space="preserve">
+    <value>is typing you a message</value>
+  </data>
+  <data name="friend_typing_chat" xml:space="preserve">
+    <value>is typing message in the conversation</value>
+  </data>
+  <data name="GoToDialog" xml:space="preserve">
+    <value>Go to dialogue</value>
+  </data>
+  <data name="GroupVK" xml:space="preserve">
+    <value>Visit application page at VK</value>
+  </data>
+  <data name="Invisible" xml:space="preserve">
+    <value>Invisible mode</value>
+  </data>
+  <data name="Invisible_disabled" xml:space="preserve">
+    <value>Invisible mode is turned off</value>
+  </data>
+  <data name="Invisible_enabled" xml:space="preserve">
+    <value>Invisible mode is enabled</value>
+  </data>
+  <data name="is_typing" xml:space="preserve">
+    <value>is typing</value>
+  </data>
+  <data name="Like1" xml:space="preserve">
+    <value>I Like It</value>
+  </data>
+  <data name="messageError1" xml:space="preserve">
+    <value>Message sending failed</value>
+  </data>
+  <data name="Next1" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="NotifycationConvert3" xml:space="preserve">
+    <value>Read</value>
+  </data>
+  <data name="NotifycationConvert4" xml:space="preserve">
+    <value>New message</value>
+  </data>
+  <data name="NotifycationConvert61" xml:space="preserve">
+    <value>Set in dialogue</value>
+  </data>
+  <data name="NotifycationConvert62" xml:space="preserve">
+    <value>Typing in a conversation</value>
+  </data>
+  <data name="NotifycationConvert8" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="NotifycationConvert9" xml:space="preserve">
+    <value>Offline</value>
+  </data>
+  <data name="notifycation_aligment" xml:space="preserve">
+    <value>New location of notification banners is set</value>
+  </data>
+  <data name="notifycation_color_prewiew" xml:space="preserve">
+    <value>Preview of the new color of the notification banner</value>
+  </data>
+  <data name="opacity" xml:space="preserve">
+    <value>Opacity:</value>
+  </data>
+  <data name="personal1" xml:space="preserve">
+    <value>Mind and creativity</value>
+  </data>
+  <data name="personal2" xml:space="preserve">
+    <value>Kindness and honesty</value>
+  </data>
+  <data name="personal3" xml:space="preserve">
+    <value>Beauty and health</value>
+  </data>
+  <data name="personal4" xml:space="preserve">
+    <value>Power and wealth</value>
+  </data>
+  <data name="personal5" xml:space="preserve">
+    <value>Courage and perseverance</value>
+  </data>
+  <data name="personal6" xml:space="preserve">
+    <value>Humor and love for life</value>
+  </data>
+  <data name="personallife1" xml:space="preserve">
+    <value>Family &amp; kids</value>
+  </data>
+  <data name="personallife2" xml:space="preserve">
+    <value>Career and money</value>
+  </data>
+  <data name="personallife3" xml:space="preserve">
+    <value>Entertainment and relaxation</value>
+  </data>
+  <data name="personallife4" xml:space="preserve">
+    <value>Science and exploration</value>
+  </data>
+  <data name="personallife5" xml:space="preserve">
+    <value>Improvement of the world</value>
+  </data>
+  <data name="personallife6" xml:space="preserve">
+    <value>Self-development</value>
+  </data>
+  <data name="personallife7" xml:space="preserve">
+    <value>Beauty and art</value>
+  </data>
+  <data name="personallife8" xml:space="preserve">
+    <value>Fame and influence</value>
+  </data>
+  <data name="personalPolitical1" xml:space="preserve">
+    <value>Communist</value>
+  </data>
+  <data name="personalPolitical2" xml:space="preserve">
+    <value>Socialist</value>
+  </data>
+  <data name="personalPolitical3" xml:space="preserve">
+    <value>Moderate</value>
+  </data>
+  <data name="personalPolitical4" xml:space="preserve">
+    <value>Liberal</value>
+  </data>
+  <data name="personalPolitical5" xml:space="preserve">
+    <value>Conservative</value>
+  </data>
+  <data name="personalPolitical6" xml:space="preserve">
+    <value>Monarchist</value>
+  </data>
+  <data name="personalPolitical7" xml:space="preserve">
+    <value>Ultraconservative</value>
+  </data>
+  <data name="personalPolitical8" xml:space="preserve">
+    <value>Indifferent</value>
+  </data>
+  <data name="personalPolitical9" xml:space="preserve">
+    <value>Libertarian</value>
+  </data>
+  <data name="Picture_file" xml:space="preserve">
+    <value>Image Files</value>
+  </data>
+  <data name="read_your_message" xml:space="preserve">
+    <value>your message has been read</value>
+  </data>
+  <data name="read_your_message1" xml:space="preserve">
+    <value>read your message</value>
+  </data>
+  <data name="read_your_message2" xml:space="preserve">
+    <value>read your message</value>
+  </data>
+  <data name="restart" xml:space="preserve">
+    <value>Restart</value>
+  </data>
+  <data name="Select1" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="setaudioStatus" xml:space="preserve">
+    <value>Audiostatus is set</value>
+  </data>
+  <data name="smoking1" xml:space="preserve">
+    <value>Very negative</value>
+  </data>
+  <data name="smoking2" xml:space="preserve">
+    <value>Negative</value>
+  </data>
+  <data name="smoking3" xml:space="preserve">
+    <value>Neutral</value>
+  </data>
+  <data name="smoking4" xml:space="preserve">
+    <value>Compromisable</value>
+  </data>
+  <data name="smoking5" xml:space="preserve">
+    <value>Positive</value>
+  </data>
+  <data name="successfully_updated" xml:space="preserve">
+    <value>An application was successfully updated </value>
+  </data>
+  <data name="themeDark" xml:space="preserve">
+    <value>Dark</value>
+  </data>
+  <data name="themeLight" xml:space="preserve">
+    <value>Light</value>
+  </data>
+  <data name="unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="user_deleted" xml:space="preserve">
+    <value>user page deleted</value>
+  </data>
+  <data name="View_attachment" xml:space="preserve">
+    <value>See attachments</value>
+  </data>
+  <data name="need_restart" xml:space="preserve">
+    <value>Apply (restart required)</value>
+  </data>
+  <data name="New_friends" xml:space="preserve">
+    <value>New friends:</value>
+  </data>
+  <data name="LastActyvity1" xml:space="preserve">
+    <value>Visited</value>
+  </data>
+  <data name="today" xml:space="preserve">
+    <value>today</value>
+  </data>
+  <data name="yesterday" xml:space="preserve">
+    <value>Yesterday</value>
+  </data>
+  <data name="in1" xml:space="preserve">
+    <value>c</value>
+  </data>
+  <data name="LastActivity" xml:space="preserve">
+    <value>last activity: </value>
+  </data>
+  <data name="WelcomeBack" xml:space="preserve">
+    <value>{0}, looks like you've used MicroVK before, do want to restore your settings?</value>
+  </data>
+  <data name="WelcomeBack1" xml:space="preserve">
+    <value>Welcome back!</value>
+  </data>
+  <data name="SystemSettings9" xml:space="preserve">
+    <value>Do not remove MicroVK from the taskbar</value>
+  </data>
+  <data name="dialogues" xml:space="preserve">
+    <value>Dialogs</value>
+  </data>
+  <data name="Minimize" xml:space="preserve">
+    <value>Minimize</value>
+  </data>
+  <data name="SystemSettings10" xml:space="preserve">
+    <value>Close the window by clicking "close" button</value>
+  </data>
+  <data name="Pin" xml:space="preserve">
+    <value>Pin</value>
+  </data>
+  <data name="ApiError_messageSend" xml:space="preserve">
+    <value>The message cannot be sent because you have sent too many messages for the last time.</value>
+  </data>
+  <data name="Translate" xml:space="preserve">
+    <value>translation</value>
+  </data>
+  <data name="TranslateThanks" xml:space="preserve">
+    <value>I would like to thank the following people for translating MicroVK:</value>
+  </data>
+  <data name="TranslateTopic" xml:space="preserve">
+    <value>Please read the [url=https://vk.com/topic-35726826_31175546] discussion [/url] If you want to translate MicroVK to your language.</value>
+  </data>
+  <data name="VersionError" xml:space="preserve">
+    <value>Version information and updates are not available, please make sure that the program is properly installed.</value>
+  </data>
+  <data name="library" xml:space="preserve">
+    <value>Libraries</value>
+  </data>
+  <data name="library_1" xml:space="preserve">
+    <value>This version of MicroVK was collected using the following libraries:</value>
+  </data>
+  <data name="donate" xml:space="preserve">
+    <value>Donate</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Contact the author of the program</value>
+  </data>
+  <data name="action_chat_create" xml:space="preserve">
+    <value>created a conversation</value>
+  </data>
+  <data name="action_chat_create1" xml:space="preserve">
+    <value>created a conversation</value>
+  </data>
+  <data name="postWall" xml:space="preserve">
+    <value>Writing on the wall</value>
+  </data>
+  <data name="AutoTranslate" xml:space="preserve">
+    <value>Machine translation</value>
+  </data>
+  <data name="radio" xml:space="preserve">
+    <value>Radio</value>
+  </data>
+  <data name="MusicPlayer" xml:space="preserve">
+    <value>Music Player</value>
+  </data>
+  <data name="Snap" xml:space="preserve">
+    <value>Stick to the screen bounds</value>
+  </data>
+  <data name="Topmost" xml:space="preserve">
+    <value>On top of all Windows</value>
+  </data>
+  <data name="Game" xml:space="preserve">
+    <value>Game</value>
+  </data>
+  <data name="Game3" xml:space="preserve">
+    <value>The recording will be posted on your wall. Do you want to continue?</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>Share</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="correspondents" xml:space="preserve">
+    <value>Interlocutors</value>
+  </data>
+  <data name="events" xml:space="preserve">
+    <value>Appointment</value>
+  </data>
+  <data name="GlobalSearch" xml:space="preserve">
+    <value>Global Search</value>
+  </data>
+  <data name="publics" xml:space="preserve">
+    <value>Public page</value>
+  </data>
+  <data name="attachments" xml:space="preserve">
+    <value>Attachments</value>
+  </data>
+  <data name="Audio" xml:space="preserve">
+    <value>Sound Recording</value>
+  </data>
+  <data name="Doc" xml:space="preserve">
+    <value>Document</value>
+  </data>
+  <data name="I" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="sticker" xml:space="preserve">
+    <value>Sticker</value>
+  </data>
+  <data name="wall_reply" xml:space="preserve">
+    <value>Comment to the post</value>
+  </data>
+  <data name="chat_users" xml:space="preserve">
+    <value>Participants of the conversation</value>
+  </data>
+  <data name="yandex_image" xml:space="preserve">
+    <value>Use Yandex clipart</value>
+  </data>
+  <data name="by_marked" xml:space="preserve">
+    <value>Been marked (a) on the</value>
+  </data>
+  <data name="Votes" xml:space="preserve">
+    <value>Votes:</value>
+  </data>
+  <data name="close_all" xml:space="preserve">
+    <value>Close All</value>
+  </data>
+  <data name="wall" xml:space="preserve">
+    <value>Wall</value>
+  </data>
+  <data name="unread" xml:space="preserve">
+    <value>Unread</value>
+  </data>
+  <data name="reply" xml:space="preserve">
+    <value>Reply</value>
+  </data>
+  <data name="Favorites" xml:space="preserve">
+    <value>Favorites</value>
+  </data>
+  <data name="notification_center_tips_1" xml:space="preserve">
+    <value>Your notices will be displayed here for current session</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="MicroVKGroupJoin" xml:space="preserve">
+    <value>Subscribe to [url=http://vk.com/microvk/] [/url] our page in Facebook, so as not to miss anything</value>
+  </data>
+  <data name="Join" xml:space="preserve">
+    <value>Subscribe</value>
+  </data>
+  <data name="GameLabel" xml:space="preserve">
+    <value>Collected {0}  and gathered: {1}</value>
+  </data>
+  <data name="Equalizer" xml:space="preserve">
+    <value>equalizer</value>
+  </data>
+  <data name="Equalizer_on" xml:space="preserve">
+    <value>Enable equalizer</value>
+  </data>
+  <data name="bass_echo" xml:space="preserve">
+    <value>Echo</value>
+  </data>
+  <data name="bass_DoubleKick" xml:space="preserve">
+    <value>Double hit</value>
+  </data>
+  <data name="bass_LongEcho" xml:space="preserve">
+    <value>Long echo</value>
+  </data>
+  <data name="bass_SmallEcho" xml:space="preserve">
+    <value>Little echo</value>
+  </data>
+  <data name="bass_Delay" xml:space="preserve">
+    <value>Delay:</value>
+  </data>
+  <data name="bass_Dry" xml:space="preserve">
+    <value>Dryness:</value>
+  </data>
+  <data name="bass_Wet" xml:space="preserve">
+    <value>Humidity:</value>
+  </data>
+  <data name="bass_distortion" xml:space="preserve">
+    <value>Warp</value>
+  </data>
+  <data name="bass_Distortion_drive" xml:space="preserve">
+    <value>Distortion of the drive:</value>
+  </data>
+  <data name="bass_Feedback" xml:space="preserve">
+    <value>Feedback:</value>
+  </data>
+  <data name="bass_Volume" xml:space="preserve">
+    <value>Set the volume to:</value>
+  </data>
+  <data name="bass_Hard" xml:space="preserve">
+    <value>Hard</value>
+  </data>
+  <data name="bass_Medium" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="bass_veryHard" xml:space="preserve">
+    <value>Very tough</value>
+  </data>
+  <data name="ReSend" xml:space="preserve">
+    <value>Resend</value>
+  </data>
+  <data name="delivered" xml:space="preserve">
+    <value>Sent</value>
+  </data>
+  <data name="error_send" xml:space="preserve">
+    <value>Upload failed</value>
+  </data>
+  <data name="Utils" xml:space="preserve">
+    <value>Utilities</value>
+  </data>
+  <data name="utils_checkLink" xml:space="preserve">
+    <value>Test link</value>
+  </data>
+  <data name="radio_be" xml:space="preserve">
+    <value>Belarus</value>
+  </data>
+  <data name="radio_ru" xml:space="preserve">
+    <value>Russia</value>
+  </data>
+  <data name="radio_ua" xml:space="preserve">
+    <value>Ukraine</value>
+  </data>
+  <data name="radio_history" xml:space="preserve">
+    <value>Last</value>
+  </data>
+  <data name="DialogStyle" xml:space="preserve">
+    <value>Dialog style</value>
+  </data>
+  <data name="Link" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="delete" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="dialogDelete" xml:space="preserve">
+    <value>Removing dialogue</value>
+  </data>
+  <data name="dialogDeleteCount" xml:space="preserve">
+    <value>How many messages you want to delete</value>
+  </data>
+  <data name="offset" xml:space="preserve">
+    <value>Offset</value>
+  </data>
+  <data name="DialogDeleteOffset" xml:space="preserve">
+    <value>Starting with any message you want to delete correspondence</value>
+  </data>
+  <data name="run_minimized" xml:space="preserve">
+    <value>Run minimized</value>
+  </data>
+  <data name="microvkRecommend" xml:space="preserve">
+    <value>Recommend MicroVK-vkontakte for Windows! 
+https://vk.com/microvk</value>
+  </data>
+  <data name="microvkRecommendScreenshot" xml:space="preserve">
+    <value>Attach screenshot</value>
+  </data>
+  <data name="microvkRecommendTips" xml:space="preserve">
+    <value>The record will be published on your wall</value>
+  </data>
+  <data name="SpeakMessage" xml:space="preserve">
+    <value>Speak text messages</value>
+  </data>
+  <data name="Speak" xml:space="preserve">
+    <value>Voice</value>
+  </data>
+  <data name="SpeakChatMessage" xml:space="preserve">
+    <value>Speak text messages from conversations</value>
+  </data>
+  <data name="NewMessage" xml:space="preserve">
+    <value>New message</value>
+  </data>
+  <data name="hideTabs" xml:space="preserve">
+    <value>Hide tabs</value>
+  </data>
+  <data name="button" xml:space="preserve">
+    <value>Button</value>
+  </data>
+  <data name="big" xml:space="preserve">
+    <value>Large</value>
+  </data>
+  <data name="unpin" xml:space="preserve">
+    <value>Unpin</value>
+  </data>
+  <data name="bell_off" xml:space="preserve">
+    <value>Do Not Disturb</value>
+  </data>
+  <data name="bell_sleep_hour" xml:space="preserve">
+    <value>Do not disturb {0} hours.</value>
+  </data>
+  <data name="bell_sleep_minute" xml:space="preserve">
+    <value>Don't bother {0} minutes</value>
+  </data>
+  <data name="SaveWindowsSize" xml:space="preserve">
+    <value>Remember window size when you exit</value>
+  </data>
+  <data name="dsOut" xml:space="preserve">
+    <value>Incoming message</value>
+  </data>
+  <data name="dsNotOut" xml:space="preserve">
+    <value>Outgoing message</value>
+  </data>
+  <data name="dsAvatar" xml:space="preserve">
+    <value>Photo of the interlocutor</value>
+  </data>
+  <data name="dsAvatarOut" xml:space="preserve">
+    <value>My photo</value>
+  </data>
+  <data name="dsColor" xml:space="preserve">
+    <value>The color of the interlocutor</value>
+  </data>
+  <data name="dsColorOut" xml:space="preserve">
+    <value>My color</value>
+  </data>
+  <data name="dsFont" xml:space="preserve">
+    <value>The font of the interlocutor</value>
+  </data>
+  <data name="dsFontOut" xml:space="preserve">
+    <value>My font</value>
+  </data>
+  <data name="HelpMicroVK" xml:space="preserve">
+    <value>Assistance project</value>
+  </data>
+  <data name="HelpMicroVKShare" xml:space="preserve">
+    <value>Tell us about your friends MicroVK</value>
+  </data>
+  <data name="Thanks" xml:space="preserve">
+    <value>Thank you! Every point is important and accelerates the further development of the programme.</value>
+  </data>
+  <data name="SpellCheckError" xml:space="preserve">
+    <value>Failed to enable spell checking. [url=https://vk.com/topic-35726826_33239193] read more. [/url]</value>
+  </data>
+  <data name="start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="StartPageRemember" xml:space="preserve">
+    <value>Remember the fast logon profile</value>
+  </data>
+  <data name="MicroVKMembers" xml:space="preserve">
+    <value>We already have: </value>
+  </data>
+  <data name="AccountManager" xml:space="preserve">
+    <value>E-mail Accounts</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="OpenInBrowser" xml:space="preserve">
+    <value>Open in browser ...</value>
+  </data>
+  <data name="refresh" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="SendSuccessfully" xml:space="preserve">
+    <value>Message delivered</value>
+  </data>
+  <data name="Notification4_0" xml:space="preserve">
+    <value>New message from the talk</value>
+  </data>
+  <data name="SendSuccessfullyNotify" xml:space="preserve">
+    <value>Only for sent via notification</value>
+  </data>
+  <data name="SmilePanel" xml:space="preserve">
+    <value>Panel with the latest smilies</value>
+  </data>
+  <data name="MediaKey" xml:space="preserve">
+    <value>Multimedia keys</value>
+  </data>
+  <data name="Important" xml:space="preserve">
+    <value>Important</value>
+  </data>
+  <data name="markAsImportant" xml:space="preserve">
+    <value>Mark as Important</value>
+  </data>
+</root>

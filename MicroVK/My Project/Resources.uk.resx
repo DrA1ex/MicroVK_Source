@@ -1,0 +1,1230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="All" xml:space="preserve">
+    <value>Всі</value>
+  </data>
+  <data name="All_notification" xml:space="preserve">
+    <value>Усі сповіщення</value>
+  </data>
+  <data name="Authorization" xml:space="preserve">
+    <value>Авторизація</value>
+  </data>
+  <data name="Dialogs" xml:space="preserve">
+    <value>Діалоги</value>
+  </data>
+  <data name="Enter_through_browser" xml:space="preserve">
+    <value>Увійти через браузер</value>
+  </data>
+  <data name="Entries" xml:space="preserve">
+    <value>Записи</value>
+  </data>
+  <data name="Exit1" xml:space="preserve">
+    <value>Вийти</value>
+  </data>
+  <data name="Fotometki" xml:space="preserve">
+    <value>Фотопозначки</value>
+  </data>
+  <data name="Friends" xml:space="preserve">
+    <value>Друзі</value>
+  </data>
+  <data name="History_changes" xml:space="preserve">
+    <value>Історія змін</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Інформація</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Вхід</value>
+  </data>
+  <data name="Messages" xml:space="preserve">
+    <value>Повідомлення</value>
+  </data>
+  <data name="Music" xml:space="preserve">
+    <value>Музика</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>Новини</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>Сповіщення</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Відкрити</value>
+  </data>
+  <data name="Photo" xml:space="preserve">
+    <value>Фото</value>
+  </data>
+  <data name="Photos_walls" xml:space="preserve">
+    <value>Фотографії на стінах</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Профіль</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>Перегляд</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Параметри</value>
+  </data>
+  <data name="Video" xml:space="preserve">
+    <value>Відео</value>
+  </data>
+  <data name="Whats_new" xml:space="preserve">
+    <value>Що нового</value>
+  </data>
+  <data name="Acoustic" xml:space="preserve">
+    <value>Акустична музика</value>
+  </data>
+  <data name="All_genres" xml:space="preserve">
+    <value>Усі жанри</value>
+  </data>
+  <data name="Alternative" xml:space="preserve">
+    <value>Альтернативна музика</value>
+  </data>
+  <data name="Chanson" xml:space="preserve">
+    <value>Шансон</value>
+  </data>
+  <data name="Classical" xml:space="preserve">
+    <value>Класична</value>
+  </data>
+  <data name="current_playlist" xml:space="preserve">
+    <value>Поточний список</value>
+  </data>
+  <data name="Dance_and_House" xml:space="preserve">
+    <value>Танцювальна й Хауc</value>
+  </data>
+  <data name="Drum_and_Bass" xml:space="preserve">
+    <value>Барабан і бас</value>
+  </data>
+  <data name="Dubstep" xml:space="preserve">
+    <value>Дабстеп</value>
+  </data>
+  <data name="Easy_Listening" xml:space="preserve">
+    <value>Легка музика</value>
+  </data>
+  <data name="Electropop_and_Disco" xml:space="preserve">
+    <value>Електропоп i диско</value>
+  </data>
+  <data name="Ethnic" xml:space="preserve">
+    <value>Етнічна музика</value>
+  </data>
+  <data name="Indie_Pop" xml:space="preserve">
+    <value>Інді-поп</value>
+  </data>
+  <data name="Instrumental" xml:space="preserve">
+    <value>Інструментальна музика</value>
+  </data>
+  <data name="Jazz_and_Blues" xml:space="preserve">
+    <value>Джаз і блюз</value>
+  </data>
+  <data name="Metal" xml:space="preserve">
+    <value>Метал</value>
+  </data>
+  <data name="My_record" xml:space="preserve">
+    <value>Мої аудіозаписи</value>
+  </data>
+  <data name="only_foreign" xml:space="preserve">
+    <value>Тільки іноземні</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Інші</value>
+  </data>
+  <data name="Pop" xml:space="preserve">
+    <value>Поп</value>
+  </data>
+  <data name="recommendations" xml:space="preserve">
+    <value>Рекомендації</value>
+  </data>
+  <data name="Reggae" xml:space="preserve">
+    <value>Реґі</value>
+  </data>
+  <data name="Rock" xml:space="preserve">
+    <value>Рок</value>
+  </data>
+  <data name="search" xml:space="preserve">
+    <value>Пошук</value>
+  </data>
+  <data name="Speech" xml:space="preserve">
+    <value>Розмовні</value>
+  </data>
+  <data name="Trance" xml:space="preserve">
+    <value>Транс</value>
+  </data>
+  <data name="Rap_and_hiphop" xml:space="preserve">
+    <value>Реп- &amp;хіп-хоп</value>
+  </data>
+  <data name="common" xml:space="preserve">
+    <value>Спільні</value>
+  </data>
+  <data name="Online" xml:space="preserve">
+    <value>Онлайн</value>
+  </data>
+  <data name="in_all" xml:space="preserve">
+    <value>Всього</value>
+  </data>
+  <data name="number_messages" xml:space="preserve">
+    <value>Кількість повідомлень</value>
+  </data>
+  <data name="groups" xml:space="preserve">
+    <value>Спільноти</value>
+  </data>
+  <data name="Subscriptions" xml:space="preserve">
+    <value>Підписки</value>
+  </data>
+  <data name="appearance" xml:space="preserve">
+    <value>Оформлення</value>
+  </data>
+  <data name="programm" xml:space="preserve">
+    <value>Програма</value>
+  </data>
+  <data name="voice_notification" xml:space="preserve">
+    <value>Голосові сповіщення</value>
+  </data>
+  <data name="About_Me" xml:space="preserve">
+    <value>Про себе</value>
+  </data>
+  <data name="activities" xml:space="preserve">
+    <value>Діяльність</value>
+  </data>
+  <data name="additional_phone" xml:space="preserve">
+    <value>Додатковий телефон</value>
+  </data>
+  <data name="Audio_Records" xml:space="preserve">
+    <value>Аудіозаписи</value>
+  </data>
+  <data name="Basic_Information" xml:space="preserve">
+    <value>Загальна інформація</value>
+  </data>
+  <data name="Beliefs" xml:space="preserve">
+    <value>Життєва позиція</value>
+  </data>
+  <data name="birthday" xml:space="preserve">
+    <value>День народження</value>
+  </data>
+  <data name="city" xml:space="preserve">
+    <value>Місто</value>
+  </data>
+  <data name="contact_information" xml:space="preserve">
+    <value>Контактна інформація</value>
+  </data>
+  <data name="detailed_information" xml:space="preserve">
+    <value>Докладніше</value>
+  </data>
+  <data name="Drinking_habits" xml:space="preserve">
+    <value>Ставлення до алкоголю</value>
+  </data>
+  <data name="education" xml:space="preserve">
+    <value>Освіта</value>
+  </data>
+  <data name="faculty" xml:space="preserve">
+    <value>Факультет</value>
+  </data>
+  <data name="favorite_Books" xml:space="preserve">
+    <value>Улюблені книги</value>
+  </data>
+  <data name="favorite_films" xml:space="preserve">
+    <value>Улюблені фільми</value>
+  </data>
+  <data name="favorite_games" xml:space="preserve">
+    <value>Улюблені ігри</value>
+  </data>
+  <data name="favorite_music" xml:space="preserve">
+    <value>Улюблена музика</value>
+  </data>
+  <data name="favorite_Quotes" xml:space="preserve">
+    <value>Улюблені цитати</value>
+  </data>
+  <data name="Favourite_teleshows" xml:space="preserve">
+    <value>Улюблені ТВ-шоу</value>
+  </data>
+  <data name="Followers" xml:space="preserve">
+    <value>Підписчики</value>
+  </data>
+  <data name="Friends_online" xml:space="preserve">
+    <value>Друзі онлайн</value>
+  </data>
+  <data name="HIGH_SCHOOL" xml:space="preserve">
+    <value>ІНСТИТУТ ВИЩОЇ ОСВІТИ</value>
+  </data>
+  <data name="Hometown" xml:space="preserve">
+    <value>Рідне місто</value>
+  </data>
+  <data name="Important_in_life" xml:space="preserve">
+    <value>Головне в житті</value>
+  </data>
+  <data name="Important_in_others" xml:space="preserve">
+    <value>Головне в людях</value>
+  </data>
+  <data name="interests" xml:space="preserve">
+    <value>Інтереси</value>
+  </data>
+  <data name="mobile_phone" xml:space="preserve">
+    <value>Мобільний телефон</value>
+  </data>
+  <data name="Mutual_Friends" xml:space="preserve">
+    <value>Спільні друзі</value>
+  </data>
+  <data name="notes" xml:space="preserve">
+    <value>Нотатки</value>
+  </data>
+  <data name="personal_information" xml:space="preserve">
+    <value>Особисті відомості</value>
+  </data>
+  <data name="photos" xml:space="preserve">
+    <value>Фотографії</value>
+  </data>
+  <data name="photo_albums" xml:space="preserve">
+    <value>Фотоальбоми</value>
+  </data>
+  <data name="Photo_user" xml:space="preserve">
+    <value>Фото з користувачем</value>
+  </data>
+  <data name="political_preferences" xml:space="preserve">
+    <value>Політичні уподобання</value>
+  </data>
+  <data name="Send_message" xml:space="preserve">
+    <value>Надіслати повідомлення</value>
+  </data>
+  <data name="Skype" xml:space="preserve">
+    <value>Скайп</value>
+  </data>
+  <data name="Smoker" xml:space="preserve">
+    <value>Ставлення до паління</value>
+  </data>
+  <data name="Study_mode" xml:space="preserve">
+    <value>Форма навчання</value>
+  </data>
+  <data name="Video_user" xml:space="preserve">
+    <value>Відео з користувачем</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Веб-сайт</value>
+  </data>
+  <data name="world_view" xml:space="preserve">
+    <value>Світогляд</value>
+  </data>
+  <data name="Notification3" xml:space="preserve">
+    <value>Користувач прочитав ваше повідомлення</value>
+  </data>
+  <data name="Notification4" xml:space="preserve">
+    <value>Нове повідомлення</value>
+  </data>
+  <data name="Notification61" xml:space="preserve">
+    <value>Користувач почав набирати текст в діалозі</value>
+  </data>
+  <data name="Notification62" xml:space="preserve">
+    <value>Користувач почав набирати текст в бесіді</value>
+  </data>
+  <data name="Notification8" xml:space="preserve">
+    <value>Друг став онлайн</value>
+  </data>
+  <data name="Notification9" xml:space="preserve">
+    <value>Друг став оффлайн</value>
+  </data>
+  <data name="alignment" xml:space="preserve">
+    <value>Вирівнювання</value>
+  </data>
+  <data name="bottom_edge" xml:space="preserve">
+    <value>Нижній край</value>
+  </data>
+  <data name="Horizontal" xml:space="preserve">
+    <value>По горизонталі:</value>
+  </data>
+  <data name="left_edge" xml:space="preserve">
+    <value>Лівий край</value>
+  </data>
+  <data name="right_edge" xml:space="preserve">
+    <value>Правий край</value>
+  </data>
+  <data name="top_edge" xml:space="preserve">
+    <value>Верхній край</value>
+  </data>
+  <data name="Vertical" xml:space="preserve">
+    <value>По вертикалі:</value>
+  </data>
+  <data name="Forward_message" xml:space="preserve">
+    <value>Переслати</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Ім'я</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Час</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="background_image" xml:space="preserve">
+    <value>Фоновий малюнок</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>Колір</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>Шрифт</value>
+  </data>
+  <data name="Theme" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="transparency" xml:space="preserve">
+    <value>Прозорість</value>
+  </data>
+  <data name="proverb" xml:space="preserve">
+    <value>На дворі трава, на траві дрова</value>
+  </data>
+  <data name="VoiceOn" xml:space="preserve">
+    <value>Увімкнути сповіщення голосом</value>
+  </data>
+  <data name="VoiceSampleText" xml:space="preserve">
+    <value>Використовувати наступний текст для проби голосу:</value>
+  </data>
+  <data name="VoiceSelect" xml:space="preserve">
+    <value>Виберіть голос </value>
+  </data>
+  <data name="VoiceSpeed" xml:space="preserve">
+    <value>Швидкість вимови:</value>
+  </data>
+  <data name="VoiceTest" xml:space="preserve">
+    <value>Проба голосу</value>
+  </data>
+  <data name="miscellanea" xml:space="preserve">
+    <value>Різне</value>
+  </data>
+  <data name="SystemSettings1" xml:space="preserve">
+    <value>Співрозмовнику видно мій статус набору тексту</value>
+  </data>
+  <data name="SystemSettings2" xml:space="preserve">
+    <value>Не показувати мій онлайн статус</value>
+  </data>
+  <data name="SystemSettings3" xml:space="preserve">
+    <value>Перевірка орфографії</value>
+  </data>
+  <data name="SystemSettings4" xml:space="preserve">
+    <value>Позначати повідомлення як прочитані</value>
+  </data>
+  <data name="SystemSettings5" xml:space="preserve">
+    <value>Перевірити посилання</value>
+  </data>
+  <data name="SystemSettings8" xml:space="preserve">
+    <value>Скинути всі налаштування</value>
+  </data>
+  <data name="add_photo" xml:space="preserve">
+    <value>Додати фотографію</value>
+  </data>
+  <data name="forwarded_messages" xml:space="preserve">
+    <value>Повідомлення що пересилаються</value>
+  </data>
+  <data name="Remove_attachments" xml:space="preserve">
+    <value>Вилучити долучення</value>
+  </data>
+  <data name="SendOption1" xml:space="preserve">
+    <value>Enter - відправити</value>
+  </data>
+  <data name="SendOption2" xml:space="preserve">
+    <value>Ctrl+Enter - відправити</value>
+  </data>
+  <data name="best_friends" xml:space="preserve">
+    <value>Найкращі друзі</value>
+  </data>
+  <data name="Send_a_message" xml:space="preserve">
+    <value>Переслати повідомлення</value>
+  </data>
+  <data name="BrowserLoginButton" xml:space="preserve">
+    <value>Отримати посилання для входу</value>
+  </data>
+  <data name="Copyright" xml:space="preserve">
+    <value>MicroVK, © 2015 року Артем Moldowanenko</value>
+  </data>
+  <data name="License1" xml:space="preserve">
+    <value>Використання "MicroVK" означає, що ви згодні з умовами цього</value>
+  </data>
+  <data name="License2" xml:space="preserve">
+    <value>ліцензійного договору</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Версія:</value>
+  </data>
+  <data name="Add_to_my_record" xml:space="preserve">
+    <value>Додати до моїх аудіо</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Закрити</value>
+  </data>
+  <data name="Repeat" xml:space="preserve">
+    <value>Повторювати</value>
+  </data>
+  <data name="See_related" xml:space="preserve">
+    <value>Показати подібні</value>
+  </data>
+  <data name="ShareInStatus" xml:space="preserve">
+    <value>Трансляція в статус</value>
+  </data>
+  <data name="shuffle" xml:space="preserve">
+    <value>Перемішати</value>
+  </data>
+  <data name="GoToDialog" xml:space="preserve">
+    <value>Перейти до діалогу</value>
+  </data>
+  <data name="ApiError1" xml:space="preserve">
+    <value>Сталася невідома помилка</value>
+  </data>
+  <data name="ApiError10" xml:space="preserve">
+    <value>Сталася внутрішня помилка серверу</value>
+  </data>
+  <data name="ApiError100" xml:space="preserve">
+    <value>Один з необхідних параметрів був не переданий або невірний</value>
+  </data>
+  <data name="ApiError101" xml:space="preserve">
+    <value>Неправильний API ID  застосунку</value>
+  </data>
+  <data name="ApiError11" xml:space="preserve">
+    <value>У тестовому режимі додаток повинен бути вимкнений або користувач повинен ввійти до системи</value>
+  </data>
+  <data name="ApiError113" xml:space="preserve">
+    <value>Неприпустимий ідентифікатор користувача</value>
+  </data>
+  <data name="ApiError14" xml:space="preserve">
+    <value>Введіть код</value>
+  </data>
+  <data name="ApiError15" xml:space="preserve">
+    <value>Доступ заборонено</value>
+  </data>
+  <data name="ApiError150" xml:space="preserve">
+    <value>Неприпустима позначку часу</value>
+  </data>
+  <data name="ApiError16" xml:space="preserve">
+    <value>Потрібно виконання запитів по протоколу HTTPS, так як користувач включив настройку, що вимагає роботу через безпечне з'єднання</value>
+  </data>
+  <data name="ApiError17" xml:space="preserve">
+    <value>Потрібно валідація користувача</value>
+  </data>
+  <data name="ApiError2" xml:space="preserve">
+    <value>Додаток вимкнено </value>
+  </data>
+  <data name="ApiError20" xml:space="preserve">
+    <value>Цю дію заборонено для не Standalone програм</value>
+  </data>
+  <data name="ApiError200" xml:space="preserve">
+    <value>Відмова в доступі до альбом</value>
+  </data>
+  <data name="ApiError201" xml:space="preserve">
+    <value>Заборонено доступ до аудіо</value>
+  </data>
+  <data name="ApiError203" xml:space="preserve">
+    <value>Немає доступу до групи</value>
+  </data>
+  <data name="ApiError21" xml:space="preserve">
+    <value>Дана дія дозволено тільки для Standalone і Open API додатків</value>
+  </data>
+  <data name="ApiError23" xml:space="preserve">
+    <value>Метод був відключений</value>
+  </data>
+  <data name="ApiError3" xml:space="preserve">
+    <value>Переданий невідомий метод</value>
+  </data>
+  <data name="ApiError300" xml:space="preserve">
+    <value>Альбом заповнено</value>
+  </data>
+  <data name="ApiError4" xml:space="preserve">
+    <value>Недійсний підпис</value>
+  </data>
+  <data name="ApiError500" xml:space="preserve">
+    <value>Дія заборонено. Ви повинні включити перекази голосів у налаштуваннях програми</value>
+  </data>
+  <data name="ApiError6" xml:space="preserve">
+    <value>Дуже багато запитів за секунду.</value>
+  </data>
+  <data name="ApiError600" xml:space="preserve">
+    <value>Немає прав на виконання даних операцій з рекламним кабінетом</value>
+  </data>
+  <data name="ApiError603" xml:space="preserve">
+    <value>Сталася помилка при роботі з рекламним кабінетом</value>
+  </data>
+  <data name="ApiError7" xml:space="preserve">
+    <value>Відсутній дозвіл на виконання цієї дії</value>
+  </data>
+  <data name="ApiError7_1" xml:space="preserve">
+    <value>Отримати нові права доступу?</value>
+  </data>
+  <data name="ApiError8" xml:space="preserve">
+    <value>Некоректний запит</value>
+  </data>
+  <data name="ApiError9" xml:space="preserve">
+    <value>Занадто багато однотипних дій</value>
+  </data>
+  <data name="BadUrl" xml:space="preserve">
+    <value>Небезпечне посилання</value>
+  </data>
+  <data name="BlockUrl" xml:space="preserve">
+    <value>Адреса заблокована ({0})</value>
+  </data>
+  <data name="Select1" xml:space="preserve">
+    <value>Вибрати</value>
+  </data>
+  <data name="Invisible_disabled" xml:space="preserve">
+    <value>"Невидимий" режим вимкнено</value>
+  </data>
+  <data name="Invisible_enabled" xml:space="preserve">
+    <value>"Невидимий" режим увімкнуто</value>
+  </data>
+  <data name="opacity" xml:space="preserve">
+    <value>Непрозорість:</value>
+  </data>
+  <data name="successfully_updated" xml:space="preserve">
+    <value>Програму успішно оновлено</value>
+  </data>
+  <data name="AttachmentError1" xml:space="preserve">
+    <value>Ви перевищили кількість вкладень</value>
+  </data>
+  <data name="AttachmentError2" xml:space="preserve">
+    <value>До повідомлення можна прикріпити не більше десяти вкладень</value>
+  </data>
+  <data name="confirmation" xml:space="preserve">
+    <value>Підтвердження</value>
+  </data>
+  <data name="confirmation_reset" xml:space="preserve">
+    <value>Справді скинути всі налаштування?</value>
+  </data>
+  <data name="ErrorUploadFile" xml:space="preserve">
+    <value>Не вдалося завантажити файл на сервер.</value>
+  </data>
+  <data name="FontNormal" xml:space="preserve">
+    <value>Звичайний</value>
+  </data>
+  <data name="FontSmall" xml:space="preserve">
+    <value>Маленький</value>
+  </data>
+  <data name="messageError1" xml:space="preserve">
+    <value>Не вдалося надіслати повідомлення</value>
+  </data>
+  <data name="NotifycationConvert3" xml:space="preserve">
+    <value>Прочитано</value>
+  </data>
+  <data name="NotifycationConvert4" xml:space="preserve">
+    <value>Нове повідомлення</value>
+  </data>
+  <data name="NotifycationConvert61" xml:space="preserve">
+    <value>Набір в діалозі</value>
+  </data>
+  <data name="NotifycationConvert62" xml:space="preserve">
+    <value>Набір в бесіді</value>
+  </data>
+  <data name="NotifycationConvert8" xml:space="preserve">
+    <value>Онлайн</value>
+  </data>
+  <data name="NotifycationConvert9" xml:space="preserve">
+    <value>Оффлайн</value>
+  </data>
+  <data name="notifycation_aligment" xml:space="preserve">
+    <value>Задано нове розташування повідомлень</value>
+  </data>
+  <data name="notifycation_color_prewiew" xml:space="preserve">
+    <value>Попередній перегляд нового кольору повідомлення</value>
+  </data>
+  <data name="personal1" xml:space="preserve">
+    <value>Розум і творчість</value>
+  </data>
+  <data name="personal2" xml:space="preserve">
+    <value>Доброта і чесність</value>
+  </data>
+  <data name="personal3" xml:space="preserve">
+    <value>Краса і здоров'я</value>
+  </data>
+  <data name="personal4" xml:space="preserve">
+    <value>Влада і багатство</value>
+  </data>
+  <data name="personal5" xml:space="preserve">
+    <value>Сміливість та наполегливість</value>
+  </data>
+  <data name="personal6" xml:space="preserve">
+    <value>Гумор та життєлюбність</value>
+  </data>
+  <data name="personallife1" xml:space="preserve">
+    <value>Сім'я і діти</value>
+  </data>
+  <data name="personallife2" xml:space="preserve">
+    <value>Кар'єра і гроші</value>
+  </data>
+  <data name="personallife3" xml:space="preserve">
+    <value>Розваги та відпочинок</value>
+  </data>
+  <data name="personallife4" xml:space="preserve">
+    <value>Наука та дослідження</value>
+  </data>
+  <data name="personallife5" xml:space="preserve">
+    <value>Вдосконалення світу</value>
+  </data>
+  <data name="personallife6" xml:space="preserve">
+    <value>Саморозвиток</value>
+  </data>
+  <data name="personallife7" xml:space="preserve">
+    <value>Краса і мистецтво</value>
+  </data>
+  <data name="personallife8" xml:space="preserve">
+    <value>Слава і вплив</value>
+  </data>
+  <data name="personalPolitical1" xml:space="preserve">
+    <value>Комуністичні</value>
+  </data>
+  <data name="personalPolitical2" xml:space="preserve">
+    <value>Соціалістичі</value>
+  </data>
+  <data name="personalPolitical3" xml:space="preserve">
+    <value>Помірні</value>
+  </data>
+  <data name="personalPolitical4" xml:space="preserve">
+    <value>Ліберальні</value>
+  </data>
+  <data name="personalPolitical5" xml:space="preserve">
+    <value>Консервативні</value>
+  </data>
+  <data name="personalPolitical6" xml:space="preserve">
+    <value>Монархічні</value>
+  </data>
+  <data name="personalPolitical7" xml:space="preserve">
+    <value>Ультраконсервативні</value>
+  </data>
+  <data name="personalPolitical8" xml:space="preserve">
+    <value>Індиферентні</value>
+  </data>
+  <data name="personalPolitical9" xml:space="preserve">
+    <value>Лібертаріанські</value>
+  </data>
+  <data name="Picture_file" xml:space="preserve">
+    <value>Файли зображень</value>
+  </data>
+  <data name="smoking1" xml:space="preserve">
+    <value>Різко негативне</value>
+  </data>
+  <data name="smoking2" xml:space="preserve">
+    <value>Негативне</value>
+  </data>
+  <data name="smoking3" xml:space="preserve">
+    <value>Нейтральне</value>
+  </data>
+  <data name="smoking4" xml:space="preserve">
+    <value>Компромісне</value>
+  </data>
+  <data name="smoking5" xml:space="preserve">
+    <value>Позитивне</value>
+  </data>
+  <data name="themeDark" xml:space="preserve">
+    <value>Темна тема</value>
+  </data>
+  <data name="themeLight" xml:space="preserve">
+    <value>Світла тема</value>
+  </data>
+  <data name="unknown" xml:space="preserve">
+    <value>Невідомо</value>
+  </data>
+  <data name="user_deleted" xml:space="preserve">
+    <value>сторінку користувача видалено</value>
+  </data>
+  <data name="AboutProgramm" xml:space="preserve">
+    <value>Про програму</value>
+  </data>
+  <data name="BrowserLoginError1" xml:space="preserve">
+    <value>Не вдалося визначити ключ доступу</value>
+  </data>
+  <data name="BrowserLoginError2" xml:space="preserve">
+    <value>Неправильний ключ доступу</value>
+  </data>
+  <data name="BrowserLoginTips" xml:space="preserve">
+    <value>Дозвольте доступ і скопіюйте посилання з адресного рядка свого браузера. Посилання виду - https://oauth.vk.com/blank.html#access_token=*****</value>
+  </data>
+  <data name="BrowserLoginTips2" xml:space="preserve">
+    <value>Введіть отримане посилання</value>
+  </data>
+  <data name="change_user" xml:space="preserve">
+    <value>Змінити користувача...</value>
+  </data>
+  <data name="GroupVK" xml:space="preserve">
+    <value>Група додатка в ВК</value>
+  </data>
+  <data name="Invisible" xml:space="preserve">
+    <value>Невидимий</value>
+  </data>
+  <data name="Next1" xml:space="preserve">
+    <value>Продовжити</value>
+  </data>
+  <data name="restart" xml:space="preserve">
+    <value>Перезавантажити</value>
+  </data>
+  <data name="View_attachment" xml:space="preserve">
+    <value>Перегляд вкладень</value>
+  </data>
+  <data name="is_typing" xml:space="preserve">
+    <value>набирає текст</value>
+  </data>
+  <data name="Like1" xml:space="preserve">
+    <value>Мені подобається</value>
+  </data>
+  <data name="friend_offline" xml:space="preserve">
+    <value>друг вийшов з мережі;вийшла з мережі;вийшов з мережі</value>
+  </data>
+  <data name="friend_online" xml:space="preserve">
+    <value>друг з'явився в мережі;з'явилася в мережі;з'явився в мережі</value>
+  </data>
+  <data name="friend_typing" xml:space="preserve">
+    <value>пише вам повідомлення</value>
+  </data>
+  <data name="friend_typing_chat" xml:space="preserve">
+    <value>пише повідомлення в бесіді</value>
+  </data>
+  <data name="addToYourAudio" xml:space="preserve">
+    <value>Додано до Ваших аудіозаписів</value>
+  </data>
+  <data name="delAudioStatus" xml:space="preserve">
+    <value>Аудіостатус видалений</value>
+  </data>
+  <data name="read_your_message" xml:space="preserve">
+    <value>Ваше повідомлення було прочитано</value>
+  </data>
+  <data name="read_your_message1" xml:space="preserve">
+    <value>прочитала ваше повідомлення</value>
+  </data>
+  <data name="read_your_message2" xml:space="preserve">
+    <value>прочитав ваше повідомлення</value>
+  </data>
+  <data name="setaudioStatus" xml:space="preserve">
+    <value>Аудіостатус встановлений</value>
+  </data>
+  <data name="need_restart" xml:space="preserve">
+    <value>Застосувати (знадобиться перезапуск)</value>
+  </data>
+  <data name="New_friends" xml:space="preserve">
+    <value>Нових друзів:</value>
+  </data>
+  <data name="LastActyvity1" xml:space="preserve">
+    <value>Користувач був в мережі;Була в мережі;Був в мережі</value>
+  </data>
+  <data name="today" xml:space="preserve">
+    <value>сьогодні</value>
+  </data>
+  <data name="yesterday" xml:space="preserve">
+    <value>учора</value>
+  </data>
+  <data name="LastActivity" xml:space="preserve">
+    <value>Остання активність: </value>
+  </data>
+  <data name="in1" xml:space="preserve">
+    <value>о</value>
+  </data>
+  <data name="WelcomeBack" xml:space="preserve">
+    <value>{0}, схоже ви вже використовували MicroVK раніше, хочете відновити свої налаштування?</value>
+  </data>
+  <data name="WelcomeBack1" xml:space="preserve">
+    <value>З поверненням!</value>
+  </data>
+  <data name="SystemSettings9" xml:space="preserve">
+    <value>Не прибирати MicroVK з панелі завдань</value>
+  </data>
+  <data name="dialogues" xml:space="preserve">
+    <value>Діалогів</value>
+  </data>
+  <data name="Minimize" xml:space="preserve">
+    <value>Згорнути</value>
+  </data>
+  <data name="SystemSettings10" xml:space="preserve">
+    <value>Закривати вікно після натискання на кнопку "Закрити"</value>
+  </data>
+  <data name="Pin" xml:space="preserve">
+    <value>Закріпити</value>
+  </data>
+  <data name="ApiError_messageSend" xml:space="preserve">
+    <value>Повідомлення не може бути відправлено, так як ви розіслали занадто багато повідомлень останнім часом.
+</value>
+  </data>
+  <data name="Translate" xml:space="preserve">
+    <value>переклад</value>
+  </data>
+  <data name="TranslateThanks" xml:space="preserve">
+    <value>Хотілося б подякувати наступним людям, що взялися перекладати MicroVK:
+</value>
+  </data>
+  <data name="TranslateTopic" xml:space="preserve">
+    <value>Будь ласка, ознайомтесь з [url=https://vk.com/topic-35726826_31175546]обговоренням[/url], якщо хочете перевести MicroVK на свою мову.
+</value>
+  </data>
+  <data name="VersionError" xml:space="preserve">
+    <value>Відомості про версію і оновлення недоступні, будь ласка переконайтеся що програма правильно встановлена.
+</value>
+  </data>
+  <data name="library" xml:space="preserve">
+    <value>Бібліотеки</value>
+  </data>
+  <data name="library_1" xml:space="preserve">
+    <value>Ця версія MicroVK була зібрана з використанням наступних бібліотек:
+</value>
+  </data>
+  <data name="donate" xml:space="preserve">
+    <value>Пожертвувати кошти</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Зв'язатися з автором програми</value>
+  </data>
+  <data name="action_chat_create" xml:space="preserve">
+    <value>створив чат</value>
+  </data>
+  <data name="action_chat_create1" xml:space="preserve">
+    <value>створила чат</value>
+  </data>
+  <data name="postWall" xml:space="preserve">
+    <value>Напис на стіні</value>
+  </data>
+  <data name="AutoTranslate" xml:space="preserve">
+    <value>Машинний переклад</value>
+  </data>
+  <data name="radio" xml:space="preserve">
+    <value>Радіо</value>
+  </data>
+  <data name="Topmost" xml:space="preserve">
+    <value>Поверх усіх вікон</value>
+  </data>
+  <data name="MusicPlayer" xml:space="preserve">
+    <value>Музичний плеєр</value>
+  </data>
+  <data name="Snap" xml:space="preserve">
+    <value>Прилипати до границь екрану</value>
+  </data>
+  <data name="Game" xml:space="preserve">
+    <value>Гра</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>Поділитися</value>
+  </data>
+  <data name="Game3" xml:space="preserve">
+    <value>Запис буде розміщена на вашій стіні. Продовжити?</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Копіювати</value>
+  </data>
+  <data name="InDeveloping" xml:space="preserve">
+    <value>У розробці</value>
+  </data>
+  <data name="GlobalSearch" xml:space="preserve">
+    <value>Глобальний пошук</value>
+  </data>
+  <data name="correspondents" xml:space="preserve">
+    <value>Співрозмовники</value>
+  </data>
+  <data name="events" xml:space="preserve">
+    <value>Зустрічі</value>
+  </data>
+  <data name="publics" xml:space="preserve">
+    <value>Громадські сторінки</value>
+  </data>
+  <data name="attachments" xml:space="preserve">
+    <value>Вкладення</value>
+  </data>
+  <data name="Audio" xml:space="preserve">
+    <value>Аудіозапис</value>
+  </data>
+  <data name="Doc" xml:space="preserve">
+    <value>Документ</value>
+  </data>
+  <data name="sticker" xml:space="preserve">
+    <value>Стікер</value>
+  </data>
+  <data name="wall_reply" xml:space="preserve">
+    <value>Коментар до запису</value>
+  </data>
+  <data name="I" xml:space="preserve">
+    <value>Л</value>
+  </data>
+  <data name="chat_users" xml:space="preserve">
+    <value>Учасники чату</value>
+  </data>
+  <data name="yandex_image" xml:space="preserve">
+    <value>Яндекс. картинки</value>
+  </data>
+  <data name="Votes" xml:space="preserve">
+    <value>Проголосувало:</value>
+  </data>
+  <data name="by_marked" xml:space="preserve">
+    <value>Був(а) відзначений(а) на</value>
+  </data>
+  <data name="close_all" xml:space="preserve">
+    <value>Закрити все</value>
+  </data>
+  <data name="wall" xml:space="preserve">
+    <value>Стіна</value>
+  </data>
+  <data name="unread" xml:space="preserve">
+    <value>Непрочитане</value>
+  </data>
+  <data name="reply" xml:space="preserve">
+    <value>Відповісти</value>
+  </data>
+  <data name="Favorites" xml:space="preserve">
+    <value>Вибрані</value>
+  </data>
+  <data name="notification_center_tips_1" xml:space="preserve">
+    <value>Тут будуть відображатися Ваші сповіщення за поточний сеанс</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="MicroVKGroupJoin" xml:space="preserve">
+    <value>Підпишіться на [url=HTTP: //vk.com/microvk/]нашу[/ URL] сторінку в Вконтакті, щоб нічого не пропустити</value>
+  </data>
+  <data name="Join" xml:space="preserve">
+    <value>Підписатися</value>
+  </data>
+  <data name="GameLabel" xml:space="preserve">
+    <value>Зібрав {0} та набрав: {1}; Зібрала {0} та набрала: {1}; Зібрав {0} та набрав</value>
+  </data>
+  <data name="Equalizer" xml:space="preserve">
+    <value>Еквалайзер</value>
+  </data>
+  <data name="Equalizer_on" xml:space="preserve">
+    <value>Увімкнути еквалайзер</value>
+  </data>
+  <data name="bass_echo" xml:space="preserve">
+    <value>Ехо</value>
+  </data>
+  <data name="bass_DoubleKick" xml:space="preserve">
+    <value>Подвійний удар</value>
+  </data>
+  <data name="bass_LongEcho" xml:space="preserve">
+    <value>Довге ехо</value>
+  </data>
+  <data name="bass_SmallEcho" xml:space="preserve">
+    <value>Мале ехо</value>
+  </data>
+  <data name="bass_Delay" xml:space="preserve">
+    <value>Затримка:</value>
+  </data>
+  <data name="bass_Dry" xml:space="preserve">
+    <value>Сухість:</value>
+  </data>
+  <data name="bass_Wet" xml:space="preserve">
+    <value>Вологість:</value>
+  </data>
+  <data name="bass_distortion" xml:space="preserve">
+    <value>Спотворення:</value>
+  </data>
+  <data name="bass_Distortion_drive" xml:space="preserve">
+    <value>Спотворення диска:</value>
+  </data>
+  <data name="bass_Feedback" xml:space="preserve">
+    <value>Зворотній зв'язок:</value>
+  </data>
+  <data name="bass_Volume" xml:space="preserve">
+    <value>Гучність</value>
+  </data>
+  <data name="bass_Hard" xml:space="preserve">
+    <value>Жорстко</value>
+  </data>
+  <data name="bass_Medium" xml:space="preserve">
+    <value>Середнє</value>
+  </data>
+  <data name="bass_veryHard" xml:space="preserve">
+    <value>Дуже жорстко</value>
+  </data>
+  <data name="ReSend" xml:space="preserve">
+    <value>Повторити надсилання</value>
+  </data>
+  <data name="delivered" xml:space="preserve">
+    <value>Доставлено</value>
+  </data>
+  <data name="error_send" xml:space="preserve">
+    <value>Не вдалося відправити</value>
+  </data>
+  <data name="Utils" xml:space="preserve">
+    <value>Утиліти</value>
+  </data>
+  <data name="utils_checkLink" xml:space="preserve">
+    <value>Перевірити посилання</value>
+  </data>
+  <data name="radio_be" xml:space="preserve">
+    <value>Білорусь</value>
+  </data>
+  <data name="radio_ru" xml:space="preserve">
+    <value>Росія</value>
+  </data>
+  <data name="radio_ua" xml:space="preserve">
+    <value>Україна</value>
+  </data>
+  <data name="radio_history" xml:space="preserve">
+    <value>Останні</value>
+  </data>
+  <data name="DialogStyle" xml:space="preserve">
+    <value>Стиль діалогів</value>
+  </data>
+  <data name="Link" xml:space="preserve">
+    <value>Посилання</value>
+  </data>
+  <data name="delete" xml:space="preserve">
+    <value>Видалити</value>
+  </data>
+  <data name="dialogDelete" xml:space="preserve">
+    <value>Видалення діалогу</value>
+  </data>
+  <data name="dialogDeleteCount" xml:space="preserve">
+    <value>Скільки повідомлень потрібно видалити</value>
+  </data>
+  <data name="offset" xml:space="preserve">
+    <value>Зсув</value>
+  </data>
+  <data name="DialogDeleteOffset" xml:space="preserve">
+    <value>Починаючи з якого повідомлення потрібно видалити переписку</value>
+  </data>
+  <data name="run_minimized" xml:space="preserve">
+    <value>Запускати згорнутим</value>
+  </data>
+  <data name="microvkRecommend" xml:space="preserve">
+    <value>Рекомендую MicroVK - Вконтакте для Windows!
+https://vk.com/microvk</value>
+  </data>
+  <data name="microvkRecommendScreenshot" xml:space="preserve">
+    <value>Прикріпити скріншот</value>
+  </data>
+  <data name="microvkRecommendTips" xml:space="preserve">
+    <value>Запис буде опубліковано на вашій стіні</value>
+  </data>
+  <data name="SpeakMessage" xml:space="preserve">
+    <value>Озвучувати текст повідомлення</value>
+  </data>
+  <data name="Speak" xml:space="preserve">
+    <value>Озвучувати</value>
+  </data>
+  <data name="SpeakChatMessage" xml:space="preserve">
+    <value>Озвучувати текст повідомлення з чатів</value>
+  </data>
+  <data name="NewMessage" xml:space="preserve">
+    <value>Нове повідомлення</value>
+  </data>
+  <data name="hideTabs" xml:space="preserve">
+    <value>Приховати вкладки</value>
+  </data>
+  <data name="button" xml:space="preserve">
+    <value>Кнопка</value>
+  </data>
+  <data name="big" xml:space="preserve">
+    <value>Великий</value>
+  </data>
+  <data name="unpin" xml:space="preserve">
+    <value>Відкріпити</value>
+  </data>
+  <data name="bell_off" xml:space="preserve">
+    <value>Не турбувати</value>
+  </data>
+  <data name="bell_sleep_hour" xml:space="preserve">
+    <value>Не турбувати {0} год.</value>
+  </data>
+  <data name="bell_sleep_minute" xml:space="preserve">
+    <value>Не турбувати {0} хвилин</value>
+  </data>
+  <data name="SaveWindowsSize" xml:space="preserve">
+    <value>Запам'ятовувати розмір вікна при виході</value>
+  </data>
+  <data name="dsOut" xml:space="preserve">
+    <value>Вхідне повідомлення</value>
+  </data>
+  <data name="dsNotOut" xml:space="preserve">
+    <value>Вихідне повідомлення</value>
+  </data>
+  <data name="dsAvatar" xml:space="preserve">
+    <value>Фото співрозмовника</value>
+  </data>
+  <data name="dsAvatarOut" xml:space="preserve">
+    <value>Моє фото</value>
+  </data>
+  <data name="dsColor" xml:space="preserve">
+    <value>Колір співрозмовника</value>
+  </data>
+  <data name="dsColorOut" xml:space="preserve">
+    <value>Мій колір</value>
+  </data>
+  <data name="dsFont" xml:space="preserve">
+    <value>Шрифт співрозмовника</value>
+  </data>
+  <data name="dsFontOut" xml:space="preserve">
+    <value>Мій шрифт</value>
+  </data>
+  <data name="HelpMicroVK" xml:space="preserve">
+    <value>Допомога проекту</value>
+  </data>
+  <data name="HelpMicroVKShare" xml:space="preserve">
+    <value>Розкажіть про MicroVK друзям</value>
+  </data>
+  <data name="Thanks" xml:space="preserve">
+    <value>Дякую! Будь пункт важливий і прискорює подальшу розробку програми.</value>
+  </data>
+  <data name="SpellCheckError" xml:space="preserve">
+    <value>Не вдалося включити перевірку правопису. [url=https://vk.com/topic-35726826_33239193]Детальніше.[/url]</value>
+  </data>
+  <data name="start" xml:space="preserve">
+    <value>Розпочати</value>
+  </data>
+  <data name="StartPageRemember" xml:space="preserve">
+    <value>Запам'ятати профіль для швидкого входу</value>
+  </data>
+  <data name="MicroVKMembers" xml:space="preserve">
+    <value>Нас вже:</value>
+  </data>
+  <data name="AccountManager" xml:space="preserve">
+    <value>Облікові записи</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Додати</value>
+  </data>
+  <data name="OpenInBrowser" xml:space="preserve">
+    <value>Відкрити в браузері</value>
+  </data>
+  <data name="refresh" xml:space="preserve">
+    <value>Оновити</value>
+  </data>
+  <data name="SendSuccessfully" xml:space="preserve">
+    <value>Повідомлення доставлено</value>
+  </data>
+  <data name="Notification4_0" xml:space="preserve">
+    <value>Нове повідомлення з чату</value>
+  </data>
+  <data name="SendSuccessfullyNotify" xml:space="preserve">
+    <value>Тільки для відправлених через сповіщення</value>
+  </data>
+  <data name="SmilePanel" xml:space="preserve">
+    <value>Панель з останніми смайлами</value>
+  </data>
+  <data name="MediaKey" xml:space="preserve">
+    <value>Мультимедійні клавіші</value>
+  </data>
+  <data name="Important" xml:space="preserve">
+    <value>Важливе</value>
+  </data>
+  <data name="markAsImportant" xml:space="preserve">
+    <value>Позначити як важливе</value>
+  </data>
+  <data name="DialogTip" xml:space="preserve">
+    <value>Тут буде відображена історія листування.</value>
+  </data>
+  <data name="PlayerNotInTaskBar" xml:space="preserve">
+    <value>Не відображати на панелі завдань</value>
+  </data>
+  <data name="TabBottom" xml:space="preserve">
+    <value>Вкладки знизу</value>
+  </data>
+  <data name="autoSelect" xml:space="preserve">
+    <value>Авто вибір</value>
+  </data>
+  <data name="RunAsStartup" xml:space="preserve">
+    <value>Запуск при старті Windows</value>
+  </data>
+</root>

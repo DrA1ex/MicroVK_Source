@@ -1,0 +1,112 @@
+﻿<UserControl
+    x:Class="AccountManager"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:loc="clr-namespace:MicroVK.My.Resources"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:otherLib="clr-namespace:MicroVK.OtherLib"
+    d:DesignHeight="300"
+    d:DesignWidth="400"
+    Loaded="AccountManager_OnLoaded"
+    mc:Ignorable="d">
+
+    <Grid>
+        <ListBox
+            x:Name="ListBox1"
+            MouseDoubleClick="ListBox1_OnMouseDoubleClick"
+            HorizontalContentAlignment="Stretch"
+            ItemContainerStyle="{StaticResource FlatListBoxItemNotMouseOver}"
+            ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+            <ListBox.ItemTemplate>
+                <DataTemplate DataType="otherLib:MicroVkAccount">
+                    <ContentControl>
+                        <ContentControl.Template>
+                            <ControlTemplate>
+                                <Grid
+                                    x:Name="Grid1"
+                                    Height="50"
+                                    Background="Transparent">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="55" />
+                                        <ColumnDefinition />
+                                        <ColumnDefinition Width="Auto" />
+                                    </Grid.ColumnDefinitions>
+                                    <Image HorizontalAlignment="Left" Source="{Binding photo}" />
+                                    <Grid Grid.Column="1">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto" />
+                                            <RowDefinition Height="Auto" />
+                                            <RowDefinition Height="Auto" />
+                                        </Grid.RowDefinitions>
+                                        <TextBlock Text="{Binding full_name, Mode=OneWay}" TextTrimming="CharacterEllipsis" />
+                                        <TextBlock
+                                            Grid.Row="1"
+                                            FontSize="11"
+                                            Text="{Binding description, Mode=OneWay}"
+                                            TextTrimming="CharacterEllipsis" />
+
+                                    </Grid>
+                                    <Button
+                                        x:Name="LoginButton"
+                                        Grid.Column="2"
+                                        VerticalAlignment="Top"
+                                        Style="{StaticResource MySystemButton}"
+                                        Command="{StaticResource LoginCommand}"
+                                        CommandParameter="{Binding Mode=OneTime}"
+                                        ToolTip="{x:Static loc:Resources.Login}"
+                                        Visibility="Collapsed">
+                                        <Path
+                                            Height="16"
+                                            Fill="{Binding Foreground, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=Button}}"
+                                            Data="{StaticResource login}"
+                                            Stretch="Uniform" />
+                                    </Button>
+                                    <Button
+                                        x:Name="DelButton"
+                                        Grid.Column="2"
+                                        VerticalAlignment="Bottom"
+                                        Style="{StaticResource MySystemButton}"
+                                        Command="{StaticResource DelAccountCommand}"
+                                        CommandParameter="{Binding Mode=OneTime}"
+                                        ToolTip="{x:Static loc:Resources.delete}"
+                                        Visibility="Collapsed">
+                                        <Path
+                                            Height="16"
+                                            Fill="{Binding Foreground, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=Button}}"
+                                            Data="{StaticResource user_deleteStyle0}"
+                                            Stretch="Uniform" />
+                                    </Button>
+                                </Grid>
+                                <ControlTemplate.Triggers>
+                                    <Trigger SourceName="Grid1" Property="IsMouseOver" Value="True">
+                                        <Setter TargetName="LoginButton" Property="Visibility" Value="Visible" />
+                                        <Setter TargetName="DelButton" Property="Visibility" Value="Visible" />
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </ContentControl.Template>
+                    </ContentControl>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <Button
+            x:Name="RestartButton"
+            Margin="-5,-18,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Style="{StaticResource MySystemButton}"
+            Click="RestartButton_OnClick">
+            <TextBlock>
+                <Path
+                    Height="12"
+                    Margin="0,0,0,-1"
+                    Fill="{Binding Foreground, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=Button}}"
+                    Data="{StaticResource login}"
+                    Stretch="Uniform" />
+                <Run Text="{x:Static loc:Resources.Login}" />
+            </TextBlock>
+        </Button>
+    </Grid>
+</UserControl>

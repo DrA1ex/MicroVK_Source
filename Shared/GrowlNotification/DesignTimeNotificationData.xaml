@@ -1,0 +1,7 @@
+﻿<Notifications xmlns="clr-namespace:MicroVK.WPFGrowlNotification">
+    <Notification Id="1" Title="Notification #1" ImageUrl="http://cs312723.vk.me/v312723451/5cea/hDI-hRHfYw0.jpg" Message="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
+    <Notification Id="2" Title="Notification #2" ImageUrl="http://cs312723.vk.me/v312723451/5cea/hDI-hRHfYw0.jpg" Message="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
+    <Notification Id="3" Title="Notification #3" ImageUrl="http://cs312723.vk.me/v312723451/5cea/hDI-hRHfYw0.jpg" Message="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
+    <Notification Id="4" Title="Notification #4" ImageUrl="http://cs312723.vk.me/v312723451/5cea/hDI-hRHfYw0.jpg" Message="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
+</Notifications>
+

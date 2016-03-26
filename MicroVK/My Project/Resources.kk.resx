@@ -1,0 +1,543 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="All" xml:space="preserve">
+    <value>Кез келгеннен</value>
+  </data>
+  <data name="All_notification" xml:space="preserve">
+    <value>Барлық хабарландырулар</value>
+  </data>
+  <data name="Alternative" xml:space="preserve">
+    <value>Нұсқа</value>
+  </data>
+  <data name="Authorization" xml:space="preserve">
+    <value>Рұқсат ету</value>
+  </data>
+  <data name="Chanson" xml:space="preserve">
+    <value>Шансон</value>
+  </data>
+  <data name="Classical" xml:space="preserve">
+    <value>Классикалық</value>
+  </data>
+  <data name="Easy_Listening" xml:space="preserve">
+    <value>Жеңіл саз</value>
+  </data>
+  <data name="Entries" xml:space="preserve">
+    <value>Орналастыру</value>
+  </data>
+  <data name="Ethnic" xml:space="preserve">
+    <value>Этникалық</value>
+  </data>
+  <data name="Exit1" xml:space="preserve">
+    <value>Шығу</value>
+  </data>
+  <data name="Friends" xml:space="preserve">
+    <value>Достар</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Ақпараттық</value>
+  </data>
+  <data name="Instrumental" xml:space="preserve">
+    <value>Аспаптық сазы</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Кіру</value>
+  </data>
+  <data name="Messages" xml:space="preserve">
+    <value>хабар</value>
+  </data>
+  <data name="Metal" xml:space="preserve">
+    <value>Металл</value>
+  </data>
+  <data name="Music" xml:space="preserve">
+    <value>Музыка</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>Жаңалықтар</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>Электрондық пошта хабарландырулары</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Ашу</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Әр түрлі</value>
+  </data>
+  <data name="Photo" xml:space="preserve">
+    <value>Фотосурет</value>
+  </data>
+  <data name="Pop" xml:space="preserve">
+    <value>POP</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Профайлыңызда</value>
+  </data>
+  <data name="recommendations" xml:space="preserve">
+    <value>Сілтемелер</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>Шолу</value>
+  </data>
+  <data name="Rock" xml:space="preserve">
+    <value>Рок</value>
+  </data>
+  <data name="search" xml:space="preserve">
+    <value>Іздеу</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Параметрлер</value>
+  </data>
+  <data name="Trance" xml:space="preserve">
+    <value>Trans</value>
+  </data>
+  <data name="Video" xml:space="preserve">
+    <value>Бейне</value>
+  </data>
+  <data name="Whats_new" xml:space="preserve">
+    <value>жаңалықтар</value>
+  </data>
+  <data name="About_Me" xml:space="preserve">
+    <value>Мен туралы мәліметтер</value>
+  </data>
+  <data name="activities" xml:space="preserve">
+    <value>Әрекеттер</value>
+  </data>
+  <data name="alignment" xml:space="preserve">
+    <value>туралау</value>
+  </data>
+  <data name="appearance" xml:space="preserve">
+    <value>Алдын ала қарау:</value>
+  </data>
+  <data name="Audio_Records" xml:space="preserve">
+    <value>Дыбыс жазбалары</value>
+  </data>
+  <data name="birthday" xml:space="preserve">
+    <value>Туған күні</value>
+  </data>
+  <data name="city" xml:space="preserve">
+    <value>Жұмыс істейтін қаласы</value>
+  </data>
+  <data name="common" xml:space="preserve">
+    <value>Жалпы</value>
+  </data>
+  <data name="contact_information" xml:space="preserve">
+    <value>Байланыс мәліметтері</value>
+  </data>
+  <data name="detailed_information" xml:space="preserve">
+    <value>Қосымша ақпарат:</value>
+  </data>
+  <data name="education" xml:space="preserve">
+    <value>Оқу/жаттығу</value>
+  </data>
+  <data name="faculty" xml:space="preserve">
+    <value>Факультет</value>
+  </data>
+  <data name="favorite_Books" xml:space="preserve">
+    <value>Таңдаулы кітаптар</value>
+  </data>
+  <data name="favorite_films" xml:space="preserve">
+    <value>Таңдаулы фильмдер</value>
+  </data>
+  <data name="favorite_music" xml:space="preserve">
+    <value>Таңдаулы саз</value>
+  </data>
+  <data name="Followers" xml:space="preserve">
+    <value>бақылаушылар</value>
+  </data>
+  <data name="groups" xml:space="preserve">
+    <value>Бірлестіктер</value>
+  </data>
+  <data name="Horizontal" xml:space="preserve">
+    <value>Көлденеңінен туралау:</value>
+  </data>
+  <data name="interests" xml:space="preserve">
+    <value>Қызығушылық</value>
+  </data>
+  <data name="in_all" xml:space="preserve">
+    <value>Жиындар</value>
+  </data>
+  <data name="left_edge" xml:space="preserve">
+    <value>Сол жақ:</value>
+  </data>
+  <data name="mobile_phone" xml:space="preserve">
+    <value>ұялы телефон</value>
+  </data>
+  <data name="Mutual_Friends" xml:space="preserve">
+    <value>Жалпы достар</value>
+  </data>
+  <data name="notes" xml:space="preserve">
+    <value>Аңғартпалар</value>
+  </data>
+  <data name="Notification4" xml:space="preserve">
+    <value>Жаңа хабар</value>
+  </data>
+  <data name="number_messages" xml:space="preserve">
+    <value>Хабарлар саны</value>
+  </data>
+  <data name="Online" xml:space="preserve">
+    <value>Желіде</value>
+  </data>
+  <data name="personal_information" xml:space="preserve">
+    <value>Жеке мәліметтер</value>
+  </data>
+  <data name="photos" xml:space="preserve">
+    <value>Фотосуреттер</value>
+  </data>
+  <data name="photo_albums" xml:space="preserve">
+    <value>Суреттер альбомдары</value>
+  </data>
+  <data name="programm" xml:space="preserve">
+    <value>Бағдарламалық жасақтама</value>
+  </data>
+  <data name="right_edge" xml:space="preserve">
+    <value>Оң жақ шет:</value>
+  </data>
+  <data name="Send_message" xml:space="preserve">
+    <value>Хабарды жіберу</value>
+  </data>
+  <data name="Subscriptions" xml:space="preserve">
+    <value>Жазылымдар</value>
+  </data>
+  <data name="top_edge" xml:space="preserve">
+    <value>Жоғарғы:</value>
+  </data>
+  <data name="Vertical" xml:space="preserve">
+    <value>Тігінен:</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>торап</value>
+  </data>
+  <data name="add_photo" xml:space="preserve">
+    <value>суретті қосу</value>
+  </data>
+  <data name="background_image" xml:space="preserve">
+    <value>Өңдік сурет</value>
+  </data>
+  <data name="best_friends" xml:space="preserve">
+    <value>Жақын достар</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Алдын ала қарап алу мүмкіндігін жабу</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>негізгі түс</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>Қаріп</value>
+  </data>
+  <data name="Forward_message" xml:space="preserve">
+    <value>Жіберілді</value>
+  </data>
+  <data name="miscellanea" xml:space="preserve">
+    <value>Әр түрлі</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Қойылған ат</value>
+  </data>
+  <data name="Remove_attachments" xml:space="preserve">
+    <value>Тіркемелерді жою</value>
+  </data>
+  <data name="Repeat" xml:space="preserve">
+    <value>Қайталануы</value>
+  </data>
+  <data name="Send_a_message" xml:space="preserve">
+    <value>Хабарды қайта жіберу</value>
+  </data>
+  <data name="shuffle" xml:space="preserve">
+    <value>Кездейсоқ</value>
+  </data>
+  <data name="SystemSettings3" xml:space="preserve">
+    <value>Емлені және грамматиканы тексеру</value>
+  </data>
+  <data name="SystemSettings8" xml:space="preserve">
+    <value>Барлық теңшелімдерді қайта орнату</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Мәтін</value>
+  </data>
+  <data name="Theme" xml:space="preserve">
+    <value>тақырып</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Қашан:</value>
+  </data>
+  <data name="transparency" xml:space="preserve">
+    <value>мөлдірлік</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Түрі</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>GPD нұсқасы:</value>
+  </data>
+  <data name="AboutProgramm" xml:space="preserve">
+    <value>Анықтама</value>
+  </data>
+  <data name="ApiError1" xml:space="preserve">
+    <value>Күтілмеген қате пайда болды: |</value>
+  </data>
+  <data name="ApiError14" xml:space="preserve">
+    <value>Кодты енгізіңіз</value>
+  </data>
+  <data name="ApiError15" xml:space="preserve">
+    <value>Қатынас ажыратылған</value>
+  </data>
+  <data name="ApiError8" xml:space="preserve">
+    <value>Нашар сұрау</value>
+  </data>
+  <data name="change_user" xml:space="preserve">
+    <value>Пайдаланушыны ауыстыру</value>
+  </data>
+  <data name="confirmation" xml:space="preserve">
+    <value>Құптау:</value>
+  </data>
+  <data name="FontNormal" xml:space="preserve">
+    <value>Орташа</value>
+  </data>
+  <data name="FontSmall" xml:space="preserve">
+    <value>кіші</value>
+  </data>
+  <data name="Invisible" xml:space="preserve">
+    <value>Көрінбейтін</value>
+  </data>
+  <data name="Like1" xml:space="preserve">
+    <value>Мен мұны ұнатамын</value>
+  </data>
+  <data name="messageError1" xml:space="preserve">
+    <value>Хабар жіберу сәтсіз болды</value>
+  </data>
+  <data name="Next1" xml:space="preserve">
+    <value>жалғастыру</value>
+  </data>
+  <data name="NotifycationConvert3" xml:space="preserve">
+    <value>Оқу</value>
+  </data>
+  <data name="NotifycationConvert4" xml:space="preserve">
+    <value>Жаңа хабар</value>
+  </data>
+  <data name="NotifycationConvert8" xml:space="preserve">
+    <value>Желіде</value>
+  </data>
+  <data name="opacity" xml:space="preserve">
+    <value>Бұлыңғырлық</value>
+  </data>
+  <data name="personallife1" xml:space="preserve">
+    <value>Отбасы және балалар</value>
+  </data>
+  <data name="personallife3" xml:space="preserve">
+    <value>Ойнау және шолу</value>
+  </data>
+  <data name="personalPolitical3" xml:space="preserve">
+    <value>Орташа</value>
+  </data>
+  <data name="Picture_file" xml:space="preserve">
+    <value>Сурет файлдары</value>
+  </data>
+  <data name="restart" xml:space="preserve">
+    <value>Себетке жіберілуде</value>
+  </data>
+  <data name="Select1" xml:space="preserve">
+    <value>таңдау</value>
+  </data>
+  <data name="smoking3" xml:space="preserve">
+    <value>Бейтарап</value>
+  </data>
+  <data name="smoking5" xml:space="preserve">
+    <value>Оң:</value>
+  </data>
+  <data name="themeDark" xml:space="preserve">
+    <value>Күңгірттеу</value>
+  </data>
+  <data name="themeLight" xml:space="preserve">
+    <value>Жарық</value>
+  </data>
+  <data name="unknown" xml:space="preserve">
+    <value>Белгісіз</value>
+  </data>
+  <data name="View_attachment" xml:space="preserve">
+    <value>Тіркемелерді көру</value>
+  </data>
+  <data name="today" xml:space="preserve">
+    <value>бүгін|осы күні</value>
+  </data>
+  <data name="yesterday" xml:space="preserve">
+    <value>кеше|соңғы күн|өткен күн</value>
+  </data>
+  <data name="in1" xml:space="preserve">
+    <value>ж</value>
+  </data>
+  <data name="WelcomeBack1" xml:space="preserve">
+    <value>Оралуыңызбен!</value>
+  </data>
+  <data name="Minimize" xml:space="preserve">
+    <value>тасалау</value>
+  </data>
+  <data name="Pin" xml:space="preserve">
+    <value>бекіту</value>
+  </data>
+  <data name="Translate" xml:space="preserve">
+    <value>Тасымалдау</value>
+  </data>
+  <data name="library" xml:space="preserve">
+    <value>Кітапханалар</value>
+  </data>
+  <data name="AutoTranslate" xml:space="preserve">
+    <value>Машиналық аудару</value>
+  </data>
+  <data name="radio" xml:space="preserve">
+    <value>Радио</value>
+  </data>
+  <data name="Game" xml:space="preserve">
+    <value>Ойын ақпарат тасушы</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>Бөлісу</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>| көшіру</value>
+  </data>
+  <data name="InDeveloping" xml:space="preserve">
+    <value>Құрылуда</value>
+  </data>
+  <data name="events" xml:space="preserve">
+    <value>Кездесулер</value>
+  </data>
+  <data name="attachments" xml:space="preserve">
+    <value>Салымдар</value>
+  </data>
+  <data name="Audio" xml:space="preserve">
+    <value>Дыбысжазба</value>
+  </data>
+  <data name="Doc" xml:space="preserve">
+    <value>Құжат атауы:</value>
+  </data>
+  <data name="I" xml:space="preserve">
+    <value>С</value>
+  </data>
+  <data name="close_all" xml:space="preserve">
+    <value>Бәрін жабу</value>
+  </data>
+  <data name="reply" xml:space="preserve">
+    <value>Жауап беру</value>
+  </data>
+  <data name="Favorites" xml:space="preserve">
+    <value>Таңдаулы</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="Join" xml:space="preserve">
+    <value>Бақылау</value>
+  </data>
+  <data name="bass_echo" xml:space="preserve">
+    <value>Жаңғырық</value>
+  </data>
+  <data name="bass_Delay" xml:space="preserve">
+    <value>Кідіріс</value>
+  </data>
+  <data name="bass_Wet" xml:space="preserve">
+    <value>Ылғалдығы:</value>
+  </data>
+  <data name="bass_distortion" xml:space="preserve">
+    <value>Майыстыру</value>
+  </data>
+  <data name="bass_Feedback" xml:space="preserve">
+    <value>Пікір білдіру</value>
+  </data>
+  <data name="bass_Volume" xml:space="preserve">
+    <value>Бағдарлама үнділігі</value>
+  </data>
+  <data name="bass_Hard" xml:space="preserve">
+    <value>Көп</value>
+  </data>
+  <data name="bass_Medium" xml:space="preserve">
+    <value>&amp;Орташа</value>
+  </data>
+  <data name="ReSend" xml:space="preserve">
+    <value>Қайта жіберу</value>
+  </data>
+  <data name="delivered" xml:space="preserve">
+    <value>Жеткізілді.</value>
+  </data>
+  <data name="error_send" xml:space="preserve">
+    <value>Кері жүктеу сәтсіз аяқталды</value>
+  </data>
+  <data name="Utils" xml:space="preserve">
+    <value>Қызметтік бағдарламалар</value>
+  </data>
+  <data name="utils_checkLink" xml:space="preserve">
+    <value>Сілтемені тексеру</value>
+  </data>
+  <data name="radio_be" xml:space="preserve">
+    <value>Беларусь</value>
+  </data>
+  <data name="radio_ru" xml:space="preserve">
+    <value>АҚШ</value>
+  </data>
+  <data name="radio_ua" xml:space="preserve">
+    <value>Украина</value>
+  </data>
+  <data name="radio_history" xml:space="preserve">
+    <value>соңғы</value>
+  </data>
+  <data name="Link" xml:space="preserve">
+    <value>Cілтеме</value>
+  </data>
+  <data name="delete" xml:space="preserve">
+    <value>Жою</value>
+  </data>
+  <data name="offset" xml:space="preserve">
+    <value>Ауытқушылық</value>
+  </data>
+  <data name="NewMessage" xml:space="preserve">
+    <value>Жаңа хабар</value>
+  </data>
+  <data name="hideTabs" xml:space="preserve">
+    <value>Қойындыны жасыру</value>
+  </data>
+  <data name="button" xml:space="preserve">
+    <value>Түймешік</value>
+  </data>
+  <data name="big" xml:space="preserve">
+    <value>Ірі</value>
+  </data>
+  <data name="unpin" xml:space="preserve">
+    <value>Босату</value>
+  </data>
+  <data name="bell_off" xml:space="preserve">
+    <value>Мазаламаңыз</value>
+  </data>
+  <data name="start" xml:space="preserve">
+    <value>Басы</value>
+  </data>
+  <data name="AccountManager" xml:space="preserve">
+    <value>Электрондық пошта жазбалары</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Жаңасын қосу</value>
+  </data>
+  <data name="OpenInBrowser" xml:space="preserve">
+    <value>Шолғышта ашу</value>
+  </data>
+  <data name="refresh" xml:space="preserve">
+    <value>Жаңарту</value>
+  </data>
+  <data name="Important" xml:space="preserve">
+    <value>Маңызды</value>
+  </data>
+  <data name="markAsImportant" xml:space="preserve">
+    <value>Жоғары басымдық ретінде белгілеу</value>
+  </data>
+</root>

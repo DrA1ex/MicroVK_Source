@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="ControlAudio"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             d:DesignHeight="300"
+             d:DesignWidth="300"
+             mc:Ignorable="d">
+    <Grid>
+        <ListBox x:Name="ListBox1"
+                 ItemContainerStyle="{StaticResource FlatListBoxItemStretch}"
+                 MouseDoubleClick="ListBox1_MouseDoubleClick"
+                 ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                 ScrollViewer.ScrollChanged="ListBox1_ScrollChanged"
+                 SelectionMode="Extended" ItemTemplate="{StaticResource AudioDataTemplate}">
+        </ListBox>
+        <mui:ModernProgressRing
+                x:Name="ModernProgressRing1"
+                Style="{StaticResource ChasingDotsProgressRingStyle}"
+                IsActive="True"
+                Visibility="{Binding ElementName=ListBox1, Path=Items.Count, Converter={StaticResource MyVisibilityConverter1}, ConverterParameter=inverse}" />
+    </Grid>
+</UserControl>

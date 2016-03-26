@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="ControlAbout"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:loc="clr-namespace:MicroVK.My.Resources"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             Loaded="ControlAbout_Onloaded"
+             d:DesignHeight="300"
+             d:DesignWidth="300"
+             mc:Ignorable="d">
+    <Grid>
+        <StackPanel>
+            <TextBlock x:Name="TextBlock1" Foreground="Red" />
+            <TextBlock TextWrapping="Wrap">
+                <LineBreak />
+                <Run Text="{x:Static loc:Resources.License1}" />
+                <Hyperlink Click="Hyperlink_Click"><Run Text="{x:Static loc:Resources.License2}" />
+                </Hyperlink>
+                .
+                <LineBreak />
+                <LineBreak />
+                <Run Text="{x:Static loc:Resources.Copyright}" />
+
+
+            </TextBlock>
+            <Grid HorizontalAlignment="Left">
+                <Button x:Name="Button1"
+                        Loaded="Button1_OnLoaded"
+                        Content="{x:Static loc:Resources.button}"
+                        Click="Button1_OnClick"
+                        Margin="0,8,0,0" Visibility="Visible"></Button>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</UserControl>

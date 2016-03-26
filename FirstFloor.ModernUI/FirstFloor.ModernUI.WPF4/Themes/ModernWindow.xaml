@@ -1,0 +1,292 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="clr-namespace:FirstFloor.ModernUI.Windows.Controls"
+    xmlns:modernui="clr-namespace:FirstFloor.ModernUI"
+    xmlns:navigation="clr-namespace:FirstFloor.ModernUI.Windows.Navigation"
+    xmlns:shell="http://schemas.microsoft.com/winfx/2006/xaml/presentation/shell">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/FirstFloor.ModernUI;component/Assets/Button.xaml" />
+        <ResourceDictionary Source="/FirstFloor.ModernUI;component/Assets/Converters.xaml" />
+        <ResourceDictionary Source="/FirstFloor.ModernUI;component/Assets/TextBlock.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <Style TargetType="controls:ModernWindow">
+        <Setter Property="BackgroundContent" Value="{DynamicResource WindowBackgroundContent}" />
+        <Setter Property="BorderBrush" Value="{DynamicResource WindowBorder}" />
+        <Setter Property="FontFamily" Value="{DynamicResource DefaultFontFamily}" />
+        <Setter Property="FontSize" Value="{DynamicResource DefaultFontSize}" />
+        <Setter Property="Foreground" Value="{DynamicResource WindowText}" />
+        <Setter Property="Height" Value="640" />
+        <Setter Property="MinHeight" Value="320" />
+        <Setter Property="MinWidth" Value="320" />
+        <Setter Property="ResizeMode" Value="CanResizeWithGrip" />
+
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="controls:ModernWindow">
+                    <Border x:Name="WindowBorder" Margin="{Binding Source={x:Static shell:SystemParameters2.Current}, Path=WindowNonClientFrameThickness}">
+                        <Border.Background>
+                            <SolidColorBrush x:Name="WindowBorderBackground" Color="{DynamicResource WindowBackgroundColor}" />
+                        </Border.Background>
+                        <Border.Resources>
+                            <Storyboard x:Key="BackgroundAnimation">
+                                <ColorAnimation
+                                    Duration="0:0:.6"
+                                    Storyboard.TargetName="WindowBorderBackground"
+                                    Storyboard.TargetProperty="Color"
+                                    To="{DynamicResource WindowBackgroundColor}" />
+                            </Storyboard>
+                        </Border.Resources>
+                        <Grid>
+                            <Image
+                                x:Name="ImageContent"
+                                HorizontalAlignment="Stretch"
+                                VerticalAlignment="Stretch"
+                                Stretch="Fill" />
+                            <Border
+                                x:Name="BorderContent"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="1">
+                                <AdornerDecorator>
+                                    <Grid x:Name="LayoutRoot">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto" />
+                                            <RowDefinition Height="Auto" />
+                                            <RowDefinition Height="*" />
+                                        </Grid.RowDefinitions>
+
+                                        <!--  window background content  -->
+                                        <ContentControl Grid.RowSpan="5" Content="{TemplateBinding BackgroundContent}" />
+
+                                        <!--  title bar  -->
+                                        <Grid Grid.Row="0" Margin="0,6,0,0">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="42" />
+                                                <ColumnDefinition Width="*" />
+                                            </Grid.ColumnDefinitions>
+
+                                            <!--  back button  -->
+                                            <controls:ModernButton
+                                                x:Name="BackButton"
+                                                Margin="8,10,0,0"
+                                                HorizontalAlignment="Left"
+                                                VerticalAlignment="Top"
+                                                Command="NavigationCommands.BrowseBack"
+                                                CommandTarget="{Binding ElementName=ContentFrame}"
+                                                EllipseDiameter="24"
+                                                IconData="F1 M 33,22L 33,26L 19.75,26L 27,33L 20.5,33L 11,24L 20.5,15L 27,15L 19.75,22L 33,22 Z"
+                                                IconHeight="12"
+                                                IconWidth="12"
+                                                ToolTip="{x:Static modernui:Resources.Back}"
+                                                shell:WindowChrome.IsHitTestVisibleInChrome="True" />
+
+                                            <!--  main menu  -->
+                                            <controls:ModernMenu
+                                                Grid.Column="1"
+                                                LinkGroups="{TemplateBinding MenuLinkGroups}"
+                                                SelectedSource="{Binding Source, ElementName=ContentFrame, Mode=TwoWay}" />
+                                        </Grid>
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="Auto" />
+                                                <ColumnDefinition Width="Auto" />
+                                                <ColumnDefinition Width="96" />
+                                            </Grid.ColumnDefinitions>
+
+                                            <!--  title  -->
+                                            <ContentControl
+                                                Grid.Column="1"
+                                                Grid.ColumnSpan="2"
+                                                HorizontalAlignment="Right"
+                                                Content="{TemplateBinding Tag}"
+                                                shell:WindowChrome.IsHitTestVisibleInChrome="True" />
+                                            <!--  window system buttons  -->
+                                            <StackPanel
+                                                Grid.Column="3"
+                                                VerticalAlignment="Top"
+                                                Orientation="Horizontal"
+                                                shell:WindowChrome.IsHitTestVisibleInChrome="True">
+                                                <Button
+                                                    Style="{StaticResource SystemButton}"
+                                                    Command="{Binding Source={x:Static shell:SystemCommands.MinimizeWindowCommand}}"
+                                                    ToolTip="{x:Static modernui:Resources.Minimize}">
+                                                    <Button.Content>
+                                                        <Grid
+                                                            Width="13"
+                                                            Height="12"
+                                                            RenderTransform="1,0,0,1,0,1">
+                                                            <Path
+                                                                Width="8"
+                                                                Height="7"
+                                                                HorizontalAlignment="Center"
+                                                                VerticalAlignment="Center"
+                                                                Stroke="{Binding Foreground, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=Button}}"
+                                                                StrokeThickness="2"
+                                                                Data="M0,6 L8,6 Z" />
+                                                        </Grid>
+                                                    </Button.Content>
+                                                </Button>
+                                                <Grid Margin="1,0,1,0">
+                                                    <Button
+                                                        x:Name="Restore"
+                                                        Style="{StaticResource SystemButton}"
+                                                        Command="{Binding Source={x:Static shell:SystemCommands.RestoreWindowCommand}}"
+                                                        ToolTip="{x:Static modernui:Resources.Restore}"
+                                                        Visibility="Collapsed">
+                                                        <Button.Content>
+                                                            <Grid
+                                                                Width="13"
+                                                                Height="12"
+                                                                RenderTransform="1,0,0,1,.5,.5"
+                                                                UseLayoutRounding="True">
+                                                                <Path
+                                                                    Width="8"
+                                                                    Height="8"
+                                                                    HorizontalAlignment="Center"
+                                                                    VerticalAlignment="Center"
+                                                                    Stroke="{Binding Foreground, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=Button}}"
+                                                                    StrokeThickness="1"
+                                                                    Data="M2,0 L8,0 L8,6 M0,3 L6,3 M0,2 L6,2 L6,8 L0,8 Z" />
+                                                            </Grid>
+                                                        </Button.Content>
+                                                    </Button>
+                                                    <Button
+                                                        x:Name="Maximize"
+                                                        Style="{StaticResource SystemButton}"
+                                                        Command="{Binding Source={x:Static shell:SystemCommands.MaximizeWindowCommand}}"
+                                                        ToolTip="{x:Static modernui:Resources.Maximize}">
+                                                        <Button.Content>
+                                                            <Grid Width="13" Height="12">
+                                                                <Path
+                                                                    Width="9"
+                                                                    Height="8"
+                                                                    HorizontalAlignment="Center"
+                                                                    VerticalAlignment="Center"
+                                                                    Stroke="{Binding Foreground, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=Button}}"
+                                                                    StrokeThickness="2"
+                                                                    Data="M0,1 L9,1 L9,8 L0,8 Z" />
+                                                            </Grid>
+                                                        </Button.Content>
+                                                    </Button>
+                                                </Grid>
+                                                <Button
+                                                    Style="{StaticResource SystemCloseButton}"
+                                                    Command="{Binding Source={x:Static shell:SystemCommands.CloseWindowCommand}}"
+                                                    ToolTip="{x:Static modernui:Resources.Close}">
+                                                    <Button.Content>
+                                                        <Grid
+                                                            Width="13"
+                                                            Height="12"
+                                                            RenderTransform="1,0,0,1,0,1">
+                                                            <Path
+                                                                Width="8"
+                                                                Height="7"
+                                                                HorizontalAlignment="Center"
+                                                                VerticalAlignment="Center"
+                                                                Stroke="{Binding Foreground, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=Button}}"
+                                                                StrokeThickness="1.5"
+                                                                Data="M0,0 L8,7 M8,0 L0,7 Z" />
+                                                        </Grid>
+                                                    </Button.Content>
+                                                </Button>
+                                            </StackPanel>
+                                        </Grid>
+                                        <!--  resize grip  -->
+                                        <Border
+                                            Grid.Row="2"
+                                            Height="16"
+                                            VerticalAlignment="Bottom"
+                                            Background="{TemplateBinding BorderBrush}" />
+
+
+                                        <!--  content frame  -->
+                                        <Grid
+                                            x:Name="ResizeGrip"
+                                            Grid.Row="2"
+                                            HorizontalAlignment="Right"
+                                            VerticalAlignment="Bottom"
+                                            Background="Transparent"
+                                            Visibility="Collapsed"
+                                            shell:WindowChrome.ResizeGripDirection="BottomRight">
+                                            <Path
+                                                Width="12"
+                                                Height="12"
+                                                Margin="1"
+                                                Stroke="#c1c1c1"
+                                                StrokeThickness="1"
+                                                Data="F1 M1,10 L3,10 M5,10 L7,10 M9,10 L11,10 M2,9 L2,11 M6,9 L6,11 M10,9 L10,11 M5,6 L7,6 M9,6 L11,6 M6,5 L6,7 M10,5 L10,7 M9,2 L11,2 M10,1 L10,3"
+                                                Stretch="None" />
+                                        </Grid>
+                                        <controls:ModernFrame
+                                            x:Name="ContentFrame"
+                                            Grid.Row="2"
+                                            Margin="42,8,16,20"
+                                            ContentLoader="{TemplateBinding ContentLoader}"
+                                            Source="{Binding ContentSource, RelativeSource={RelativeSource TemplatedParent}, Mode=TwoWay}" />
+                                        <Border
+                                            x:Name="RootBorder"
+                                            Grid.Row="0"
+                                            Grid.RowSpan="3"
+                                            Grid.Column="0"
+                                            Background="#7F000000"
+                                            Visibility="Collapsed" />
+                                        <ContentControl
+                                            Grid.RowSpan="3"
+                                            Grid.Column="0"
+                                            VerticalAlignment="Stretch"
+                                            Panel.ZIndex="2"
+                                            Content="{Binding Flyouts, RelativeSource={RelativeSource TemplatedParent}, Mode=OneWay}"
+                                            Focusable="False"
+                                            KeyboardNavigation.TabNavigation="None"
+                                            shell:WindowChrome.IsHitTestVisibleInChrome="True" />
+
+                                    </Grid>
+                                </AdornerDecorator>
+                            </Border>
+                        </Grid>
+
+                    </Border>
+
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsActive" Value="True">
+                            <Setter Property="BorderBrush" Value="{DynamicResource WindowBorderActive}" />
+                        </Trigger>
+                        <Trigger Property="WindowState" Value="Maximized">
+                            <Setter TargetName="LayoutRoot" Property="Margin" Value="7" />
+                            <Setter TargetName="Maximize" Property="Visibility" Value="Collapsed" />
+                            <Setter TargetName="Restore" Property="Visibility" Value="Visible" />
+                        </Trigger>
+                        <Trigger Property="WindowState" Value="Normal">
+                            <Setter TargetName="Maximize" Property="Visibility" Value="Visible" />
+                            <Setter TargetName="Restore" Property="Visibility" Value="Collapsed" />
+                        </Trigger>
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition Property="ResizeMode" Value="CanResizeWithGrip" />
+                                <Condition Property="WindowState" Value="Normal" />
+                            </MultiTrigger.Conditions>
+                            <Setter TargetName="ResizeGrip" Property="Visibility" Value="Visible" />
+                        </MultiTrigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="TextOptions.TextFormattingMode" Value="Display" />
+        <Setter Property="UseLayoutRounding" Value="True" />
+        <Setter Property="Width" Value="800" />
+
+        <Setter Property="shell:WindowChrome.WindowChrome">
+            <Setter.Value>
+                <shell:WindowChrome
+                    CornerRadius="0"
+                    GlassFrameThickness="1"
+                    NonClientFrameEdges="None"
+                    UseAeroCaptionButtons="False" />
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+</ResourceDictionary>

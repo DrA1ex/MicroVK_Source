@@ -1,0 +1,2 @@
+﻿Class DesignTimeNotificationData
+End Class

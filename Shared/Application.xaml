@@ -1,0 +1,29 @@
+﻿<Application x:Class="Application"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             DispatcherUnhandledException="Application_DispatcherUnhandledException"
+             Exit="Application_Exit"
+             ShutdownMode="OnExplicitShutdown"
+             Startup="Application_Startup"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/FirstFloor.ModernUI;component/Assets/ModernUI.xaml" />
+                <ResourceDictionary Source="/FirstFloor.ModernUI;component/Assets/ModernUI.Light.xaml" />
+
+                <ResourceDictionary Source="Styles/Icons.xaml" />
+                <ResourceDictionary Source="Styles/Smiles.xaml" />
+                <ResourceDictionary Source="Styles/Styles.xaml" />
+                <ResourceDictionary Source="Styles/DialogStyles.xaml" />
+
+                <ResourceDictionary Source="Styles/ModernStyle.xaml" />
+                <ResourceDictionary Source="Styles/NumericUpDown.xaml" />
+                <ResourceDictionary Source="Expander.xaml" />
+                <ResourceDictionary Source="StylesEx/FloatDialogStyles.xaml" />
+                <ResourceDictionary Source="StylesEx/Flyout.xaml" />
+                <ResourceDictionary Source="Styles/StylesVK.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

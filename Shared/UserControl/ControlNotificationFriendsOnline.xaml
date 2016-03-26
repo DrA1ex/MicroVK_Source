@@ -1,0 +1,44 @@
+﻿<UserControl x:Class="ControlNotificationFriendsOnline"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:types="clr-namespace:MicroVK.types"
+             Loaded="ControlNotificationFriendsOnline_OnLoaded"
+             d:DesignWidth="300"
+             mc:Ignorable="d" d:DataContext="{d:DesignInstance types:Notifycation}">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="32" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Button Width="32"
+                Height="32"
+                Margin="0"
+                VerticalAlignment="Top"
+                Command="{StaticResource OpenDialogCommand1}"
+                CommandParameter="{Binding user_id}"
+                Cursor="Hand"
+                Padding="0"
+                Style="{StaticResource MySystemButton}">
+            <Image Width="32"
+                   Height="32"
+                   Source="{Binding user_id,
+                                    IsAsync=True,
+                                    Mode=OneWay,
+                                    Converter={StaticResource ConverterGetPhoto1}}"
+                   Stretch="UniformToFill" />
+        </Button>
+        <TextBlock Grid.Column="1"
+                   x:Name="TextBlock1"
+                   Margin="3,1,25,1"
+                   Foreground="White"
+                   TextTrimming="CharacterEllipsis"
+                   TextWrapping="Wrap">
+            <Run FontWeight="Bold" Text="{Binding user_id, Mode=OneWay, Converter={StaticResource ConverterNameGet1}}" />
+            <LineBreak />
+            <Run x:Name="Run1" />
+            <Run Text="{Binding text, Mode=OneWay}" />
+        </TextBlock>
+    </Grid>
+</UserControl>

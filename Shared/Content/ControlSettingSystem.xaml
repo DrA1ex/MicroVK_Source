@@ -1,0 +1,87 @@
+﻿<UserControl
+    x:Class="ControlSettingSystem"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:loc="clr-namespace:MicroVK.My.Resources"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:s="clr-namespace:MicroVK"
+    d:DesignHeight="400"
+    d:DesignWidth="300"
+    mc:Ignorable="d">
+    <Grid>
+        <StackPanel>
+            <TextBlock
+                Margin="0,0,0,8"
+                Style="{StaticResource Heading2}"
+                Text="{Binding Source={x:Static loc:Resources.MusicPlayer}, Converter={StaticResource ToUpperConverter}}" />
+            <CheckBox
+                Margin="0,0,0,8"
+                Content="{x:Static loc:Resources.Snap}"
+                IsChecked="{Binding Source={x:Static s:MySettings.Default}, Path=MusicPlayerSnap, Mode=TwoWay}" />
+            <CheckBox
+                Margin="0,0,0,8"
+                Content="{x:Static loc:Resources.PlayerNotInTaskBar}"
+                IsChecked="{Binding Source={x:Static s:MySettings.Default}, Path=PlayerNotInTaskBar, Mode=TwoWay}" />
+            <CheckBox
+                Margin="0,0,0,8"
+                Content="{x:Static loc:Resources.MediaKey}"
+                IsChecked="{Binding Source={x:Static s:MySettings.Default}, Path=IsMediaKey, Mode=TwoWay}" />
+            <TextBlock
+                Margin="0,0,0,8"
+                Style="{StaticResource Heading2}"
+                Text="{Binding Source={x:Static loc:Resources.miscellanea}, Converter={StaticResource ToUpperConverter}}" />
+            <CheckBox
+                Margin="0,0,0,8"
+                Content="{x:Static loc:Resources.SystemSettings1}"
+                IsChecked="{Binding Source={x:Static s:MySettings.Default}, Path=IsSetActivity, Mode=TwoWay}" />
+            <CheckBox
+                Margin="0,0,0,8"
+                Content="{x:Static loc:Resources.SystemSettings2}"
+                IsChecked="{Binding Source={x:Static s:MySettings.Default}, Path=Invisible, Mode=TwoWay}" />
+            <CheckBox
+                Margin="0,0,0,8"
+                Content="{x:Static loc:Resources.OnlineWait}"
+                IsChecked="{Binding Source={x:Static s:MySettings.Default}, Path=OnlineWait, Mode=TwoWay}" />
+            <CheckBox
+                Margin="0,0,0,8"
+                Content="{x:Static loc:Resources.SystemSettings3}"
+                IsChecked="{Binding Source={x:Static s:MySettings.Default}, Path=SpellCheck, Mode=TwoWay}" />
+            <CheckBox
+                Margin="0,0,0,8"
+                Content="{x:Static loc:Resources.SystemSettings4}"
+                IsChecked="{Binding Source={x:Static s:MySettings.Default}, Path=MarkMessageInvisible, Mode=TwoWay}" />
+            <CheckBox
+                Margin="0,0,0,8"
+                Content="{x:Static loc:Resources.SystemSettings5}"
+                IsChecked="{Binding Source={x:Static s:MySettings.Default}, Path=CheckLink, Mode=TwoWay}" />
+            <CheckBox
+                Margin="0,0,0,8"
+                Content="{x:Static loc:Resources.run_minimized}"
+                IsChecked="{Binding Source={x:Static s:MySettings.Default}, Path=runMinimized, Mode=TwoWay}" />
+            <CheckBox
+                Margin="0,0,0,8"
+                Content="{x:Static loc:Resources.SystemSettings9}"
+                IsChecked="{Binding Source={x:Static s:MySettings.Default}, Path=InTaskbar, Mode=TwoWay}" />
+            <CheckBox
+                Margin="0,0,0,8"
+                Content="{x:Static loc:Resources.SaveWindowsSize}"
+                IsChecked="{Binding Source={x:Static s:MySettings.Default}, Path=isWindowsSize, Mode=TwoWay}" />
+            <CheckBox x:Name="RunAsStartupCheckBox"
+                      Click="RunAsStartupCheckBox_OnClick"
+                Margin="0,0,0,8"
+                Content="{x:Static loc:Resources.RunAsStartup}"
+                IsChecked="{Binding Source={x:Static s:MySettings.Default}, Path=RunAsStartup, Mode=TwoWay}" />
+            <CheckBox
+                Margin="0,0,0,8"
+                Content="{x:Static loc:Resources.SystemSettings10}"
+                IsChecked="{Binding Source={x:Static s:MySettings.Default}, Path=IsClosed, Mode=TwoWay}" />
+
+            <Button
+                HorizontalAlignment="Left"
+                Click="Button_Click"
+                Content="{x:Static loc:Resources.SystemSettings8}" />
+
+        </StackPanel>
+    </Grid>
+</UserControl>

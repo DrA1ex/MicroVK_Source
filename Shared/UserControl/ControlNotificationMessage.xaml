@@ -1,0 +1,94 @@
+﻿<UserControl x:Class="ControlNotificationMessage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:data="clr-namespace:MicroVK"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:types="clr-namespace:MicroVK.types"
+             x:Name="ControlNotificationMessage1"
+             MaxWidth="300"
+             Initialized="ControlNotificationMessage_OnInitialized"
+             PreviewMouseDown="ControlNotificationMessage_OnPreviewMouseDown"
+             d:DesignWidth="300"
+             Loaded="ControlNotificationMessage_OnLoaded"
+             mc:Ignorable="d" d:DataContext="{d:DesignInstance types:Notifycation}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="55" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Button Width="50"
+                Height="50"
+                Margin="0,0,5,0"
+                VerticalAlignment="Top"
+                Command="{StaticResource OpenDialogCommand1}"
+                CommandParameter="{Binding user_id}"
+                Cursor="Hand"
+                Padding="0"
+                Style="{StaticResource MySystemButton}">
+            <Image Width="50"
+                   Height="50"
+                   Source="{Binding user_id,
+                                    IsAsync=True,
+                                    Mode=OneWay,
+                                    Converter={StaticResource ConverterGetPhoto1}}"
+                   Stretch="UniformToFill" />
+        </Button>
+        <StackPanel Grid.Column="1">
+            <TextBlock Margin="3,1,35,1"
+                       Foreground="White"
+                       TextTrimming="CharacterEllipsis"
+                       TextWrapping="Wrap">
+                <Run x:Name="UserNameRun1" FontWeight="Bold" Text="{Binding user_id, Mode=OneWay, Converter={StaticResource ConverterNameGet1}}" />
+            </TextBlock>
+            <Grid MaxHeight="160">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Expander x:Name="Expander1"
+                          ExpandDirection="Right"
+                          Collapsed="Expander1_Collapsed"
+                          Expanded="Expander_Expanded"
+                          IsExpanded="True" />
+                <ScrollViewer x:Name="ScrollViewer1"
+                              ScrollChanged="ScrollViewer1_ScrollChanged"
+                              Grid.Column="1"
+                              Visibility="Hidden">
+                    <TextBlock x:Name="TextBlock1" Foreground="White"
+                               Tag="True"
+                               TextWrapping="Wrap"
+                               data:TextBlockHelper.RawText="{Binding Message,
+                                                                      Converter={StaticResource GetMessageBodyForDialogListConverter1}}" />
+                </ScrollViewer>
+                <data:SendControl x:Name="SendControl1"
+                                  Grid.Column="1"
+                                  Margin="0,5,1,1" />
+                <!--<TextBox x:Name="TextBox1"
+                         Grid.Column="1"
+                         PreviewKeyDown="TextBox1_PreviewKeyDown"
+                         Style="{StaticResource WatermarkMetroTextBox}"
+                         TextWrapping="Wrap"
+                         VerticalScrollBarVisibility="Auto"
+                         metro:TextBoxHelper.Watermark="{Binding text,
+                                                                 Mode=OneWay}" />-->
+                <TextBlock x:Name="PreviewTextBlock1"
+                           Grid.Column="1"
+                           MaxHeight="100"
+                           Margin="4,5,28,3"
+                           data:TextBlockHelper.RawText="{Binding Message, Converter={StaticResource GetMessageBodyForDialogListConverter1}}"
+                           Background="Transparent"
+                           Foreground="Black"
+                           Loaded="PreviewTextBlock1_OnLoaded"
+                           Opacity="0.75"
+                           Tag="True"
+                           TextTrimming="CharacterEllipsis"
+                           TextWrapping="Wrap" />
+
+            </Grid>
+        </StackPanel>
+    </Grid>
+</UserControl>

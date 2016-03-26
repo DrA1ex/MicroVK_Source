@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="ContentEqualizer"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:loc="clr-namespace:MicroVK.My.Resources"
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             d:DesignHeight="300"
+             d:DesignWidth="600"
+             mc:Ignorable="d">
+
+    <Grid>
+        <mui:ModernTab Layout="List" >
+            <mui:ModernTab.Links>
+                <mui:LinkCollection>
+                    <mui:Link DisplayName="{x:Static loc:Resources.Equalizer}" Source="../Content/Equalizer/ContentPeakEq.xaml"></mui:Link>
+                    <mui:Link DisplayName="{x:Static loc:Resources.bass_echo}" Source="../Content/Equalizer/ContentEcho.xaml"></mui:Link>
+                    <mui:Link DisplayName="{x:Static loc:Resources.bass_distortion}" Source="../Content/Equalizer/ContentDistortion.xaml"></mui:Link>
+                </mui:LinkCollection>
+            </mui:ModernTab.Links>
+        </mui:ModernTab>
+    </Grid>
+</UserControl>

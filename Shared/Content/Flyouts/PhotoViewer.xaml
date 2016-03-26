@@ -1,0 +1,89 @@
+﻿<UserControl
+    x:Class="PhotoViewer"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:loc="clr-namespace:MicroVK.My.Resources"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
+    xmlns:s="clr-namespace:MicroVK"
+    d:DesignHeight="300"
+    d:DesignWidth="608"
+    Loaded="PhotoViewer_OnLoaded"
+    mc:Ignorable="d">
+    <Grid x:Name="RootGrid1">
+        <Grid  Margin="0,0,0,0">
+            <ScrollViewer x:Name="ScrollViewer1">
+                <metro:FlipView
+                    x:Name="FlipView1"
+                    IsBannerEnabled="False"
+                    ItemContainerStyleSelector="{StaticResource PhotoVieverContainerTemplateSelector1}"
+                    ItemTemplateSelector="{StaticResource AttachmentDataS1}"
+                    MouseDown="FlipView1_OnMouseDown"
+                    SelectionChanged="FlipView1_OnSelectionChanged"
+                    Tag="{Binding ElementName=FlipView1}" />
+
+            </ScrollViewer>
+            <ContentControl
+                x:Name="ContentControl1"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Top">
+                <ContentControl.Template>
+                    <ControlTemplate>
+                        <Grid
+                            x:Name="Grid1"
+                            MinHeight="64"
+                            HorizontalAlignment="Stretch"
+                            Background="Transparent">
+                            <Border
+                                x:Name="Border1"
+                                Margin="32,8,8,32"
+                                Padding="5"
+                                HorizontalAlignment="Right"
+                                Background="#33000000"
+                                Visibility="Collapsed">
+                                <Button
+                                    x:Name="FullScreenButton"
+                                    Style="{StaticResource MySystemButton}"
+                                    Click="FullScreenButton_OnClick"
+                                    RenderTransformOrigin="0.5,0.5">
+                                    <Path
+                                        x:Name="Path1"
+                                        Width="32"
+                                        Height="32"
+                                        Fill="{Binding Foreground, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=Button}}"
+                                        Data="{StaticResource fullscreen}"
+                                        Stretch="Uniform" />
+                                </Button>
+                            </Border>
+                        </Grid>
+
+                        <ControlTemplate.Triggers>
+                            <Trigger SourceName="Grid1" Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Border1" Property="Visibility" Value="Visible" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </ContentControl.Template>
+
+            </ContentControl>
+
+            <TextBlock
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Text="{x:Static loc:Resources.InDeveloping}"
+                Visibility="Collapsed" />
+        </Grid>
+        <!--<StackPanel HorizontalAlignment="Left" VerticalAlignment="Bottom">
+            <ComboBox Background="Transparent" SelectedIndex="{Binding Source={x:Static s:MySettings.Default}, Path=photoSize, Mode=TwoWay}">
+                <ComboBoxItem Content="{x:Static loc:Resources.autoSelect}" />
+                <ComboBoxItem Content="75" />
+                <ComboBoxItem Content="130" />
+                <ComboBoxItem Content="604" />
+                <ComboBoxItem Content="807" />
+                <ComboBoxItem Content="1280" />
+                <ComboBoxItem Content="2560" />
+            </ComboBox>
+        </StackPanel>-->
+    </Grid>
+</UserControl>

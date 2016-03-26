@@ -1,0 +1,33 @@
+﻿<Page x:Class="BrowserLogin"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:loc="clr-namespace:MicroVK.My.Resources"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      Title="BrowserLogin"
+      d:DesignHeight="300"
+      d:DesignWidth="300"
+      mc:Ignorable="d">
+    <Grid Width="300" HorizontalAlignment="Center">
+        <StackPanel VerticalAlignment="Center">
+
+            <Button Click="ButtonBase_OnClick" Content="{x:Static loc:Resources.BrowserLoginButton}" />
+            <TextBlock Margin="0,5,0,0">
+                <Run Text="{x:Static loc:Resources.BrowserLoginTips2}" />
+                :
+            </TextBlock>
+            <TextBox MaxHeight="100" TextWrapping="Wrap" x:Name="TokenTextBox1" Margin="0,5,0,0"
+                     Style="{StaticResource WatermarkMetroTextBox}"
+                     controls:TextBoxHelper.Watermark="{x:Static loc:Resources.BrowserLoginTips}" />
+            <Button x:Name="LoginButton"
+                    Click="LoginButton_OnClick"
+                    Margin="0,5,0,0"
+                    Content="{x:Static loc:Resources.Login}" />
+            <TextBlock Foreground="Red" x:Name ="LoginErrorTextBlock" TextWrapping="Wrap">
+                
+            </TextBlock>
+        </StackPanel>
+
+    </Grid>
+</Page>

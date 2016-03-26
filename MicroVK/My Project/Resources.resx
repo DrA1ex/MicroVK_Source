@@ -1,0 +1,1333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Acoustic" xml:space="preserve">
+    <value>Акустическая</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="All_genres" xml:space="preserve">
+    <value>Все жанры</value>
+  </data>
+  <data name="All_notification" xml:space="preserve">
+    <value>Все уведомления</value>
+  </data>
+  <data name="Alternative" xml:space="preserve">
+    <value>Альтернативная</value>
+  </data>
+  <data name="Authorization" xml:space="preserve">
+    <value>Авторизация</value>
+  </data>
+  <data name="Chanson" xml:space="preserve">
+    <value>Шансон</value>
+  </data>
+  <data name="Classical" xml:space="preserve">
+    <value>Классическая</value>
+  </data>
+  <data name="current_playlist" xml:space="preserve">
+    <value>Текущий плейлист</value>
+  </data>
+  <data name="Dance_and_House" xml:space="preserve">
+    <value>Танцевальная и Хаус</value>
+  </data>
+  <data name="Dialogs" xml:space="preserve">
+    <value>Диалоги</value>
+  </data>
+  <data name="Drum_and_Bass" xml:space="preserve">
+    <value>Драм-н-бэйс</value>
+  </data>
+  <data name="Dubstep" xml:space="preserve">
+    <value>Дабстеп</value>
+  </data>
+  <data name="Easy_Listening" xml:space="preserve">
+    <value>Легкая музыка</value>
+  </data>
+  <data name="Electropop_and_Disco" xml:space="preserve">
+    <value>Электропоп и диско</value>
+  </data>
+  <data name="Enter_through_browser" xml:space="preserve">
+    <value>Войти через браузер</value>
+  </data>
+  <data name="Entries" xml:space="preserve">
+    <value>Записи</value>
+  </data>
+  <data name="Ethnic" xml:space="preserve">
+    <value>Этническая</value>
+  </data>
+  <data name="Exit1" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="Fotometki" xml:space="preserve">
+    <value>Фотометки</value>
+  </data>
+  <data name="Friends" xml:space="preserve">
+    <value>Друзья</value>
+  </data>
+  <data name="History_changes" xml:space="preserve">
+    <value>История изменений</value>
+  </data>
+  <data name="Indie_Pop" xml:space="preserve">
+    <value>Инди Поп</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="Instrumental" xml:space="preserve">
+    <value>Инструментальная</value>
+  </data>
+  <data name="Jazz_and_Blues" xml:space="preserve">
+    <value>Джаз и Блюз</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Вход</value>
+  </data>
+  <data name="Messages" xml:space="preserve">
+    <value>Сообщения</value>
+  </data>
+  <data name="Metal" xml:space="preserve">
+    <value>Металл</value>
+  </data>
+  <data name="Music" xml:space="preserve">
+    <value>Музыка</value>
+  </data>
+  <data name="My_record" xml:space="preserve">
+    <value>Мои аудиозаписи</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>Новости</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>Уведомления</value>
+  </data>
+  <data name="only_foreign" xml:space="preserve">
+    <value>Только зарубежные</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Прочее</value>
+  </data>
+  <data name="Photo" xml:space="preserve">
+    <value>Фото</value>
+  </data>
+  <data name="Photos_walls" xml:space="preserve">
+    <value>Фото на стенах</value>
+  </data>
+  <data name="Pop" xml:space="preserve">
+    <value>Поп</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Профиль</value>
+  </data>
+  <data name="Rap_and_hiphop" xml:space="preserve">
+    <value>Рэп &amp; Хип-Хоп</value>
+  </data>
+  <data name="recommendations" xml:space="preserve">
+    <value>Рекомендации</value>
+  </data>
+  <data name="Reggae" xml:space="preserve">
+    <value>Рэгги</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>Просмотр</value>
+  </data>
+  <data name="Rock" xml:space="preserve">
+    <value>Рок</value>
+  </data>
+  <data name="search" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="Speech" xml:space="preserve">
+    <value>Разговорная</value>
+  </data>
+  <data name="Trance" xml:space="preserve">
+    <value>Транс</value>
+  </data>
+  <data name="Video" xml:space="preserve">
+    <value>Видео</value>
+  </data>
+  <data name="Whats_new" xml:space="preserve">
+    <value>Что нового</value>
+  </data>
+  <data name="About_Me" xml:space="preserve">
+    <value>О себе</value>
+  </data>
+  <data name="activities" xml:space="preserve">
+    <value>Деятельность</value>
+  </data>
+  <data name="additional_phone" xml:space="preserve">
+    <value>Дополнительный телефон</value>
+  </data>
+  <data name="alignment" xml:space="preserve">
+    <value>Выравнивание</value>
+  </data>
+  <data name="appearance" xml:space="preserve">
+    <value>Внешний вид</value>
+  </data>
+  <data name="Audio_Records" xml:space="preserve">
+    <value>Аудиозаписи</value>
+  </data>
+  <data name="Basic_Information" xml:space="preserve">
+    <value>Основная информация</value>
+  </data>
+  <data name="Beliefs" xml:space="preserve">
+    <value>Жизненная позиция</value>
+  </data>
+  <data name="birthday" xml:space="preserve">
+    <value>День рождения</value>
+  </data>
+  <data name="bottom_edge" xml:space="preserve">
+    <value>Нижний край</value>
+  </data>
+  <data name="city" xml:space="preserve">
+    <value>Город</value>
+  </data>
+  <data name="common" xml:space="preserve">
+    <value>Общие</value>
+  </data>
+  <data name="contact_information" xml:space="preserve">
+    <value>Контактная информация</value>
+  </data>
+  <data name="detailed_information" xml:space="preserve">
+    <value>Подробная информация</value>
+  </data>
+  <data name="Drinking_habits" xml:space="preserve">
+    <value>Отношение к алкоголю</value>
+  </data>
+  <data name="education" xml:space="preserve">
+    <value>Образование</value>
+  </data>
+  <data name="faculty" xml:space="preserve">
+    <value>Факультет</value>
+  </data>
+  <data name="favorite_Books" xml:space="preserve">
+    <value>Любимые книги</value>
+  </data>
+  <data name="favorite_films" xml:space="preserve">
+    <value>Любимые фильмы</value>
+  </data>
+  <data name="favorite_games" xml:space="preserve">
+    <value>Любимые игры</value>
+  </data>
+  <data name="favorite_music" xml:space="preserve">
+    <value>Любимая музыка</value>
+  </data>
+  <data name="favorite_Quotes" xml:space="preserve">
+    <value>Любимые цитаты</value>
+  </data>
+  <data name="Favourite_teleshows" xml:space="preserve">
+    <value>Любимые телешоу</value>
+  </data>
+  <data name="Followers" xml:space="preserve">
+    <value>Подписчики</value>
+  </data>
+  <data name="Friends_online" xml:space="preserve">
+    <value>Друзья онлайн</value>
+  </data>
+  <data name="groups" xml:space="preserve">
+    <value>Сообщества</value>
+  </data>
+  <data name="HIGH_SCHOOL" xml:space="preserve">
+    <value>ВУЗ</value>
+  </data>
+  <data name="Hometown" xml:space="preserve">
+    <value>Родной город</value>
+  </data>
+  <data name="Horizontal" xml:space="preserve">
+    <value>По горизонтали:</value>
+  </data>
+  <data name="Important_in_life" xml:space="preserve">
+    <value>Главное в жизни</value>
+  </data>
+  <data name="Important_in_others" xml:space="preserve">
+    <value>Главное в людях</value>
+  </data>
+  <data name="interests" xml:space="preserve">
+    <value>Интересы</value>
+  </data>
+  <data name="in_all" xml:space="preserve">
+    <value>Всего</value>
+  </data>
+  <data name="left_edge" xml:space="preserve">
+    <value>Левый край</value>
+  </data>
+  <data name="mobile_phone" xml:space="preserve">
+    <value>Мобильный телефон</value>
+  </data>
+  <data name="Mutual_Friends" xml:space="preserve">
+    <value>Общие друзья</value>
+  </data>
+  <data name="notes" xml:space="preserve">
+    <value>Заметки</value>
+  </data>
+  <data name="Notification3" xml:space="preserve">
+    <value>Пользователь прочел ваше сообщение</value>
+  </data>
+  <data name="Notification4" xml:space="preserve">
+    <value>Новое сообщение</value>
+  </data>
+  <data name="Notification4_0" xml:space="preserve">
+    <value>Новое сообщение из беседы</value>
+  </data>
+  <data name="Notification61" xml:space="preserve">
+    <value>Пользователь начал набирать текст в диалоге</value>
+  </data>
+  <data name="Notification62" xml:space="preserve">
+    <value>Пользователь начал набирать текст в беседе</value>
+  </data>
+  <data name="Notification8" xml:space="preserve">
+    <value>Друг стал онлайн</value>
+  </data>
+  <data name="Notification9" xml:space="preserve">
+    <value>Друг стал оффлайн</value>
+  </data>
+  <data name="number_messages" xml:space="preserve">
+    <value>Количество сообщений</value>
+  </data>
+  <data name="Online" xml:space="preserve">
+    <value>Онлайн</value>
+  </data>
+  <data name="personal_information" xml:space="preserve">
+    <value>Личная информация</value>
+  </data>
+  <data name="photos" xml:space="preserve">
+    <value>Фотографии</value>
+  </data>
+  <data name="photo_albums" xml:space="preserve">
+    <value>Фотоальбомы</value>
+  </data>
+  <data name="Photo_user" xml:space="preserve">
+    <value>Фото с пользователем</value>
+  </data>
+  <data name="political_preferences" xml:space="preserve">
+    <value>Политические предпочтения</value>
+  </data>
+  <data name="programm" xml:space="preserve">
+    <value>Программа</value>
+  </data>
+  <data name="right_edge" xml:space="preserve">
+    <value>Правый край</value>
+  </data>
+  <data name="Send_message" xml:space="preserve">
+    <value>Отправить сообщение</value>
+  </data>
+  <data name="Skype" xml:space="preserve">
+    <value>Скайп</value>
+  </data>
+  <data name="Smoker" xml:space="preserve">
+    <value>Отношение к курению</value>
+  </data>
+  <data name="Study_mode" xml:space="preserve">
+    <value>Форма обучения</value>
+  </data>
+  <data name="Subscriptions" xml:space="preserve">
+    <value>Подписки</value>
+  </data>
+  <data name="top_edge" xml:space="preserve">
+    <value>Верхний край</value>
+  </data>
+  <data name="Vertical" xml:space="preserve">
+    <value>По вертикали:</value>
+  </data>
+  <data name="Video_user" xml:space="preserve">
+    <value>Видео с пользователем</value>
+  </data>
+  <data name="voice_notification" xml:space="preserve">
+    <value>Голосовые уведомления</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Веб-сайт</value>
+  </data>
+  <data name="world_view" xml:space="preserve">
+    <value>Мировоззрение</value>
+  </data>
+  <data name="add_photo" xml:space="preserve">
+    <value>Добавить фото</value>
+  </data>
+  <data name="Add_to_my_record" xml:space="preserve">
+    <value>Добавить в мои аудиозаписи</value>
+  </data>
+  <data name="background_image" xml:space="preserve">
+    <value>Фоновый рисунок</value>
+  </data>
+  <data name="best_friends" xml:space="preserve">
+    <value>Лучшие друзья</value>
+  </data>
+  <data name="BrowserLoginButton" xml:space="preserve">
+    <value>Получить ссылку для входа</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>Цвет</value>
+  </data>
+  <data name="Copyright" xml:space="preserve">
+    <value>MicroVK, © 2015, Artem Moldowanenko</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>Шрифт</value>
+  </data>
+  <data name="forwarded_messages" xml:space="preserve">
+    <value>Пересылаемые сообщения</value>
+  </data>
+  <data name="Forward_message" xml:space="preserve">
+    <value>Переслать</value>
+  </data>
+  <data name="License1" xml:space="preserve">
+    <value>Использование «MicroVK» подразумевает, что Вы принимаете условия настоящего</value>
+  </data>
+  <data name="License2" xml:space="preserve">
+    <value>лицензионного соглашения</value>
+  </data>
+  <data name="miscellanea" xml:space="preserve">
+    <value>Разное</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="proverb" xml:space="preserve">
+    <value>На дворе трава, на траве дрова</value>
+  </data>
+  <data name="Remove_attachments" xml:space="preserve">
+    <value>Удалить вложения</value>
+  </data>
+  <data name="Repeat" xml:space="preserve">
+    <value>Повторять</value>
+  </data>
+  <data name="See_related" xml:space="preserve">
+    <value>Показать похожие</value>
+  </data>
+  <data name="SendOption1" xml:space="preserve">
+    <value>Enter - отправить</value>
+  </data>
+  <data name="SendOption2" xml:space="preserve">
+    <value>Ctrl+Enter - отправить</value>
+  </data>
+  <data name="Send_a_message" xml:space="preserve">
+    <value>Переслать сообщение</value>
+  </data>
+  <data name="ShareInStatus" xml:space="preserve">
+    <value>Транслировать в статус</value>
+  </data>
+  <data name="shuffle" xml:space="preserve">
+    <value>Перемешать</value>
+  </data>
+  <data name="SystemSettings1" xml:space="preserve">
+    <value>Собеседнику виден мой статус набора текста</value>
+  </data>
+  <data name="SystemSettings2" xml:space="preserve">
+    <value>Не отображать мой статус онлайн</value>
+  </data>
+  <data name="SystemSettings3" xml:space="preserve">
+    <value>Проверка правописания</value>
+  </data>
+  <data name="SystemSettings4" xml:space="preserve">
+    <value>Помечать сообщения как прочитанные</value>
+  </data>
+  <data name="SystemSettings5" xml:space="preserve">
+    <value>Проверять ссылки</value>
+  </data>
+  <data name="SystemSettings8" xml:space="preserve">
+    <value>Сброс всех настроек</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="Theme" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Время</value>
+  </data>
+  <data name="transparency" xml:space="preserve">
+    <value>Прозрачность</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Версия:</value>
+  </data>
+  <data name="VoiceOn" xml:space="preserve">
+    <value>Включить голосовые уведомления</value>
+  </data>
+  <data name="VoiceSampleText" xml:space="preserve">
+    <value>Использовать следующий текст для пробы голоса:</value>
+  </data>
+  <data name="VoiceSelect" xml:space="preserve">
+    <value>Выберите голос </value>
+  </data>
+  <data name="VoiceSpeed" xml:space="preserve">
+    <value>Скорость произношения:</value>
+  </data>
+  <data name="VoiceTest" xml:space="preserve">
+    <value>Проба голоса</value>
+  </data>
+  <data name="InDeveloping" xml:space="preserve">
+    <value>В разработке</value>
+  </data>
+  <data name="AboutProgramm" xml:space="preserve">
+    <value>О программе</value>
+  </data>
+  <data name="addToYourAudio" xml:space="preserve">
+    <value>Добавлено в Ваши аудиозаписи</value>
+  </data>
+  <data name="ApiError1" xml:space="preserve">
+    <value>Произошла неизвестная ошибка</value>
+  </data>
+  <data name="ApiError10" xml:space="preserve">
+    <value>Произошла внутренняя ошибка сервера</value>
+  </data>
+  <data name="ApiError100" xml:space="preserve">
+    <value>Один из необходимых параметров был не передан или неверен</value>
+  </data>
+  <data name="ApiError101" xml:space="preserve">
+    <value>Неверный API ID приложения</value>
+  </data>
+  <data name="ApiError11" xml:space="preserve">
+    <value>В тестовом режиме приложение должно быть выключено или пользователь должен быть залогинен</value>
+  </data>
+  <data name="ApiError113" xml:space="preserve">
+    <value>Неверный идентификатор пользователя</value>
+  </data>
+  <data name="ApiError14" xml:space="preserve">
+    <value>Введите код</value>
+  </data>
+  <data name="ApiError15" xml:space="preserve">
+    <value>Доступ запрещен</value>
+  </data>
+  <data name="ApiError150" xml:space="preserve">
+    <value>Неверный timestamp</value>
+  </data>
+  <data name="ApiError16" xml:space="preserve">
+    <value>Требуется выполнение запросов по протоколу HTTPS, т.к. пользователь включил настройку, требующую работу через безопасное соединение</value>
+  </data>
+  <data name="ApiError17" xml:space="preserve">
+    <value>Требуется валидация пользователя</value>
+  </data>
+  <data name="ApiError2" xml:space="preserve">
+    <value>Приложение выключено </value>
+  </data>
+  <data name="ApiError20" xml:space="preserve">
+    <value>Данное действие запрещено для не Standalone приложений</value>
+  </data>
+  <data name="ApiError200" xml:space="preserve">
+    <value>Доступ к альбому запрещен</value>
+  </data>
+  <data name="ApiError201" xml:space="preserve">
+    <value>Доступ к аудио запрещен</value>
+  </data>
+  <data name="ApiError203" xml:space="preserve">
+    <value>Доступ к группе запрещен</value>
+  </data>
+  <data name="ApiError21" xml:space="preserve">
+    <value>Данное действие разрешено только для Standalone и Open API приложений</value>
+  </data>
+  <data name="ApiError23" xml:space="preserve">
+    <value>Метод был выключен</value>
+  </data>
+  <data name="ApiError3" xml:space="preserve">
+    <value>Передан неизвестный метод </value>
+  </data>
+  <data name="ApiError300" xml:space="preserve">
+    <value>Альбом переполнен</value>
+  </data>
+  <data name="ApiError4" xml:space="preserve">
+    <value>Неверная подпись</value>
+  </data>
+  <data name="ApiError500" xml:space="preserve">
+    <value>Действие запрещено. Вы должны включить переводы голосов в настройках приложения</value>
+  </data>
+  <data name="ApiError6" xml:space="preserve">
+    <value>Слишком много запросов в секунду</value>
+  </data>
+  <data name="ApiError600" xml:space="preserve">
+    <value>Нет прав на выполнение данных операций с рекламным кабинетом</value>
+  </data>
+  <data name="ApiError603" xml:space="preserve">
+    <value>Произошла ошибка при работе с рекламным кабинетом</value>
+  </data>
+  <data name="ApiError7" xml:space="preserve">
+    <value>Нет прав для выполнения этого действия</value>
+  </data>
+  <data name="ApiError7_1" xml:space="preserve">
+    <value>Получить новые права доступа?</value>
+  </data>
+  <data name="ApiError8" xml:space="preserve">
+    <value>Неверный запрос</value>
+  </data>
+  <data name="ApiError9" xml:space="preserve">
+    <value>Слишком много однотипных действий</value>
+  </data>
+  <data name="AttachmentError1" xml:space="preserve">
+    <value>Превышено количество вложений</value>
+  </data>
+  <data name="AttachmentError2" xml:space="preserve">
+    <value>К сообщению можно прикрепить не более десяти вложений</value>
+  </data>
+  <data name="BadUrl" xml:space="preserve">
+    <value>Опасная ссылка</value>
+  </data>
+  <data name="BlockUrl" xml:space="preserve">
+    <value>Адрес заблокирован ({0})</value>
+  </data>
+  <data name="BrowserLoginError1" xml:space="preserve">
+    <value>Не удалось определить ключ доступа</value>
+  </data>
+  <data name="BrowserLoginError2" xml:space="preserve">
+    <value>Неверный ключ доступа</value>
+  </data>
+  <data name="BrowserLoginTips" xml:space="preserve">
+    <value>Разрешите доступ и скопируйте ссылку из адресной строки своего браузера. Ссылка вида - https://oauth.vk.com/blank.html#access_token=*****</value>
+  </data>
+  <data name="BrowserLoginTips2" xml:space="preserve">
+    <value>Введите полученную ссылку</value>
+  </data>
+  <data name="change_user" xml:space="preserve">
+    <value>Сменить пользователя</value>
+  </data>
+  <data name="confirmation" xml:space="preserve">
+    <value>Подтверждение</value>
+  </data>
+  <data name="confirmation_reset" xml:space="preserve">
+    <value>Действительно сбросить все настройки программы?</value>
+  </data>
+  <data name="delAudioStatus" xml:space="preserve">
+    <value>Аудиостатус удален</value>
+  </data>
+  <data name="ErrorUploadFile" xml:space="preserve">
+    <value>Не удалось загрузить файл на сервер.</value>
+  </data>
+  <data name="FontNormal" xml:space="preserve">
+    <value>Нормальный</value>
+  </data>
+  <data name="FontSmall" xml:space="preserve">
+    <value>Маленький</value>
+  </data>
+  <data name="friend_offline" xml:space="preserve">
+    <value>друг вышел из сети;вышла из сети;вышел из сети</value>
+  </data>
+  <data name="friend_online" xml:space="preserve">
+    <value>друг появился в сети;появилась в сети;появился в сети</value>
+  </data>
+  <data name="friend_typing" xml:space="preserve">
+    <value>пишет вам сообщение</value>
+  </data>
+  <data name="friend_typing_chat" xml:space="preserve">
+    <value>пишет сообщение в беседе</value>
+  </data>
+  <data name="GoToDialog" xml:space="preserve">
+    <value>Перейти к диалогу</value>
+  </data>
+  <data name="GroupVK" xml:space="preserve">
+    <value>Группа приложения в ВК</value>
+  </data>
+  <data name="Invisible" xml:space="preserve">
+    <value>Невидимый</value>
+  </data>
+  <data name="Invisible_disabled" xml:space="preserve">
+    <value>Режим "Невидимка" выключен</value>
+  </data>
+  <data name="Invisible_enabled" xml:space="preserve">
+    <value>Режим "Невидимка" включен</value>
+  </data>
+  <data name="is_typing" xml:space="preserve">
+    <value>набирает текст</value>
+  </data>
+  <data name="Like1" xml:space="preserve">
+    <value>Мне нравится</value>
+  </data>
+  <data name="messageError1" xml:space="preserve">
+    <value>Не удалось отправить сообщение</value>
+  </data>
+  <data name="Next1" xml:space="preserve">
+    <value>Продолжить</value>
+  </data>
+  <data name="NotifycationConvert3" xml:space="preserve">
+    <value>Прочитано</value>
+  </data>
+  <data name="NotifycationConvert4" xml:space="preserve">
+    <value>Новое сообщение</value>
+  </data>
+  <data name="NotifycationConvert61" xml:space="preserve">
+    <value>Набор в диалоге</value>
+  </data>
+  <data name="NotifycationConvert62" xml:space="preserve">
+    <value>Набор в беседе</value>
+  </data>
+  <data name="NotifycationConvert8" xml:space="preserve">
+    <value>Онлайн</value>
+  </data>
+  <data name="NotifycationConvert9" xml:space="preserve">
+    <value>Оффлайн</value>
+  </data>
+  <data name="notifycation_aligment" xml:space="preserve">
+    <value>Задано новое расположение уведомлений</value>
+  </data>
+  <data name="notifycation_color_prewiew" xml:space="preserve">
+    <value>Предпросмотр нового цвета уведомления</value>
+  </data>
+  <data name="opacity" xml:space="preserve">
+    <value>Непрозрачность:</value>
+  </data>
+  <data name="personal1" xml:space="preserve">
+    <value>Ум и креативность</value>
+  </data>
+  <data name="personal2" xml:space="preserve">
+    <value>Доброта и честность</value>
+  </data>
+  <data name="personal3" xml:space="preserve">
+    <value>Красота и здоровье</value>
+  </data>
+  <data name="personal4" xml:space="preserve">
+    <value>Власть и богатство</value>
+  </data>
+  <data name="personal5" xml:space="preserve">
+    <value>Смелость и упорство</value>
+  </data>
+  <data name="personal6" xml:space="preserve">
+    <value>Юмор и жизнелюбие</value>
+  </data>
+  <data name="personallife1" xml:space="preserve">
+    <value>Семья и дети</value>
+  </data>
+  <data name="personallife2" xml:space="preserve">
+    <value>Карьера и деньги</value>
+  </data>
+  <data name="personallife3" xml:space="preserve">
+    <value>Развлечения и отдых</value>
+  </data>
+  <data name="personallife4" xml:space="preserve">
+    <value>Наука и исследования</value>
+  </data>
+  <data name="personallife5" xml:space="preserve">
+    <value>Совершенствование мира</value>
+  </data>
+  <data name="personallife6" xml:space="preserve">
+    <value>Саморазвитие</value>
+  </data>
+  <data name="personallife7" xml:space="preserve">
+    <value>Красота и искусство</value>
+  </data>
+  <data name="personallife8" xml:space="preserve">
+    <value>Слава и влияние</value>
+  </data>
+  <data name="personalPolitical1" xml:space="preserve">
+    <value>Коммунистические</value>
+  </data>
+  <data name="personalPolitical2" xml:space="preserve">
+    <value>Социалистические</value>
+  </data>
+  <data name="personalPolitical3" xml:space="preserve">
+    <value>Умеренные</value>
+  </data>
+  <data name="personalPolitical4" xml:space="preserve">
+    <value>Либеральные</value>
+  </data>
+  <data name="personalPolitical5" xml:space="preserve">
+    <value>Консервативные</value>
+  </data>
+  <data name="personalPolitical6" xml:space="preserve">
+    <value>Монархические</value>
+  </data>
+  <data name="personalPolitical7" xml:space="preserve">
+    <value>Ультраконсервативные</value>
+  </data>
+  <data name="personalPolitical8" xml:space="preserve">
+    <value>Индифферентные</value>
+  </data>
+  <data name="personalPolitical9" xml:space="preserve">
+    <value>Либертарианские</value>
+  </data>
+  <data name="Picture_file" xml:space="preserve">
+    <value>Файлы рисунков</value>
+  </data>
+  <data name="read_your_message" xml:space="preserve">
+    <value>ваше сообщение было прочтено</value>
+  </data>
+  <data name="read_your_message1" xml:space="preserve">
+    <value>прочла ваше сообщение</value>
+  </data>
+  <data name="read_your_message2" xml:space="preserve">
+    <value>прочел ваше сообщение</value>
+  </data>
+  <data name="restart" xml:space="preserve">
+    <value>Перезапуск</value>
+  </data>
+  <data name="Select1" xml:space="preserve">
+    <value>Выбрать</value>
+  </data>
+  <data name="setaudioStatus" xml:space="preserve">
+    <value>Аудиостатус установлен</value>
+  </data>
+  <data name="smoking1" xml:space="preserve">
+    <value>Резко негативное</value>
+  </data>
+  <data name="smoking2" xml:space="preserve">
+    <value>Негативное</value>
+  </data>
+  <data name="smoking3" xml:space="preserve">
+    <value>Нейтральное</value>
+  </data>
+  <data name="smoking4" xml:space="preserve">
+    <value>Компромиссное</value>
+  </data>
+  <data name="smoking5" xml:space="preserve">
+    <value>Положительное</value>
+  </data>
+  <data name="successfully_updated" xml:space="preserve">
+    <value>Программа успешно обновлена</value>
+  </data>
+  <data name="themeDark" xml:space="preserve">
+    <value>Темная тема</value>
+  </data>
+  <data name="themeLight" xml:space="preserve">
+    <value>Светлая тема</value>
+  </data>
+  <data name="unknown" xml:space="preserve">
+    <value>Неизвестно</value>
+  </data>
+  <data name="user_deleted" xml:space="preserve">
+    <value>страница пользователя удалена</value>
+  </data>
+  <data name="View_attachment" xml:space="preserve">
+    <value>Просмотр вложений</value>
+  </data>
+  <data name="need_restart" xml:space="preserve">
+    <value>Применить (потребуется перезапуск)</value>
+  </data>
+  <data name="New_friends" xml:space="preserve">
+    <value>Новых друзей:</value>
+  </data>
+  <data name="LastActyvity1" xml:space="preserve">
+    <value>Заходил;Заходила;Заходил</value>
+  </data>
+  <data name="today" xml:space="preserve">
+    <value>сегодня</value>
+  </data>
+  <data name="yesterday" xml:space="preserve">
+    <value>вчера</value>
+  </data>
+  <data name="in1" xml:space="preserve">
+    <value>в</value>
+  </data>
+  <data name="LastActivity" xml:space="preserve">
+    <value>последняя активность: </value>
+  </data>
+  <data name="WelcomeBack" xml:space="preserve">
+    <value>{0}, похоже вы уже использовали MicroVK ранее, хотите восстановить свои настройки?</value>
+  </data>
+  <data name="WelcomeBack1" xml:space="preserve">
+    <value>С возвращением!</value>
+  </data>
+  <data name="SystemSettings9" xml:space="preserve">
+    <value>Не убирать MicroVK из панели задач</value>
+  </data>
+  <data name="dialogues" xml:space="preserve">
+    <value>Диалогов</value>
+  </data>
+  <data name="Minimize" xml:space="preserve">
+    <value>Свернуть</value>
+  </data>
+  <data name="SystemSettings10" xml:space="preserve">
+    <value>Закрывать окно по нажатию на кнопку "Закрыть"</value>
+  </data>
+  <data name="Pin" xml:space="preserve">
+    <value>Закрепить</value>
+  </data>
+  <data name="PlayerNotInTaskBar" xml:space="preserve">
+    <value>Не отображать на панели задач</value>
+  </data>
+  <data name="ApiError_messageSend" xml:space="preserve">
+    <value>Сообщение не может быть отправлено, так как Вы разослали слишком много сообщений за последнее время.</value>
+  </data>
+  <data name="Translate" xml:space="preserve">
+    <value>перевод</value>
+  </data>
+  <data name="TranslateThanks" xml:space="preserve">
+    <value>Хотелось бы поблагодарить следующих людей, вызвавшихся перевести MicroVK:</value>
+  </data>
+  <data name="TranslateTopic" xml:space="preserve">
+    <value>Пожалуйста, ознакомьтесь с [url=https://vk.com/topic-35726826_31175546]обсуждением[/url], если хотите перевести MicroVK на свой язык.</value>
+  </data>
+  <data name="VersionError" xml:space="preserve">
+    <value>Сведения о версии и обновлениях недоступны, пожалуйста убедитесь что программа правильно установлена.</value>
+  </data>
+  <data name="library" xml:space="preserve">
+    <value>Библиотеки</value>
+  </data>
+  <data name="library_1" xml:space="preserve">
+    <value>Эта версия MicroVK была собрана с использованием следующих библиотек:</value>
+  </data>
+  <data name="donate" xml:space="preserve">
+    <value>Пожертвовать деньги</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Связаться с автором программы</value>
+  </data>
+  <data name="action_chat_create" xml:space="preserve">
+    <value>создал беседу</value>
+  </data>
+  <data name="action_chat_create1" xml:space="preserve">
+    <value>создала беседу</value>
+  </data>
+  <data name="postWall" xml:space="preserve">
+    <value>Запись на стене</value>
+  </data>
+  <data name="AutoTranslate" xml:space="preserve">
+    <value>Машинный перевод</value>
+  </data>
+  <data name="radio" xml:space="preserve">
+    <value>Радио</value>
+  </data>
+  <data name="MusicPlayer" xml:space="preserve">
+    <value>Музыкальный плеер</value>
+  </data>
+  <data name="Snap" xml:space="preserve">
+    <value>Прилипать к границам экрана</value>
+  </data>
+  <data name="Topmost" xml:space="preserve">
+    <value>Поверх всех окон</value>
+  </data>
+  <data name="Game" xml:space="preserve">
+    <value>Игра</value>
+  </data>
+  <data name="GameLabel" xml:space="preserve">
+    <value>Собрал {0} и набрал: {1};Собрала {0} и набрала: {1};Собрал {0} и набрал: {1}</value>
+  </data>
+  <data name="Game3" xml:space="preserve">
+    <value>Запись будет размещена на вашей стене. Продолжить?</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>Поделиться</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Копировать</value>
+  </data>
+  <data name="correspondents" xml:space="preserve">
+    <value>Собеседники</value>
+  </data>
+  <data name="events" xml:space="preserve">
+    <value>Встречи</value>
+  </data>
+  <data name="GlobalSearch" xml:space="preserve">
+    <value>Глобальный поиск</value>
+  </data>
+  <data name="publics" xml:space="preserve">
+    <value>Публичные страницы</value>
+  </data>
+  <data name="attachments" xml:space="preserve">
+    <value>Вложения</value>
+  </data>
+  <data name="Audio" xml:space="preserve">
+    <value>Аудиозапись</value>
+  </data>
+  <data name="Doc" xml:space="preserve">
+    <value>Документ</value>
+  </data>
+  <data name="I" xml:space="preserve">
+    <value>Я</value>
+  </data>
+  <data name="sticker" xml:space="preserve">
+    <value>Стикер</value>
+  </data>
+  <data name="wall_reply" xml:space="preserve">
+    <value>Комментарий к записи</value>
+  </data>
+  <data name="chat_users" xml:space="preserve">
+    <value>Участники беседы</value>
+  </data>
+  <data name="yandex_image" xml:space="preserve">
+    <value>Яндекс.Картинки</value>
+  </data>
+  <data name="by_marked" xml:space="preserve">
+    <value>Был(а) отмечен(а) на</value>
+  </data>
+  <data name="Votes" xml:space="preserve">
+    <value>Проголосовало:</value>
+  </data>
+  <data name="close_all" xml:space="preserve">
+    <value>Закрыть все</value>
+  </data>
+  <data name="wall" xml:space="preserve">
+    <value>Стена</value>
+  </data>
+  <data name="unread" xml:space="preserve">
+    <value>Непрочитано</value>
+  </data>
+  <data name="reply" xml:space="preserve">
+    <value>Ответить</value>
+  </data>
+  <data name="Favorites" xml:space="preserve">
+    <value>Избранные</value>
+  </data>
+  <data name="notification_center_tips_1" xml:space="preserve">
+    <value>Здесь будут отображаться Ваши уведомления за текущий сеанс</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="MicroVKGroupJoin" xml:space="preserve">
+    <value>Подпишитесь на [url=http://vk.com/microvk/]нашу[/url] страницу в Вконтакте, дабы ничего не пропустить</value>
+  </data>
+  <data name="Join" xml:space="preserve">
+    <value>Подписаться</value>
+  </data>
+  <data name="bass_Delay" xml:space="preserve">
+    <value>Задержка:</value>
+  </data>
+  <data name="bass_distortion" xml:space="preserve">
+    <value>Искажение</value>
+  </data>
+  <data name="bass_DoubleKick" xml:space="preserve">
+    <value>Двойной удар</value>
+  </data>
+  <data name="bass_Dry" xml:space="preserve">
+    <value>Сухость:</value>
+  </data>
+  <data name="bass_echo" xml:space="preserve">
+    <value>Эхо</value>
+  </data>
+  <data name="bass_LongEcho" xml:space="preserve">
+    <value>Длинное эхо</value>
+  </data>
+  <data name="bass_SmallEcho" xml:space="preserve">
+    <value>Маленькое эхо</value>
+  </data>
+  <data name="bass_Wet" xml:space="preserve">
+    <value>Влажность:</value>
+  </data>
+  <data name="Equalizer" xml:space="preserve">
+    <value>Эквалайзер</value>
+  </data>
+  <data name="Equalizer_on" xml:space="preserve">
+    <value>Включить эквалайзер</value>
+  </data>
+  <data name="bass_Distortion_drive" xml:space="preserve">
+    <value>Искажение привода:</value>
+  </data>
+  <data name="bass_Feedback" xml:space="preserve">
+    <value>Обратная связь:</value>
+  </data>
+  <data name="bass_Volume" xml:space="preserve">
+    <value>Громкость:</value>
+  </data>
+  <data name="bass_Hard" xml:space="preserve">
+    <value>Жестко</value>
+  </data>
+  <data name="bass_Medium" xml:space="preserve">
+    <value>Среднее</value>
+  </data>
+  <data name="bass_veryHard" xml:space="preserve">
+    <value>Очень жестко</value>
+  </data>
+  <data name="ReSend" xml:space="preserve">
+    <value>Отправить повторно</value>
+  </data>
+  <data name="delivered" xml:space="preserve">
+    <value>Доставлено</value>
+  </data>
+  <data name="error_send" xml:space="preserve">
+    <value>Сбой отправки</value>
+  </data>
+  <data name="Utils" xml:space="preserve">
+    <value>Утилиты</value>
+  </data>
+  <data name="utils_checkLink" xml:space="preserve">
+    <value>Проверить ссылку</value>
+  </data>
+  <data name="radio_be" xml:space="preserve">
+    <value>Беларусь</value>
+  </data>
+  <data name="radio_history" xml:space="preserve">
+    <value>Последнее</value>
+  </data>
+  <data name="radio_ru" xml:space="preserve">
+    <value>Россия</value>
+  </data>
+  <data name="radio_ua" xml:space="preserve">
+    <value>Украина</value>
+  </data>
+  <data name="DialogStyle" xml:space="preserve">
+    <value>Стиль диалогов</value>
+  </data>
+  <data name="Link" xml:space="preserve">
+    <value>Ссылка</value>
+  </data>
+  <data name="delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="dialogDelete" xml:space="preserve">
+    <value>Удаление диалога</value>
+  </data>
+  <data name="dialogDeleteCount" xml:space="preserve">
+    <value>Сколько сообщений нужно удалить</value>
+  </data>
+  <data name="DialogDeleteOffset" xml:space="preserve">
+    <value>Начиная с какого сообщения нужно удалить переписку</value>
+  </data>
+  <data name="offset" xml:space="preserve">
+    <value>Смещение</value>
+  </data>
+  <data name="run_minimized" xml:space="preserve">
+    <value>Запускать свернутым</value>
+  </data>
+  <data name="microvkRecommend" xml:space="preserve">
+    <value>Рекомендую MicroVK - Вконтакте для Windows!
+https://vk.com/microvk</value>
+  </data>
+  <data name="microvkRecommendScreenshot" xml:space="preserve">
+    <value>Прикрепить скриншот</value>
+  </data>
+  <data name="microvkRecommendTips" xml:space="preserve">
+    <value>Запись будет опубликована на вашей стене</value>
+  </data>
+  <data name="NewMessage" xml:space="preserve">
+    <value>Новое сообщение</value>
+  </data>
+  <data name="Speak" xml:space="preserve">
+    <value>Озвучивать</value>
+  </data>
+  <data name="SpeakChatMessage" xml:space="preserve">
+    <value>Озвучивать текст сообщения из беседы</value>
+  </data>
+  <data name="SpeakMessage" xml:space="preserve">
+    <value>Озвучивать  текст сообщения</value>
+  </data>
+  <data name="hideTabs" xml:space="preserve">
+    <value>Скрыть вкладки</value>
+  </data>
+  <data name="button" xml:space="preserve">
+    <value>Кнопка</value>
+  </data>
+  <data name="big" xml:space="preserve">
+    <value>Большой</value>
+  </data>
+  <data name="unpin" xml:space="preserve">
+    <value>Открепить</value>
+  </data>
+  <data name="bell_off" xml:space="preserve">
+    <value>Не беспокоить</value>
+  </data>
+  <data name="bell_sleep_hour" xml:space="preserve">
+    <value>Не беспокоить {0} ч.</value>
+  </data>
+  <data name="bell_sleep_minute" xml:space="preserve">
+    <value>Не беспокоить {0} минут</value>
+  </data>
+  <data name="SaveWindowsSize" xml:space="preserve">
+    <value>Запоминать размер окна при выходе</value>
+  </data>
+  <data name="dsAvatar" xml:space="preserve">
+    <value>Фото собеседника</value>
+  </data>
+  <data name="dsAvatarOut" xml:space="preserve">
+    <value>Мое фото</value>
+  </data>
+  <data name="dsColor" xml:space="preserve">
+    <value>Цвет собеседника</value>
+  </data>
+  <data name="dsColorOut" xml:space="preserve">
+    <value>Мой цвет</value>
+  </data>
+  <data name="dsFont" xml:space="preserve">
+    <value>Шрифт собеседника</value>
+  </data>
+  <data name="dsFontOut" xml:space="preserve">
+    <value>Мой шрифт</value>
+  </data>
+  <data name="dsNotOut" xml:space="preserve">
+    <value>Исходящее сообщение</value>
+  </data>
+  <data name="dsOut" xml:space="preserve">
+    <value>Входящее сообщение</value>
+  </data>
+  <data name="HelpMicroVK" xml:space="preserve">
+    <value>Помощь проекту</value>
+  </data>
+  <data name="HelpMicroVKShare" xml:space="preserve">
+    <value>Расскажите о MicroVK друзьям</value>
+  </data>
+  <data name="Thanks" xml:space="preserve">
+    <value>Спасибо! Любой пункт важен и ускоряет дальнейшую разработку программы.</value>
+  </data>
+  <data name="SpellCheckError" xml:space="preserve">
+    <value>Не удалось включить проверку правописания. [url=https://vk.com/topic-35726826_33239193]Подробнее.[/url]</value>
+  </data>
+  <data name="start" xml:space="preserve">
+    <value>Начать</value>
+  </data>
+  <data name="StartPageRemember" xml:space="preserve">
+    <value>Запомнить профиль для быстрого входа</value>
+  </data>
+  <data name="MicroVKMembers" xml:space="preserve">
+    <value>Нас уже: </value>
+  </data>
+  <data name="AccountManager" xml:space="preserve">
+    <value>Учетные записи</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="OpenInBrowser" xml:space="preserve">
+    <value>Открыть в браузере...</value>
+  </data>
+  <data name="refresh" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="SendSuccessfully" xml:space="preserve">
+    <value>Сообщение доставлено</value>
+  </data>
+  <data name="SendSuccessfullyNotify" xml:space="preserve">
+    <value>Только для отправленных через уведомление</value>
+  </data>
+  <data name="SmilePanel" xml:space="preserve">
+    <value>Панель с последними смайлами</value>
+  </data>
+  <data name="MediaKey" xml:space="preserve">
+    <value>Мультимедийные клавиши</value>
+  </data>
+  <data name="Important" xml:space="preserve">
+    <value>Важное</value>
+  </data>
+  <data name="markAsImportant" xml:space="preserve">
+    <value>Пометить как важное</value>
+  </data>
+  <data name="DialogTip" xml:space="preserve">
+    <value>Здесь будет выводиться история переписки.</value>
+  </data>
+  <data name="TabBottom" xml:space="preserve">
+    <value>Вкладки снизу</value>
+  </data>
+  <data name="autoSelect" xml:space="preserve">
+    <value>Авто выбор</value>
+  </data>
+  <data name="RunAsStartup" xml:space="preserve">
+    <value>Запуск при старте Windows</value>
+  </data>
+  <data name="OnlineWait" xml:space="preserve">
+    <value>30-ти секундная задержка установки статуса онлайн после запуска программы</value>
+  </data>
+</root>

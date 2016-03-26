@@ -1,0 +1,1 @@
+NuGet.exe pack NotifyIconWpf.csproj -Prop Configuration=Release
