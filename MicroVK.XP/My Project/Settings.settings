@@ -23,9 +23,6 @@
     <Setting Name="LogFile" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
-    <Setting Name="Notification3" Type="System.Boolean" Scope="User">
-      <Value Profile="(Default)">True</Value>
-    </Setting>
     <Setting Name="Notification4" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">True</Value>
     </Setting>
@@ -59,35 +56,20 @@
     <Setting Name="AccentColor" Type="System.Windows.Media.Color" Scope="User">
       <Value Profile="(Default)">#FF597DA3</Value>
     </Setting>
-    <Setting Name="Theme" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">1</Value>
-    </Setting>
     <Setting Name="Font" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">1</Value>
     </Setting>
     <Setting Name="Volume" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">8192</Value>
     </Setting>
-    <Setting Name="Invisible" Type="System.Boolean" Scope="User">
-      <Value Profile="(Default)">True</Value>
-    </Setting>
     <Setting Name="Background" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
-    </Setting>
-    <Setting Name="BackgroundOpacity" Type="System.Double" Scope="User">
-      <Value Profile="(Default)">0.3</Value>
     </Setting>
     <Setting Name="IsBackground" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">True</Value>
     </Setting>
-    <Setting Name="SpellCheck" Type="System.Boolean" Scope="User">
-      <Value Profile="(Default)">False</Value>
-    </Setting>
     <Setting Name="Speak" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
-    </Setting>
-    <Setting Name="SpeakRate" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">5</Value>
     </Setting>
     <Setting Name="NColor3" Type="System.String" Scope="User">
       <Value Profile="(Default)">#FF2A3345</Value>
@@ -96,12 +78,6 @@
       <Value Profile="(Default)">#FF2A3345</Value>
     </Setting>
     <Setting Name="NColor40" Type="System.String" Scope="User">
-      <Value Profile="(Default)">#FF2A3345</Value>
-    </Setting>
-    <Setting Name="NColor8" Type="System.String" Scope="User">
-      <Value Profile="(Default)">#FF2A3345</Value>
-    </Setting>
-    <Setting Name="NColor9" Type="System.String" Scope="User">
       <Value Profile="(Default)">#FF2A3345</Value>
     </Setting>
     <Setting Name="NColor61" Type="System.String" Scope="User">
@@ -160,9 +136,6 @@
     </Setting>
     <Setting Name="MusicPlayerSnap" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">True</Value>
-    </Setting>
-    <Setting Name="SearchSelectIndex" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">1</Value>
     </Setting>
     <Setting Name="isMicroVKGroup" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
@@ -283,6 +256,51 @@
     </Setting>
     <Setting Name="SmilePanel" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Notification3" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Theme" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Invisible" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="BackgroundOpacity" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.15</Value>
+    </Setting>
+    <Setting Name="SpeakRate" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">7</Value>
+    </Setting>
+    <Setting Name="SpellCheck" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="NColor8" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#FF008A00</Value>
+    </Setting>
+    <Setting Name="NColor9" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#FF647687</Value>
+    </Setting>
+    <Setting Name="VideoPlayerTopMost" Type="System.String" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SearchSelectIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="MRandom" Type="System.String" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="MRepeat" Type="System.String" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Share" Type="System.String" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DialogStyle" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="NColor41" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#FF76608A</Value>
     </Setting>
   </Settings>
 </SettingsFile>

@@ -140,18 +140,6 @@ Partial Friend NotInheritable Class MySettings
     <Global.System.Configuration.UserScopedSettingAttribute(),  _
      Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
      Global.System.Configuration.DefaultSettingValueAttribute("True")>  _
-    Public Property Notification3() As Boolean
-        Get
-            Return CType(Me("Notification3"),Boolean)
-        End Get
-        Set
-            Me("Notification3") = value
-        End Set
-    End Property
-    
-    <Global.System.Configuration.UserScopedSettingAttribute(),  _
-     Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-     Global.System.Configuration.DefaultSettingValueAttribute("True")>  _
     Public Property Notification4() As Boolean
         Get
             Return CType(Me("Notification4"),Boolean)
@@ -284,18 +272,6 @@ Partial Friend NotInheritable Class MySettings
     <Global.System.Configuration.UserScopedSettingAttribute(),  _
      Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
      Global.System.Configuration.DefaultSettingValueAttribute("1")>  _
-    Public Property Theme() As Integer
-        Get
-            Return CType(Me("Theme"),Integer)
-        End Get
-        Set
-            Me("Theme") = value
-        End Set
-    End Property
-    
-    <Global.System.Configuration.UserScopedSettingAttribute(),  _
-     Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-     Global.System.Configuration.DefaultSettingValueAttribute("1")>  _
     Public Property Font() As Integer
         Get
             Return CType(Me("Font"),Integer)
@@ -319,18 +295,6 @@ Partial Friend NotInheritable Class MySettings
     
     <Global.System.Configuration.UserScopedSettingAttribute(),  _
      Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-     Global.System.Configuration.DefaultSettingValueAttribute("True")>  _
-    Public Property Invisible() As Boolean
-        Get
-            Return CType(Me("Invisible"),Boolean)
-        End Get
-        Set
-            Me("Invisible") = value
-        End Set
-    End Property
-    
-    <Global.System.Configuration.UserScopedSettingAttribute(),  _
-     Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
      Global.System.Configuration.DefaultSettingValueAttribute("")>  _
     Public Property Background() As String
         Get
@@ -338,18 +302,6 @@ Partial Friend NotInheritable Class MySettings
         End Get
         Set
             Me("Background") = value
-        End Set
-    End Property
-    
-    <Global.System.Configuration.UserScopedSettingAttribute(),  _
-     Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-     Global.System.Configuration.DefaultSettingValueAttribute("0.3")>  _
-    Public Property BackgroundOpacity() As Double
-        Get
-            Return CType(Me("BackgroundOpacity"),Double)
-        End Get
-        Set
-            Me("BackgroundOpacity") = value
         End Set
     End Property
     
@@ -367,18 +319,6 @@ Partial Friend NotInheritable Class MySettings
     
     <Global.System.Configuration.UserScopedSettingAttribute(),  _
      Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-     Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
-    Public Property SpellCheck() As Boolean
-        Get
-            Return CType(Me("SpellCheck"),Boolean)
-        End Get
-        Set
-            Me("SpellCheck") = value
-        End Set
-    End Property
-    
-    <Global.System.Configuration.UserScopedSettingAttribute(),  _
-     Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
      Global.System.Configuration.DefaultSettingValueAttribute("")>  _
     Public Property Speak() As String
         Get
@@ -386,18 +326,6 @@ Partial Friend NotInheritable Class MySettings
         End Get
         Set
             Me("Speak") = value
-        End Set
-    End Property
-    
-    <Global.System.Configuration.UserScopedSettingAttribute(),  _
-     Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-     Global.System.Configuration.DefaultSettingValueAttribute("5")>  _
-    Public Property SpeakRate() As Integer
-        Get
-            Return CType(Me("SpeakRate"),Integer)
-        End Get
-        Set
-            Me("SpeakRate") = value
         End Set
     End Property
     
@@ -434,30 +362,6 @@ Partial Friend NotInheritable Class MySettings
         End Get
         Set
             Me("NColor40") = value
-        End Set
-    End Property
-    
-    <Global.System.Configuration.UserScopedSettingAttribute(),  _
-     Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-     Global.System.Configuration.DefaultSettingValueAttribute("#FF2A3345")>  _
-    Public Property NColor8() As String
-        Get
-            Return CType(Me("NColor8"),String)
-        End Get
-        Set
-            Me("NColor8") = value
-        End Set
-    End Property
-    
-    <Global.System.Configuration.UserScopedSettingAttribute(),  _
-     Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-     Global.System.Configuration.DefaultSettingValueAttribute("#FF2A3345")>  _
-    Public Property NColor9() As String
-        Get
-            Return CType(Me("NColor9"),String)
-        End Get
-        Set
-            Me("NColor9") = value
         End Set
     End Property
     
@@ -685,18 +589,6 @@ Partial Friend NotInheritable Class MySettings
         End Get
         Set
             Me("MusicPlayerSnap") = value
-        End Set
-    End Property
-    
-    <Global.System.Configuration.UserScopedSettingAttribute(),  _
-     Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-     Global.System.Configuration.DefaultSettingValueAttribute("1")>  _
-    Public Property SearchSelectIndex() As Integer
-        Get
-            Return CType(Me("SearchSelectIndex"),Integer)
-        End Get
-        Set
-            Me("SearchSelectIndex") = value
         End Set
     End Property
     
@@ -1177,6 +1069,186 @@ Partial Friend NotInheritable Class MySettings
         End Get
         Set
             Me("SmilePanel") = value
+        End Set
+    End Property
+    
+    <Global.System.Configuration.UserScopedSettingAttribute(),  _
+     Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+     Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
+    Public Property Notification3() As Boolean
+        Get
+            Return CType(Me("Notification3"),Boolean)
+        End Get
+        Set
+            Me("Notification3") = value
+        End Set
+    End Property
+    
+    <Global.System.Configuration.UserScopedSettingAttribute(),  _
+     Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+     Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
+    Public Property Theme() As Integer
+        Get
+            Return CType(Me("Theme"),Integer)
+        End Get
+        Set
+            Me("Theme") = value
+        End Set
+    End Property
+    
+    <Global.System.Configuration.UserScopedSettingAttribute(),  _
+     Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+     Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
+    Public Property Invisible() As Boolean
+        Get
+            Return CType(Me("Invisible"),Boolean)
+        End Get
+        Set
+            Me("Invisible") = value
+        End Set
+    End Property
+    
+    <Global.System.Configuration.UserScopedSettingAttribute(),  _
+     Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+     Global.System.Configuration.DefaultSettingValueAttribute("0.15")>  _
+    Public Property BackgroundOpacity() As Double
+        Get
+            Return CType(Me("BackgroundOpacity"),Double)
+        End Get
+        Set
+            Me("BackgroundOpacity") = value
+        End Set
+    End Property
+    
+    <Global.System.Configuration.UserScopedSettingAttribute(),  _
+     Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+     Global.System.Configuration.DefaultSettingValueAttribute("7")>  _
+    Public Property SpeakRate() As Integer
+        Get
+            Return CType(Me("SpeakRate"),Integer)
+        End Get
+        Set
+            Me("SpeakRate") = value
+        End Set
+    End Property
+    
+    <Global.System.Configuration.UserScopedSettingAttribute(),  _
+     Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+     Global.System.Configuration.DefaultSettingValueAttribute("True")>  _
+    Public Property SpellCheck() As Boolean
+        Get
+            Return CType(Me("SpellCheck"),Boolean)
+        End Get
+        Set
+            Me("SpellCheck") = value
+        End Set
+    End Property
+    
+    <Global.System.Configuration.UserScopedSettingAttribute(),  _
+     Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+     Global.System.Configuration.DefaultSettingValueAttribute("#FF008A00")>  _
+    Public Property NColor8() As String
+        Get
+            Return CType(Me("NColor8"),String)
+        End Get
+        Set
+            Me("NColor8") = value
+        End Set
+    End Property
+    
+    <Global.System.Configuration.UserScopedSettingAttribute(),  _
+     Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+     Global.System.Configuration.DefaultSettingValueAttribute("#FF647687")>  _
+    Public Property NColor9() As String
+        Get
+            Return CType(Me("NColor9"),String)
+        End Get
+        Set
+            Me("NColor9") = value
+        End Set
+    End Property
+    
+    <Global.System.Configuration.UserScopedSettingAttribute(),  _
+     Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+     Global.System.Configuration.DefaultSettingValueAttribute("True")>  _
+    Public Property VideoPlayerTopMost() As String
+        Get
+            Return CType(Me("VideoPlayerTopMost"),String)
+        End Get
+        Set
+            Me("VideoPlayerTopMost") = value
+        End Set
+    End Property
+    
+    <Global.System.Configuration.UserScopedSettingAttribute(),  _
+     Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+     Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
+    Public Property SearchSelectIndex() As Integer
+        Get
+            Return CType(Me("SearchSelectIndex"),Integer)
+        End Get
+        Set
+            Me("SearchSelectIndex") = value
+        End Set
+    End Property
+    
+    <Global.System.Configuration.UserScopedSettingAttribute(),  _
+     Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+     Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
+    Public Property MRandom() As String
+        Get
+            Return CType(Me("MRandom"),String)
+        End Get
+        Set
+            Me("MRandom") = value
+        End Set
+    End Property
+    
+    <Global.System.Configuration.UserScopedSettingAttribute(),  _
+     Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+     Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
+    Public Property MRepeat() As String
+        Get
+            Return CType(Me("MRepeat"),String)
+        End Get
+        Set
+            Me("MRepeat") = value
+        End Set
+    End Property
+    
+    <Global.System.Configuration.UserScopedSettingAttribute(),  _
+     Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+     Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
+    Public Property Share() As String
+        Get
+            Return CType(Me("Share"),String)
+        End Get
+        Set
+            Me("Share") = value
+        End Set
+    End Property
+    
+    <Global.System.Configuration.UserScopedSettingAttribute(),  _
+     Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+     Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
+    Public Property DialogStyle() As String
+        Get
+            Return CType(Me("DialogStyle"),String)
+        End Get
+        Set
+            Me("DialogStyle") = value
+        End Set
+    End Property
+    
+    <Global.System.Configuration.UserScopedSettingAttribute(),  _
+     Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+     Global.System.Configuration.DefaultSettingValueAttribute("#FF76608A")>  _
+    Public Property NColor41() As String
+        Get
+            Return CType(Me("NColor41"),String)
+        End Get
+        Set
+            Me("NColor41") = value
         End Set
     End Property
 End Class
