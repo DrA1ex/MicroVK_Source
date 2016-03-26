@@ -20,10 +20,10 @@ Class Speak
             Else
                 SpeechSynthesizer1.Rate = My.Settings.SpeakRate
                 SpeechSynthesizer1.Volume = My.Settings.SpeakVolume
+                If SpeechSynthesizer1.Voice.Name <> My.Settings.Voice AndAlso My.Settings.Voice <> "" Then
+                    SpeechSynthesizer1.SelectVoice(My.Settings.Voice)
+                End If
                 SpeechSynthesizer1.SpeakAsync(text)
-                'If SpeechSynthesizer1.Voice.Name <> my.Settings.Voice AndAlso my.Settings.Voice <> ""
-                '    SpeechSynthesizer1.SelectVoice(my.Settings.Voice)
-                'end if
                 If Not _tempbool Then
                     AddHandler SpeechSynthesizer1.SpeakCompleted, AddressOf SpeechSynthesizer1_SpeakCompleted
                     _tempbool = True
