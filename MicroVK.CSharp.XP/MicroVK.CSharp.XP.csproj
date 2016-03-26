@@ -44,6 +44,21 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\MicroVK.CSharp\Controls\ArgumentVerificationExtensions.cs">
+      <Link>Controls\ArgumentVerificationExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\MicroVK.CSharp\Controls\IPanelHelper.cs">
+      <Link>Controls\IPanelHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\MicroVK.CSharp\Controls\IPanelKeyboardHelper.cs">
+      <Link>Controls\IPanelKeyboardHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\MicroVK.CSharp\Controls\ParentOfTypeExtensions.cs">
+      <Link>Controls\ParentOfTypeExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\MicroVK.CSharp\Controls\VirtualizingWrapPanel.cs">
+      <Link>Controls\VirtualizingWrapPanel.cs</Link>
+    </Compile>
     <Compile Include="..\MicroVK.CSharp\Helpers\HotKeyManager.cs">
       <Link>Helpers\HotKeyManager.cs</Link>
     </Compile>
@@ -52,9 +67,6 @@
     </Compile>
     <Compile Include="..\MicroVK.CSharp\JetBrains.Annotations.cs">
       <Link>JetBrains.Annotations.cs</Link>
-    </Compile>
-    <Compile Include="..\MicroVK.CSharp\VirtualizingWrapPanel.cs">
-      <Link>VirtualizingWrapPanel.cs</Link>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
