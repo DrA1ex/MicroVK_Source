@@ -35,8 +35,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstFloor.ModernUI", "Firs
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Mui.Shared", "FirstFloor.ModernUI\Shared\Mui.Shared.shproj", "{EEDA74FC-CA5A-4C06-9654-2600B74E2D1D}"
 EndProject
-Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "chocolatey", "chocolatey\chocolatey.pssproj", "{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}"
-EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		FirstFloor.ModernUI\Shared\Shared.projitems*{a0ea4572-2726-4585-8e17-3a81a0eafa61}*SharedItemsImports = 4
@@ -169,18 +167,6 @@ Global
 		{9A653A28-FE46-40E8-A14F-48B0E325165D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{9A653A28-FE46-40E8-A14F-48B0E325165D}.Release|x86.ActiveCfg = Release|Any CPU
 		{9A653A28-FE46-40E8-A14F-48B0E325165D}.Release|x86.Build.0 = Release|Any CPU
-		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Debug|x86.Build.0 = Debug|Any CPU
-		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|x86.ActiveCfg = Release|Any CPU
-		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -198,34 +184,5 @@ Global
 		{A0EA4572-2726-4585-8E17-3A81A0EAFA61} = {4FE24BCB-4915-419C-9A5B-4CCCFA341E67}
 		{9A653A28-FE46-40E8-A14F-48B0E325165D} = {D452325F-0B82-48DE-B31D-DD9FF981138C}
 		{EEDA74FC-CA5A-4C06-9654-2600B74E2D1D} = {E5C8B3CC-BC60-4E04-AB6F-16E4A8FF8580}
-		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51} = {E5C8B3CC-BC60-4E04-AB6F-16E4A8FF8580}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 4
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://kryeker.visualstudio.com/defaultcollection
-		SccProjectUniqueName0 = MicroVK.Smiles\\MicroVK.Smiles.vbproj
-		SccProjectTopLevelParentUniqueName0 = MicroVK.sln
-		SccProjectName0 = MicroVK.Smiles
-		SccAuxPath0 = https://kryeker.visualstudio.com/defaultcollection
-		SccLocalPath0 = MicroVK.Smiles
-		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName1 = MicroVK\\MicroVK.vbproj
-		SccProjectName1 = MicroVK
-		SccAuxPath1 = https://kryeker.visualstudio.com/defaultcollection
-		SccLocalPath1 = MicroVK
-		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName2 = FirstFloor.ModernUI\\FirstFloor.ModernUI.WPF4\\FirstFloor.ModernUI.WPF4.csproj
-		SccProjectTopLevelParentUniqueName2 = MicroVK.sln
-		SccProjectName2 = FirstFloor.ModernUI/FirstFloor.ModernUI.WPF4
-		SccAuxPath2 = https://kryeker.visualstudio.com/defaultcollection
-		SccLocalPath2 = FirstFloor.ModernUI\\FirstFloor.ModernUI.WPF4
-		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName3 = FirstFloor.ModernUI\\FirstFloor.ModernUI\\FirstFloor.ModernUI.csproj
-		SccProjectTopLevelParentUniqueName3 = MicroVK.sln
-		SccProjectName3 = FirstFloor.ModernUI/FirstFloor.ModernUI
-		SccAuxPath3 = https://kryeker.visualstudio.com/defaultcollection
-		SccLocalPath3 = FirstFloor.ModernUI\\FirstFloor.ModernUI
-		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 	EndGlobalSection
 EndGlobal
